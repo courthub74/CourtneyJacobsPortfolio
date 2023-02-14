@@ -102,9 +102,36 @@
 }
 * body .house .skills .pageskills {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .house .skills .pageskills .vl {
+  border: 1px solid white;
+  height: 60vh;
 }
 * body .house .skills .pageskills .skillicons .front .icons {
   display: flex;
+  gap: 8px;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #html img {
+  width: 3vw;
+  height: 7vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #css img {
+  width: 3vw;
+  height: 7vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #js img {
+  width: 3vw;
+  height: 7vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #react img {
+  width: 3.5vw;
+  height: 6.5vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #sass img {
+  width: 3vw;
+  height: 4vh;
 }
 * body .house .skills .pageskills .skillicons .back .icons {
   display: flex;

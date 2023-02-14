@@ -113,9 +113,16 @@ $iconblock: #023430;
                 // Experience and Icons
                 .pageskills {
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
                     // The Experience list
                     .skillslist {
                         // pad and position
+                    }
+                    // Verticle Line
+                    .vl {
+                        border: 1px solid white;
+                        height: 60vh;
                     }
                     // The Icons of skill
                     .skillicons {
@@ -127,13 +134,42 @@ $iconblock: #023430;
                             // The frontend icons
                             .icons {
                                 display: flex;
+                                gap: 8px;
                                 // The frontend icon circles
                                 .iconblock {
                                     // set the size and radius
 
                                     // The actual settings for the icons
                                     #html {
-                                        
+                                        img {
+                                            width: 3vw;
+                                            height: 7vh;
+                                            // margin: 1vw;
+                                        }
+                                    }
+                                    #css {
+                                        img {
+                                            width: 3vw;
+                                            height: 7vh; 
+                                        }
+                                    }
+                                    #js {
+                                        img {
+                                            width: 3vw;
+                                            height: 7vh;
+                                        }
+                                    }
+                                    #react {
+                                        img {
+                                            width: 3.5vw;
+                                            height: 6.5vh;
+                                        }
+                                    }
+                                    #sass {
+                                        img {
+                                            width: 3vw;
+                                            height: 4vh;
+                                        }
                                     }
                                 }
                             }
