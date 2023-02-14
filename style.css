@@ -42,7 +42,7 @@
 }
 * body .house .home .tophome .navbar ul li {
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1.5vw 0 0;
   list-style: none;
   font-size: 1.4vw;
   font-weight: bold;
@@ -87,7 +87,7 @@
 * body .house .skills .topskills .navbar ul li {
   list-style: none;
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1vw 0 0;
   font-size: 1vw;
 }
 * body .house .skills .topskills .navbar ul li a {
@@ -99,6 +99,15 @@
   color: #146166;
   border-radius: 5px;
   padding: 0.4vw;
+}
+* body .house .skills .pageskills {
+  display: flex;
+}
+* body .house .skills .pageskills .skillicons .front .icons {
+  display: flex;
+}
+* body .house .skills .pageskills .skillicons .back .icons {
+  display: flex;
 }
 * body .house .about {
   background-color: #0E4946;
@@ -125,7 +134,7 @@
 * body .house .about .abouttop .navbar ul li {
   list-style: none;
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1vw 0 0;
   font-size: 1vw;
 }
 * body .house .about .abouttop .navbar ul li a {
@@ -164,7 +173,7 @@
 * body .house .portfolio .portfoliotop .navbar ul li {
   list-style: none;
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1vw 0 0;
   font-size: 1vw;
 }
 * body .house .portfolio .portfoliotop .navbar ul li a {
@@ -197,7 +206,7 @@
 * body .house .experience .experiencetop .navbar ul li {
   list-style: none;
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1vw 0 0;
   font-size: 1vw;
 }
 * body .house .experience .experiencetop .navbar ul li a {
@@ -236,7 +245,7 @@
 * body .house .blog .blogtop .navbar ul li {
   list-style: none;
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1vw 0 0;
   font-size: 1vw;
 }
 * body .house .blog .blogtop .navbar ul li a {
@@ -278,7 +287,7 @@
 * body .house .contact .contacttop .navbar ul li {
   list-style: none;
   display: inline;
-  padding: 0 2.2vw 0 0;
+  padding: 0 1vw 0 0;
   font-size: 1vw;
 }
 * body .house .contact .contacttop .navbar ul li a {

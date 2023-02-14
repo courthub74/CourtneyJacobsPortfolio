@@ -47,7 +47,7 @@ $iconblock: #023430;
                             }
                             li {
                                 display: inline;
-                                padding: 0 2.2vw 0 0;
+                                padding: 0 1.5vw 0 0;
                                 list-style: none;
                                 font-size: 1.4vw;
                                 font-weight: bold;
@@ -70,6 +70,7 @@ $iconblock: #023430;
                     background-color: #023430;
                 }
             }
+            // SKILLS SECTION
             .skills {
                 background-color: $skillsteal;
                 height: 110vh;
@@ -93,7 +94,7 @@ $iconblock: #023430;
                             li {
                                 list-style: none;
                                 display: inline;
-                                padding: 0 2.2vw 0 0;
+                                padding: 0 1vw 0 0;
                                 font-size: 1vw;
                                 a {
                                     text-decoration: none;
@@ -109,7 +110,54 @@ $iconblock: #023430;
                         }
                     }
                 }
+                // Experience and Icons
+                .pageskills {
+                    display: flex;
+                    // The Experience list
+                    .skillslist {
+                        // pad and position
+                    }
+                    // The Icons of skill
+                    .skillicons {
+                        // the frontend
+                        .front {
+                            p {
+                                // set the right size
+                            }
+                            // The frontend icons
+                            .icons {
+                                display: flex;
+                                // The frontend icon circles
+                                .iconblock {
+                                    // set the size and radius
+
+                                    // The actual settings for the icons
+                                    #html {
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        // the backend
+                        .back {
+                            p {
+                                // set the right size
+                            }
+                            // The backend icons
+                            .icons {
+                                display: flex;
+                                // The backend icon circles
+                                .iconblock {
+                                    // set the size and radius
+
+                                    // The actual settings for the icons
+                                }
+                            }
+                        }
+                    }
+                }
             }
+            // ABOUT SECTION
             .about {
                 background-color: $aboutgreen;
                 height: 110vh;
@@ -132,7 +180,7 @@ $iconblock: #023430;
                                 li {
                                     list-style: none;
                                     display: inline;
-                                    padding: 0 2.2vw 0 0;
+                                    padding: 0 1vw 0 0;
                                     font-size: 1vw;
                                     a {
                                         text-decoration: none;
@@ -149,6 +197,7 @@ $iconblock: #023430;
                     }
                 }
             }
+            // PORTFOLIO SECTION
             .portfolio {
                 background-color: $mainblue;
                 height: 110vh;
@@ -172,7 +221,7 @@ $iconblock: #023430;
                                 li {
                                     list-style: none;
                                     display: inline;
-                                    padding: 0 2.2vw 0 0;
+                                    padding: 0 1vw 0 0;
                                     font-size: 1vw;
                                     a {
                                         text-decoration: none;
@@ -189,6 +238,7 @@ $iconblock: #023430;
                         }
                 }
             }
+            // EXPERIENCE SECTION
             .experience {
                 background-color: $aboutgreen;
                 height: 110vh;
@@ -205,7 +255,7 @@ $iconblock: #023430;
                                 li {
                                     list-style: none;
                                     display: inline;
-                                    padding: 0 2.2vw 0 0;
+                                    padding: 0 1vw 0 0;
                                     font-size: 1vw;
                                     a {
                                         text-decoration: none;
@@ -228,6 +278,7 @@ $iconblock: #023430;
                     }
                 }
             }
+            // BLOG SECTION
             .blog {
                 background-color: $skillsteal;
                 height: 110vh;
@@ -245,7 +296,7 @@ $iconblock: #023430;
                                 li {
                                     list-style: none;
                                     display: inline;
-                                    padding: 0 2.2vw 0 0;
+                                    padding: 0 1vw 0 0;
                                     font-size: 1vw;
                                     a {
                                         text-decoration: none;
@@ -268,6 +319,7 @@ $iconblock: #023430;
                     }
                 }
             }
+            // CONTACT SECTION
             .contact {
                 background-color: $mainblue;
                 height: 100vh;
@@ -289,7 +341,7 @@ $iconblock: #023430;
                                 li {
                                     list-style: none;
                                     display: inline;
-                                    padding: 0 2.2vw 0 0;
+                                    padding: 0 1vw 0 0;
                                     font-size: 1vw;
                                     a {
                                         text-decoration: none;
