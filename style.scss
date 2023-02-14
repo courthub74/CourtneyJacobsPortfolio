@@ -403,6 +403,37 @@ $iconblock: #023430;
                             }
                     }
                 }
+                .infoblock {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10vw;
+                    .info {
+                        text-align: center;
+                        padding-bottom: 15vw;
+                        padding-top: 20vh;
+                        padding-left: 7vw;
+                        width: 30%;
+                        font-size: 1.1vw;
+                        line-height: 2.5;
+                        animation-name: moveInLeft;
+                        animation-duration: 2s;
+                        margin-top: 5vh;
+                    }
+                }
+                .coding {
+                    // background-color: $mainblue;
+                    width: 30vw;
+                    height: 40vh;
+                    margin-bottom: 10vh;
+                    animation-name: moveInCenter;
+                    animation-duration: 2s;
+                    img {
+                        width: 20vw;
+                        height: 38vh;
+                        border-radius: 50%;
+                    }
+                }
             }
             // PORTFOLIO SECTION
             .portfolio {
@@ -640,6 +671,25 @@ $iconblock: #023430;
         opacity: 0;
         /* translate on the x axis */
         transform: translateX(100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+// FROM CENTER
+@keyframes moveInCenter {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(0px);
     }
 
     80% {
