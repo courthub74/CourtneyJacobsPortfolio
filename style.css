@@ -24,6 +24,10 @@
   height: 12vw;
   padding: 1vw;
 }
+* body .house .home .tophome .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .home .tophome .navbar ul {
   text-align: center;
 }
@@ -72,9 +76,13 @@
   font-size: 5vw;
   margin: 8vh 4vw 0 0;
 }
+* body .house .skills .topskills .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .skills .topskills .navbar ul {
   text-align: center;
-  margin: 12vh 0 0 3vw;
+  margin: 8vh 0 0 3vw;
 }
 * body .house .skills .topskills .navbar ul li {
   list-style: none;
@@ -106,9 +114,13 @@
   font-size: 5vw;
   margin: 6vh 0 0 4vw;
 }
+* body .house .about .abouttop .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .about .abouttop .navbar ul {
   text-align: center;
-  margin: 12vh 3vw 0 0;
+  margin: 8vh 3vw 0 0;
 }
 * body .house .about .abouttop .navbar ul li {
   list-style: none;
@@ -141,9 +153,13 @@
   font-size: 5vw;
   margin: 6vh 4vw 0 0;
 }
+* body .house .portfolio .portfoliotop .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .portfolio .portfoliotop .navbar ul {
   text-align: center;
-  margin: 12vh 0 0 3vw;
+  margin: 8vh 0 0 3vw;
 }
 * body .house .portfolio .portfoliotop .navbar ul li {
   list-style: none;
@@ -170,9 +186,13 @@
   display: flex;
   justify-content: space-between;
 }
+* body .house .experience .experiencetop .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .experience .experiencetop .navbar ul {
   text-align: center;
-  margin: 12vh 3vw 0 0;
+  margin: 8vh 3vw 0 0;
 }
 * body .house .experience .experiencetop .navbar ul li {
   list-style: none;
@@ -205,9 +225,13 @@
   justify-content: space-between;
   flex-direction: row-reverse;
 }
+* body .house .blog .blogtop .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .blog .blogtop .navbar ul {
   text-align: center;
-  margin: 12vh 0 0 3vw;
+  margin: 8vh 0 0 3vw;
 }
 * body .house .blog .blogtop .navbar ul li {
   list-style: none;
@@ -239,9 +263,17 @@
   display: flex;
   justify-content: space-between;
 }
+* body .house .contact .contacttop h1 {
+  font-size: 5vw;
+  margin: 6vh 0 0 4vw;
+}
+* body .house .contact .contacttop .navbar {
+  animation-name: moveInTop;
+  animation-duration: 1s;
+}
 * body .house .contact .contacttop .navbar ul {
   text-align: center;
-  margin: 12vh 3vw 0 0;
+  margin: 8vh 3vw 0 0;
 }
 * body .house .contact .contacttop .navbar ul li {
   list-style: none;
@@ -263,4 +295,20 @@
   text-align: left;
   font-size: 5vw;
   margin: 6vh 4vw 0 0;
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateY(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }/*# sourceMappingURL=style.css.map */

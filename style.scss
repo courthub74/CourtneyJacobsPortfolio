@@ -31,6 +31,8 @@ $iconblock: #023430;
                         padding: 1vw;
                     }
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
                         ul {    
                             text-align: center;
                             // background-color: green;
@@ -83,9 +85,11 @@ $iconblock: #023430;
                         margin: 8vh 4vw 0 0;
                     }
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
                         ul {
                             text-align: center;
-                            margin: 12vh 0 0 3vw;
+                            margin: 8vh 0 0 3vw;
                             li {
                                 list-style: none;
                                 display: inline;
@@ -120,9 +124,11 @@ $iconblock: #023430;
                     margin: 6vh 0 0 4vw;
                     }
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
                             ul {
                                 text-align: center;
-                                margin: 12vh 3vw 0 0;
+                                margin: 8vh 3vw 0 0;
                                 li {
                                     list-style: none;
                                     display: inline;
@@ -158,9 +164,11 @@ $iconblock: #023430;
                         margin: 6vh 4vw 0 0;
                     }
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
                             ul {
                                 text-align: center;
-                                margin: 12vh 0 0 3vw;
+                                margin: 8vh 0 0 3vw;
                                 li {
                                     list-style: none;
                                     display: inline;
@@ -189,9 +197,11 @@ $iconblock: #023430;
                     display: flex;
                     justify-content: space-between;
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
                         ul {
                             text-align: center;
-                            margin: 12vh 3vw 0 0;
+                            margin: 8vh 3vw 0 0;
                                 li {
                                     list-style: none;
                                     display: inline;
@@ -227,9 +237,11 @@ $iconblock: #023430;
                     justify-content: space-between;
                     flex-direction: row-reverse;
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
                         ul {
                             text-align: center;
-                            margin: 12vh 0 0 3vw;
+                            margin: 8vh 0 0 3vw;
                                 li {
                                     list-style: none;
                                     display: inline;
@@ -263,10 +275,17 @@ $iconblock: #023430;
                 .contacttop {
                     display: flex;
                     justify-content: space-between;
+                    h1 {
+                        font-size: 5vw;
+                        margin: 6vh 0 0 4vw;
+                    }
                     .navbar {
+                        animation-name: moveInTop;
+                        animation-duration: 1s;
+                        // animation-timing-function: ease-out;
                         ul {
                             text-align: center;
-                            margin: 12vh 3vw 0 0;
+                            margin: 8vh 3vw 0 0;
                                 li {
                                     list-style: none;
                                     display: inline;
@@ -294,5 +313,25 @@ $iconblock: #023430;
                 }
             }
         }
+    }
+}
+
+// KEY FRAMES TIME
+
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateY(-100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
     }
 }
