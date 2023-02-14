@@ -121,6 +121,9 @@
   border: 1px solid white;
   height: 55vh;
 }
+* body .house .skills .pageskills .skillicons .front p {
+  font-size: 1.5vw;
+}
 * body .house .skills .pageskills .skillicons .front .icons {
   display: flex;
   gap: 8px;
@@ -159,7 +162,7 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #js img {
   width: 3vw;
-  height: 7.4vh;
+  height: 7.2vh;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #react {
   display: flex;
@@ -191,8 +194,81 @@
   width: 3vw;
   height: 4vh;
 }
+* body .house .skills .pageskills .skillicons .back p {
+  font-size: 1.5vw;
+}
 * body .house .skills .pageskills .skillicons .back .icons {
   display: flex;
+  gap: 8px;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock {
+  background-color: #080E2F;
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 50%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #python {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #python img {
+  width: 3.5vw;
+  height: 7vh;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #django {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #django img {
+  width: 4vw;
+  height: 6.5vh;
+  margin-right: 0.3vw;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs img {
+  width: 2.8vw;
+  height: 6vh;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre img {
+  width: 3vw;
+  height: 6vh;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase img {
+  width: 3.3vw;
+  height: 7.3vh;
+  margin-bottom: 1.8vh;
+  margin-left: 0.2vw;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb img {
+  width: 3.3vw;
+  height: 7vh;
 }
 * body .house .about {
   background-color: #0E4946;

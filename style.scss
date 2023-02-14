@@ -145,6 +145,7 @@ $iconblock: #023430;
                         .front {
                             p {
                                 // set the right size
+                                font-size: 1.5vw;
                             }
                             // The frontend icons
                             .icons {
@@ -185,7 +186,7 @@ $iconblock: #023430;
                                         height: 100%;
                                         img {
                                             width: 3vw;
-                                            height: 7.4vh;
+                                            height: 7.2vh;
                                         }
                                     }
                                     #react {
@@ -225,15 +226,83 @@ $iconblock: #023430;
                         .back {
                             p {
                                 // set the right size
+                                font-size: 1.5vw;
                             }
                             // The backend icons
                             .icons {
                                 display: flex;
+                                gap: 8px;
                                 // The backend icon circles
                                 .iconblock {
                                     // set the size and radius
-
+                                    background-color: $mainblue;
+                                    width: 4.5vw;
+                                    height: 4.5vw;
+                                    border-radius: 50%;
                                     // The actual settings for the icons
+                                    #python {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.5vw;
+                                            height: 7vh;
+                                        } 
+                                    }
+                                    #django {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 4vw;
+                                            height: 6.5vh;
+                                            margin-right: .3vw;
+                                        }
+                                    }
+                                    #nodejs {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 2.8vw;
+                                            height: 6vh; 
+                                        }
+                                    }
+                                    #postgre {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3vw;
+                                            height: 6vh;
+                                        }
+                                    }
+                                    #firebase {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.3vw;
+                                            height: 7.3vh;
+                                            margin-bottom: 1.8vh;
+                                            margin-left: .2vw;
+                                        }
+                                    }
+                                    #mongodb {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.3vw;
+                                            height: 7vh;
+                                        }
+                                    }
                                 }
                             }
                         }
