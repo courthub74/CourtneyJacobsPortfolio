@@ -107,6 +107,10 @@
   align-items: center;
   padding: 1vw 15vw;
 }
+* body .house .skills .pageskills .skillslist {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
 * body .house .skills .pageskills .skillslist h2 {
   font-size: 1.6vw;
   margin-left: 3.7vw;
@@ -472,6 +476,21 @@
     opacity: 0;
     /* translate on the x axis */
     transform: translateY(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(-100px);
   }
   80% {
     /* BELOW makes it go extra and bounce back */
