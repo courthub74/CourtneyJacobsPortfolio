@@ -89,6 +89,7 @@
   display: inline;
   padding: 0 1vw 0 0;
   font-size: 1vw;
+  font-weight: bold;
 }
 * body .house .skills .topskills .navbar ul li a {
   text-decoration: none;
@@ -102,34 +103,91 @@
 }
 * body .house .skills .pageskills {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 1vw 15vw;
+}
+* body .house .skills .pageskills .skillslist h2 {
+  font-size: 1.6vw;
+  margin-left: 3.7vw;
+}
+* body .house .skills .pageskills .skillslist ul li {
+  text-align: left;
+  list-style: none;
+  padding: 1vw;
+  font-size: 1.3vw;
 }
 * body .house .skills .pageskills .vl {
   border: 1px solid white;
-  height: 60vh;
+  height: 55vh;
 }
 * body .house .skills .pageskills .skillicons .front .icons {
   display: flex;
   gap: 8px;
 }
+* body .house .skills .pageskills .skillicons .front .icons .iconblock {
+  background-color: #080E2F;
+  width: 4.5vw;
+  height: 4.5vw;
+  border-radius: 50%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html img {
   width: 3vw;
   height: 7vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #css img {
   width: 3vw;
   height: 7vh;
 }
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #js img {
   width: 3vw;
-  height: 7vh;
+  height: 7.4vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #react {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #react img {
   width: 3.5vw;
   height: 6.5vh;
 }
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #sass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #sass img {
+  width: 3vw;
+  height: 4vh;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind img {
   width: 3vw;
   height: 4vh;
 }

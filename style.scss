@@ -96,6 +96,7 @@ $iconblock: #023430;
                                 display: inline;
                                 padding: 0 1vw 0 0;
                                 font-size: 1vw;
+                                font-weight: bold;
                                 a {
                                     text-decoration: none;
                                     color: white;
@@ -113,16 +114,30 @@ $iconblock: #023430;
                 // Experience and Icons
                 .pageskills {
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-between;
                     align-items: center;
+                    padding: 1vw 15vw;
                     // The Experience list
                     .skillslist {
                         // pad and position
+                        // background-color: red;
+                        h2 {
+                            font-size: 1.6vw;
+                            margin-left: 3.7vw;
+                        }
+                        ul {
+                            li {
+                                text-align: left;
+                                list-style: none;
+                                padding: 1vw;
+                                font-size: 1.3vw;
+                            }
+                        }
                     }
                     // Verticle Line
                     .vl {
                         border: 1px solid white;
-                        height: 60vh;
+                        height: 55vh;
                     }
                     // The Icons of skill
                     .skillicons {
@@ -138,34 +153,66 @@ $iconblock: #023430;
                                 // The frontend icon circles
                                 .iconblock {
                                     // set the size and radius
-
+                                    background-color: $mainblue;
+                                    width: 4.5vw;
+                                    height: 4.5vw;
+                                    border-radius: 50%;
                                     // The actual settings for the icons
                                     #html {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 7vh;
-                                            // margin: 1vw;
                                         }
                                     }
                                     #css {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 7vh; 
                                         }
                                     }
                                     #js {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
                                         img {
                                             width: 3vw;
-                                            height: 7vh;
+                                            height: 7.4vh;
                                         }
                                     }
                                     #react {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
                                         img {
                                             width: 3.5vw;
                                             height: 6.5vh;
                                         }
                                     }
                                     #sass {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3vw;
+                                            height: 4vh;
+                                        }
+                                    }
+                                    #tailwind {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 4vh;
