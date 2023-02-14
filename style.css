@@ -206,23 +206,23 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons #csscircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #jscircle {
   animation-name: moveInRight;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #reactcircle {
   animation-name: moveInRight;
-  animation-duration: 4s;
+  animation-duration: 2.5s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #sasscircle {
   animation-name: moveInRight;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #tailwindcircle {
   animation-name: moveInRight;
-  animation-duration: 6s;
+  animation-duration: 3.5s;
 }
 * body .house .skills .pageskills .skillicons .back p {
   font-size: 1.5vw;
@@ -306,23 +306,23 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons #djangocircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
 }
 * body .house .skills .pageskills .skillicons .back .icons #nodejscircle {
   animation-name: moveInRight;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .back .icons #postgrecircle {
   animation-name: moveInRight;
-  animation-duration: 4s;
+  animation-duration: 2.5s;
 }
 * body .house .skills .pageskills .skillicons .back .icons #mongodbcircle {
   animation-name: moveInRight;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 * body .house .skills .pageskills .skillicons .back .icons #firebasecircle {
   animation-name: moveInRight;
-  animation-duration: 6s;
+  animation-duration: 3.5s;
 }
 * body .house .about {
   background-color: #0E4946;
