@@ -160,6 +160,8 @@ $iconblock: #023430;
                                     width: 4.5vw;
                                     height: 4.5vw;
                                     border-radius: 50%;
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
                                     // The actual settings for the icons
                                     #html {
                                         display: flex;
@@ -222,6 +224,31 @@ $iconblock: #023430;
                                         }
                                     }
                                 }
+                                #htmlcircle {
+                                    // background-color: rebeccapurple;
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
+                                }
+                                #csscircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s; 
+                                }
+                                #jscircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
+                                }
+                                #reactcircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
+                                }
+                                #sasscircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
+                                }
+                                #tailwindcircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
+                                }
                             }
                         }
                         // the backend
@@ -241,6 +268,8 @@ $iconblock: #023430;
                                     width: 4.5vw;
                                     height: 4.5vw;
                                     border-radius: 50%;
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s;
                                     // The actual settings for the icons
                                     #python {
                                         display: flex;
@@ -544,6 +573,25 @@ $iconblock: #023430;
 }
 
 // FROM BOTTOM
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateY(100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+// FROM LEFT
 @keyframes moveInLeft {
     0% {
         opacity: 0;
@@ -561,3 +609,24 @@ $iconblock: #023430;
         transform: translate(0);
     } 
 }
+
+// FROM RIGHT
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+

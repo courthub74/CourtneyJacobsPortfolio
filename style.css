@@ -137,6 +137,8 @@
   width: 4.5vw;
   height: 4.5vw;
   border-radius: 50%;
+  animation-name: moveInRight;
+  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html {
   display: flex;
@@ -198,6 +200,30 @@
   width: 3vw;
   height: 4vh;
 }
+* body .house .skills .pageskills .skillicons .front .icons #htmlcircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+* body .house .skills .pageskills .skillicons .front .icons #csscircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+* body .house .skills .pageskills .skillicons .front .icons #jscircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+* body .house .skills .pageskills .skillicons .front .icons #reactcircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+* body .house .skills .pageskills .skillicons .front .icons #sasscircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+* body .house .skills .pageskills .skillicons .front .icons #tailwindcircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
 * body .house .skills .pageskills .skillicons .back p {
   font-size: 1.5vw;
 }
@@ -210,6 +236,8 @@
   width: 4.5vw;
   height: 4.5vw;
   border-radius: 50%;
+  animation-name: moveInRight;
+  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #python {
   display: flex;
@@ -486,11 +514,41 @@
     transform: translate(0);
   }
 }
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateY(100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 @keyframes moveInLeft {
   0% {
     opacity: 0;
     /* translate on the x axis */
     transform: translateX(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(100px);
   }
   80% {
     /* BELOW makes it go extra and bounce back */
