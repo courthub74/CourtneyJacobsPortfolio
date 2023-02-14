@@ -202,7 +202,7 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons #htmlcircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #csscircle {
   animation-name: moveInRight;
@@ -210,19 +210,19 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons #jscircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #reactcircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #sasscircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 5s;
 }
 * body .house .skills .pageskills .skillicons .front .icons #tailwindcircle {
   animation-name: moveInRight;
-  animation-duration: 2s;
+  animation-duration: 6s;
 }
 * body .house .skills .pageskills .skillicons .back p {
   font-size: 1.5vw;
@@ -236,8 +236,6 @@
   width: 4.5vw;
   height: 4.5vw;
   border-radius: 50%;
-  animation-name: moveInRight;
-  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #python {
   display: flex;
@@ -302,6 +300,30 @@
   width: 3.3vw;
   height: 7vh;
 }
+* body .house .skills .pageskills .skillicons .back .icons #pythoncircle {
+  animation-name: moveInRight;
+  animation-duration: 1s;
+}
+* body .house .skills .pageskills .skillicons .back .icons #djangocircle {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+* body .house .skills .pageskills .skillicons .back .icons #nodejscircle {
+  animation-name: moveInRight;
+  animation-duration: 3s;
+}
+* body .house .skills .pageskills .skillicons .back .icons #postgrecircle {
+  animation-name: moveInRight;
+  animation-duration: 4s;
+}
+* body .house .skills .pageskills .skillicons .back .icons #mongodbcircle {
+  animation-name: moveInRight;
+  animation-duration: 5s;
+}
+* body .house .skills .pageskills .skillicons .back .icons #firebasecircle {
+  animation-name: moveInRight;
+  animation-duration: 6s;
+}
 * body .house .about {
   background-color: #0E4946;
   height: 110vh;
@@ -329,6 +351,7 @@
   display: inline;
   padding: 0 1vw 0 0;
   font-size: 1vw;
+  font-weight: bold;
 }
 * body .house .about .abouttop .navbar ul li a {
   text-decoration: none;

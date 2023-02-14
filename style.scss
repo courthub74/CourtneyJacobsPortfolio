@@ -227,7 +227,7 @@ $iconblock: #023430;
                                 #htmlcircle {
                                     // background-color: rebeccapurple;
                                     animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    animation-duration: 1s;
                                 }
                                 #csscircle {
                                     animation-name: moveInRight;
@@ -235,19 +235,19 @@ $iconblock: #023430;
                                 }
                                 #jscircle {
                                     animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    animation-duration: 3s;
                                 }
                                 #reactcircle {
                                     animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    animation-duration: 4s;
                                 }
                                 #sasscircle {
                                     animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    animation-duration: 5s;
                                 }
                                 #tailwindcircle {
                                     animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    animation-duration: 6s;
                                 }
                             }
                         }
@@ -268,8 +268,6 @@ $iconblock: #023430;
                                     width: 4.5vw;
                                     height: 4.5vw;
                                     border-radius: 50%;
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
                                     // The actual settings for the icons
                                     #python {
                                         display: flex;
@@ -335,6 +333,31 @@ $iconblock: #023430;
                                         }
                                     }
                                 }
+                                #pythoncircle {
+                                    // background-color: rebeccapurple;
+                                    animation-name: moveInRight;
+                                    animation-duration: 1s;
+                                }
+                                #djangocircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 2s; 
+                                }
+                                #nodejscircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 3s;
+                                }
+                                #postgrecircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 4s;
+                                }
+                                #mongodbcircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 5s;
+                                }
+                                #firebasecircle {
+                                    animation-name: moveInRight;
+                                    animation-duration: 6s;
+                                }
                             }
                         }
                     }
@@ -365,6 +388,7 @@ $iconblock: #023430;
                                     display: inline;
                                     padding: 0 1vw 0 0;
                                     font-size: 1vw;
+                                    font-weight: bold;
                                     a {
                                         text-decoration: none;
                                         color: white;
