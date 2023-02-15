@@ -448,7 +448,7 @@ $iconblock: #023430;
                         // background-color: antiquewhite;
                         text-align: right;
                         font-size: 5vw;
-                        margin: 6vh 4vw 0 0;
+                        margin: 6vh 6vw 0 0;
                     }
                     .navbar {
                         animation-name: moveInTop;
@@ -461,6 +461,7 @@ $iconblock: #023430;
                                     display: inline;
                                     padding: 0 1vw 0 0;
                                     font-size: 1vw;
+                                    font-weight: bold;
                                     a {
                                         text-decoration: none;
                                         color: white;
@@ -473,6 +474,25 @@ $iconblock: #023430;
                                     padding: .4vw;
                                 }
                             }
+                        }
+                }
+                .portcontainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 5vh 0 0 0;
+                    .appsheader {
+                        font-size: 3vh;
+                        text-align: left;
+                        width: 69.7%;
+                        margin-right: 18vw;
+                        animation-name: moveInLeft;
+                        animation-duration: 1s;
+                    }
+                    .appcontainer {
+                        // background-color: pink;
+                            width: 80%;
+                           
                         }
                 }
             }
