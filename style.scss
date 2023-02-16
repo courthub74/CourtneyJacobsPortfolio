@@ -525,6 +525,16 @@ $iconblock: #023430;
                                 width: 20vw;
                                 animation-name: moveInCenter;
                                 animation-duration: 1.3s;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                                a {
+                                    img {
+                                        width: 14vw;
+                                        height: 4.8vh;
+                                    }
+                                }
                             }
                             .app3 {
                                 border: 1px solid white;
@@ -533,6 +543,15 @@ $iconblock: #023430;
                                 width: 20vw;
                                 animation-name: moveInRight;
                                 animation-duration: 1s;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                flex-direction: column;
+                                a {
+                                    img {
+                                        width: 15vw;
+                                    }
+                                }
                             }
                         }
                 }
