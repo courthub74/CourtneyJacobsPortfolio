@@ -509,45 +509,155 @@
 * body .house .portfolio .portcontainer .appcontainer .app3 a img {
   width: 15vw;
 }
-* body .house .blog {
+* body .house .experience {
   background-color: #0E4946;
   height: 120vh;
   color: white;
 }
-* body .house .blog .blogtop {
+* body .house .experience .experiencetop {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
 }
-* body .house .blog .blogtop .navbar {
+* body .house .experience .experiencetop .navbar {
   animation-name: moveInTop;
   animation-duration: 1s;
 }
-* body .house .blog .blogtop .navbar ul {
+* body .house .experience .experiencetop .navbar ul {
   text-align: center;
   margin: 8vh 0 0 3vw;
 }
-* body .house .blog .blogtop .navbar ul li {
+* body .house .experience .experiencetop .navbar ul li {
   list-style: none;
   display: inline;
   padding: 0 1vw 0 0;
   font-size: 1vw;
   font-weight: bold;
 }
-* body .house .blog .blogtop .navbar ul li a {
+* body .house .experience .experiencetop .navbar ul li a {
   text-decoration: none;
   color: white;
 }
-* body .house .blog .blogtop .navbar ul #selected {
+* body .house .experience .experiencetop .navbar ul #selected {
   background-color: white;
   color: #0E4946;
   border-radius: 5px;
   padding: 0.4vw;
 }
-* body .house .blog .blogtop h1 {
+* body .house .experience .experiencetop h1 {
   text-align: right;
   font-size: 5vw;
   margin: 6vh 4vw 0 0;
+}
+* body .house .experience .experiencecontainer {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 60vh 0 0;
+}
+* body .house .experience .experiencecontainer .places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vh;
+  animation-name: moveInCenter;
+  animation-duration: 1s;
+}
+* body .house .experience .experiencecontainer .places .courdevs {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+* body .house .experience .experiencecontainer .places .courdevs img {
+  width: 5.7vw;
+  height: 5.7vw;
+}
+* body .house .experience .experiencecontainer .places .courdevs h3 {
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .courdevs p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .r1rcm {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+* body .house .experience .experiencecontainer .places .r1rcm img {
+  width: 4vw;
+  height: 3vw;
+}
+* body .house .experience .experiencecontainer .places .r1rcm h3 {
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .r1rcm p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .slea {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .house .experience .experiencecontainer .places .slea img {
+  width: 5vw;
+  height: 5vw;
+}
+* body .house .experience .experiencecontainer .places .slea h3 {
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .places .slea p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* body .house .experience .experiencecontainer .vl2 {
+  border-left: 2px solid #FFFFFF;
+  height: 73vh;
+  margin: 0 5vw 2vh 5vw;
+}
+* body .house .experience .experiencecontainer .descriptions {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+* body .house .experience .experiencecontainer .descriptions .courdevelops h3 {
+  margin-left: 2.7vw;
+  margin-bottom: -0.9vh;
+}
+* body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul {
+  list-style: none;
+  margin-bottom: 5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul li {
+  font-size: 1.8vh;
+  padding: 0.5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description h3 {
+  margin-left: 2.7vw;
+  margin-bottom: -0.9vh;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul {
+  list-style: none;
+  margin-bottom: 5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul li {
+  font-size: 1.8vh;
+  padding: 0.5vh;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription h3 {
+  margin-left: 2.7vw;
+  margin-bottom: -0.9vh;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul {
+  list-style: none;
+}
+* body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul li {
+  font-size: 1.8vh;
+  padding: 0.5vh;
 }
 * body .house .contact {
   background-color: #080E2F;
@@ -588,10 +698,9 @@
   border-radius: 5px;
   padding: 0.4vw;
 }
-* body .house .contact h1 {
-  text-align: left;
+* body .house .contact .contacttop h1 {
   font-size: 5vw;
-  margin: 6vh 4vw 0 0;
+  margin: 4vh 4vw 0 0;
 }
 
 @keyframes moveInTop {
