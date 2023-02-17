@@ -609,7 +609,7 @@ $iconblock: #023430;
             // BLOG SECTION
             .blog {
                 background-color: $aboutgreen;
-                height: 110vh;
+                height: 120vh;
                 color: white;
                 .blogtop {
                     display: flex;
@@ -656,9 +656,10 @@ $iconblock: #023430;
                 .contacttop {
                     display: flex;
                     justify-content: space-between;
+                    flex-direction: row-reverse;
                     h1 {
                         font-size: 5vw;
-                        margin: 6vh 0 0 4vw;
+                        margin: 4vh 4vw 0 0;
                     }
                     .navbar {
                         animation-name: moveInTop;
@@ -666,12 +667,13 @@ $iconblock: #023430;
                         // animation-timing-function: ease-out;
                         ul {
                             text-align: center;
-                            margin: 8vh 3vw 0 0;
+                            margin: 8vh 0 0 3vw;
                                 li {
                                     list-style: none;
                                     display: inline;
                                     padding: 0 1vw 0 0;
                                     font-size: 1vw;
+                                    font-weight: bold;
                                     a {
                                         text-decoration: none;
                                         color: white;
