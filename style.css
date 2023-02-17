@@ -74,7 +74,7 @@
 * body .house .skills .topskills h1 {
   text-align: right;
   font-size: 5vw;
-  margin: 8vh 4vw 0 0;
+  margin: 4vh 4vw 0 0;
 }
 * body .house .skills .topskills .navbar {
   animation-name: moveInTop;
@@ -105,7 +105,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1vw 15vw;
+  padding: 5vw 15vw;
 }
 * body .house .skills .pageskills .skillslist {
   animation-name: moveInLeft;
@@ -332,11 +332,12 @@
 * body .house .about .abouttop {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 * body .house .about .abouttop h1 {
   text-align: left;
   font-size: 5vw;
-  margin: 6vh 0 0 4vw;
+  margin: 3.8vh 4vw 0 0;
 }
 * body .house .about .abouttop .navbar {
   animation-name: moveInTop;
@@ -344,7 +345,7 @@
 }
 * body .house .about .abouttop .navbar ul {
   text-align: center;
-  margin: 8vh 3vw 0 0;
+  margin: 8vh 0 0 3vw;
 }
 * body .house .about .abouttop .navbar ul li {
   list-style: none;
@@ -406,7 +407,7 @@
 * body .house .portfolio .portfoliotop h1 {
   text-align: right;
   font-size: 5vw;
-  margin: 6vh 6vw 0 0;
+  margin: 4vh 4vw 0 0;
 }
 * body .house .portfolio .portfoliotop .navbar {
   animation-name: moveInTop;
