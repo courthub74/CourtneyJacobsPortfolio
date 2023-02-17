@@ -457,7 +457,7 @@
   border: 1px solid white;
   border-radius: 5px;
   height: 60vh;
-  width: 20vw;
+  width: 25vw;
   animation-name: moveInLeft;
   animation-duration: 1s;
   display: flex;
@@ -482,7 +482,7 @@
   border: 1px solid white;
   border-radius: 5px;
   height: 60vh;
-  width: 20vw;
+  width: 25vw;
   animation-name: moveInCenter;
   animation-duration: 1.3s;
   display: flex;
@@ -498,7 +498,7 @@
   border: 1px solid white;
   border-radius: 5px;
   height: 60vh;
-  width: 20vw;
+  width: 25vw;
   animation-name: moveInRight;
   animation-duration: 1s;
   display: flex;
