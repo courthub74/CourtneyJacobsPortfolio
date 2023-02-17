@@ -509,46 +509,8 @@
 * body .house .portfolio .portcontainer .appcontainer .app3 a img {
   width: 15vw;
 }
-* body .house .experience {
-  background-color: #0E4946;
-  height: 110vh;
-  color: white;
-}
-* body .house .experience .experiencetop {
-  display: flex;
-  justify-content: space-between;
-}
-* body .house .experience .experiencetop .navbar {
-  animation-name: moveInTop;
-  animation-duration: 1s;
-}
-* body .house .experience .experiencetop .navbar ul {
-  text-align: center;
-  margin: 8vh 3vw 0 0;
-}
-* body .house .experience .experiencetop .navbar ul li {
-  list-style: none;
-  display: inline;
-  padding: 0 1vw 0 0;
-  font-size: 1vw;
-}
-* body .house .experience .experiencetop .navbar ul li a {
-  text-decoration: none;
-  color: white;
-}
-* body .house .experience .experiencetop .navbar ul #selected {
-  background-color: white;
-  color: #0E4946;
-  border-radius: 5px;
-  padding: 0.4vw;
-}
-* body .house .experience .experiencetop h1 {
-  text-align: left;
-  font-size: 5vw;
-  margin: 6vh 0 0 4vw;
-}
 * body .house .blog {
-  background-color: #146166;
+  background-color: #0E4946;
   height: 110vh;
   color: white;
 }
@@ -570,6 +532,7 @@
   display: inline;
   padding: 0 1vw 0 0;
   font-size: 1vw;
+  font-weight: bold;
 }
 * body .house .blog .blogtop .navbar ul li a {
   text-decoration: none;

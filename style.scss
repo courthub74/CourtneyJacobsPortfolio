@@ -83,6 +83,7 @@ $iconblock: #023430;
                         text-align: right;
                         font-size: 5vw;
                         margin: 4vh 4vw 0 0;
+                        // background-color: yellow;
                     }
                     .navbar {
                         animation-name: moveInTop;
@@ -558,48 +559,56 @@ $iconblock: #023430;
                 }
             }
             // EXPERIENCE SECTION
-            .experience {
-                background-color: $aboutgreen;
-                height: 110vh;
-                color: white;
-                .experiencetop {
-                    display: flex;
-                    justify-content: space-between;
-                    .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
-                        ul {
-                            text-align: center;
-                            margin: 8vh 3vw 0 0;
-                                li {
-                                    list-style: none;
-                                    display: inline;
-                                    padding: 0 1vw 0 0;
-                                    font-size: 1vw;
-                                    a {
-                                        text-decoration: none;
-                                        color: white;
-                                    }
-                                }
-                                #selected {
-                                    background-color: white;
-                                    color: $aboutgreen;
-                                    border-radius: 5px;
-                                    padding: .4vw;
-                                }
-                            }
-                    }
-                    h1 {
-                        // background-color: antiquewhite;
-                        text-align: left;
-                        font-size: 5vw;
-                        margin: 6vh 0 0 4vw;
-                    }
-                }
-            }
+            // .experience {
+            //     background-color: $aboutgreen;
+            //     height: 110vh;
+            //     color: white;
+            //     .experiencetop {
+            //         display: flex;
+            //         justify-content: space-between;
+            //         flex-direction: row-reverse;
+            //         // background-color: yellow;
+            //         h1 {
+            //             text-align: right;
+            //             font-size: 5vw;
+            //             margin: 4vh 4vw 0 0;
+            //         }
+            //         .navbar {
+            //             animation-name: moveInTop;
+            //             animation-duration: 1s;
+            //             ul {
+            //                 text-align: center;
+            //                 margin: 8vh 0 0 3vw;
+            //                     li {
+            //                         list-style: none;
+            //                         display: inline;
+            //                         padding: 0 1vw 0 0;
+            //                         font-size: 1vw;
+            //                         font-weight: bold;
+            //                         a {
+            //                             text-decoration: none;
+            //                             color: white;
+            //                         }
+            //                     }
+            //                     #selected {
+            //                         background-color: white;
+            //                         color: $aboutgreen;
+            //                         border-radius: 5px;
+            //                         padding: .4vw;
+            //                     }
+            //                 }
+            //         }
+            //         h1 {
+            //             // background-color: antiquewhite;
+            //             text-align: left;
+            //             font-size: 5vw;
+            //             margin: 6vh 0 0 4vw;
+            //         }
+            //     }
+            // }
             // BLOG SECTION
             .blog {
-                background-color: $skillsteal;
+                background-color: $aboutgreen;
                 height: 110vh;
                 color: white;
                 .blogtop {
@@ -617,6 +626,7 @@ $iconblock: #023430;
                                     display: inline;
                                     padding: 0 1vw 0 0;
                                     font-size: 1vw;
+                                    font-weight: bold;
                                     a {
                                         text-decoration: none;
                                         color: white;
