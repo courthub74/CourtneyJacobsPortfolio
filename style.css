@@ -17,6 +17,7 @@
 * body .house .home .tophome {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   padding: 2%;
 }
 * body .house .home .tophome img {
@@ -25,11 +26,12 @@
   padding: 1vw;
 }
 * body .house .home .tophome .navbar {
-  animation-name: moveInTop;
+  animation-name: moveInLeft;
   animation-duration: 1s;
 }
 * body .house .home .tophome .navbar ul {
   text-align: center;
+  margin: 3vh 0 0 0;
 }
 * body .house .home .tophome .navbar ul a {
   cursor: pointer;
@@ -42,9 +44,9 @@
 }
 * body .house .home .tophome .navbar ul li {
   display: inline;
-  padding: 0 1.5vw 0 0;
+  padding: 0 1vw 0 0;
   list-style: none;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   font-weight: bold;
 }
 * body .house .home .tophome .navbar ul a {

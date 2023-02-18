@@ -23,6 +23,7 @@ $iconblock: #023430;
                     // background-color: palevioletred;
                     display: flex;
                     justify-content: space-between;
+                    flex-direction: row-reverse;
                     padding: 2%;
                     img {
                         width: 12vw;
@@ -30,10 +31,11 @@ $iconblock: #023430;
                         padding: 1vw;
                     }
                     .navbar {
-                        animation-name: moveInTop;
+                        animation-name: moveInLeft;
                         animation-duration: 1s;
                         ul {    
                             text-align: center;
+                            margin: 3vh 0 0 0;
                             // background-color: green;
                             a {
                                 cursor: pointer;
@@ -46,9 +48,9 @@ $iconblock: #023430;
                             }
                             li {
                                 display: inline;
-                                padding: 0 1.5vw 0 0;
+                                padding: 0 1vw 0 0;
                                 list-style: none;
-                                font-size: 1.4vw;
+                                font-size: 1.2vw;
                                 font-weight: bold;
                             }
                             a {
