@@ -18,12 +18,12 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-  padding: 2%;
 }
 * body .house .home .tophome img {
   width: 12vw;
   height: 12vw;
   padding: 1vw;
+  margin: 0 7vw 0 0;
 }
 * body .house .home .tophome .navbar {
   animation-name: moveInLeft;
@@ -31,7 +31,7 @@
 }
 * body .house .home .tophome .navbar ul {
   text-align: center;
-  margin: 3vh 0 0 0;
+  margin: 8vh 0 0 2vw;
 }
 * body .house .home .tophome .navbar ul a {
   cursor: pointer;

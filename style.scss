@@ -24,18 +24,20 @@ $iconblock: #023430;
                     display: flex;
                     justify-content: space-between;
                     flex-direction: row-reverse;
-                    padding: 2%;
+                    // padding: 2%;
                     img {
                         width: 12vw;
                         height: 12vw;
                         padding: 1vw;
+                        margin: 0 7vw 0 0;
+                        // background-color: yellowgreen;
                     }
                     .navbar {
                         animation-name: moveInLeft;
                         animation-duration: 1s;
                         ul {    
                             text-align: center;
-                            margin: 3vh 0 0 0;
+                            margin: 8vh 0 0 2vw;
                             // background-color: green;
                             a {
                                 cursor: pointer;
