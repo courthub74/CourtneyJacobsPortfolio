@@ -784,6 +784,7 @@ $iconblock: #023430;
                     display: flex;
                     margin: 10vh 0 0 30vh;
                     .nameemaildiv {
+                        margin: 0 0 0 5vw;
                         .name {
                             p {
                                 font-size: 1.5vw;
@@ -793,6 +794,9 @@ $iconblock: #023430;
                                 height: 6vh;
                                 border: none;
                                 border-radius: 5px;
+                                background-color: $mainblue;
+                                border: 1px solid white;
+                                color: white;
                             }
                         }
                         .email {
@@ -804,36 +808,39 @@ $iconblock: #023430;
                                 height: 6vh;
                                 border: none;
                                 border-radius: 5px;
+                                background-color: $mainblue;
+                                border: 1px solid white;
+                                color: white;
                             }
                         }
                         .socials {
                             display: flex;
                             align-items: center;
                             justify-content: left;
-                            margin: 1vh 0 0 0;
+                            margin: 5vh 0 0 2vw;
                             #github {
-                                margin: 0 2.1vw 0 0;
+                                margin: 0 1vw 0 0;
                                 img {
                                     width: 2.8vw;
                                     height: 2.8vw;
                                 }
                             }
                             #linkedin {
-                                margin: 0 2.3vw 0 0;
+                                margin: 0 1vw 0 0;
                                 img {
                                     width: 3.7vw;
                                     height: 3.7vw;
                                 }
                             }
                             #twitter {
-                                margin: 0 1.6vw 0 -.4vw;
+                                margin: 0 .5vw 0 -.4vw;
                                 img {
                                     width: 3.5vw;
                                     height: 3.5vw;
                                 }
                             }
                             #instagram {
-                                margin: 0 1.7vw 0 -.01vw;
+                                margin: 0 .9vw 0 -.01vw;
                                 img {
                                     width: 4vw;
                                     height: 4vw;
@@ -848,7 +855,7 @@ $iconblock: #023430;
                         }
                     }
                     .messageandsubmitdiv {
-                        margin: 0 0 0 15vw;
+                        margin: 0 0 0 5vw;
                         .message {
                             p {
                                 font-size: 1.5vw;
@@ -858,11 +865,15 @@ $iconblock: #023430;
                                 height: 23vh;
                                 border: none;
                                 border-radius: 5px;
+                                background-color: $mainblue;
+                                border: 1px solid white;
+                                color: white;
+                                text-align: center;
                             }
                         }
                         .submit {
                             // background-color: yellowgreen;
-                            margin: 1vh 0 0 0;
+                            margin: 6vh 0 0 0;
                             button {
                                 width: 100%;
                                 cursor: pointer;

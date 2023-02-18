@@ -712,6 +712,9 @@
   display: flex;
   margin: 10vh 0 0 30vh;
 }
+* body .house .contact .contactcontainer .nameemaildiv {
+  margin: 0 0 0 5vw;
+}
 * body .house .contact .contactcontainer .nameemaildiv .name p {
   font-size: 1.5vw;
 }
@@ -720,6 +723,9 @@
   height: 6vh;
   border: none;
   border-radius: 5px;
+  background-color: #080E2F;
+  border: 1px solid white;
+  color: white;
 }
 * body .house .contact .contactcontainer .nameemaildiv .email p {
   font-size: 1.5vw;
@@ -729,36 +735,39 @@
   height: 6vh;
   border: none;
   border-radius: 5px;
+  background-color: #080E2F;
+  border: 1px solid white;
+  color: white;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials {
   display: flex;
   align-items: center;
   justify-content: left;
-  margin: 1vh 0 0 0;
+  margin: 5vh 0 0 2vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github {
-  margin: 0 2.1vw 0 0;
+  margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github img {
   width: 2.8vw;
   height: 2.8vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin {
-  margin: 0 2.3vw 0 0;
+  margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin img {
   width: 3.7vw;
   height: 3.7vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter {
-  margin: 0 1.6vw 0 -0.4vw;
+  margin: 0 0.5vw 0 -0.4vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter img {
   width: 3.5vw;
   height: 3.5vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram {
-  margin: 0 1.7vw 0 -0.01vw;
+  margin: 0 0.9vw 0 -0.01vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 4vw;
@@ -769,7 +778,7 @@
   height: 2.9vw;
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv {
-  margin: 0 0 0 15vw;
+  margin: 0 0 0 5vw;
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv .message p {
   font-size: 1.5vw;
@@ -779,9 +788,13 @@
   height: 23vh;
   border: none;
   border-radius: 5px;
+  background-color: #080E2F;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv .submit {
-  margin: 1vh 0 0 0;
+  margin: 6vh 0 0 0;
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv .submit button {
   width: 100%;
