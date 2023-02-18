@@ -602,12 +602,13 @@ $iconblock: #023430;
                 .experiencecontainer {
                     display: flex;
                     justify-content: center;
-                    margin: 5vh 60vh 0 0;
+                    margin: 5vh 70vh 0 0;
+                    // background-color: yellow;
                     .places {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        margin-top: 4vh;
+                        margin: 3vh 0 0 0;
                         animation-name: moveInCenter;
                         animation-duration: 1s;
                         // background-color: yellow;
@@ -670,7 +671,9 @@ $iconblock: #023430;
                     .vl2 {
                         border-left: 2px solid $skillswhite;
                         height: 73vh;
-                        margin: 0 5vw 2vh 5vw;
+                        margin: 0 2vw 2vh 2vw;
+                        animation-name: moveInCenter;
+                        animation-duration:  1s;
                     }
                     .descriptions {
                         animation-name: moveInLeft;
