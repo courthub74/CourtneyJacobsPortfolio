@@ -470,12 +470,12 @@
   text-align: center;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 a img {
-  width: 10vw;
-  height: 20vh;
+  width: 14vw;
+  height: 14vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 a p {
   color: white;
-  font-size: 2.5vh;
+  font-size: 3.5vh;
   font-family: "Julius Sans One", sans-serif;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 {
@@ -491,8 +491,8 @@
   flex-direction: column;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 a img {
-  width: 14vw;
-  height: 4.8vh;
+  width: 17vw;
+  height: 5.5vh;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 {
   border: 1px solid white;
@@ -507,7 +507,7 @@
   flex-direction: column;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 a img {
-  width: 15vw;
+  width: 17vw;
 }
 * body .house .experience {
   background-color: #0E4946;
