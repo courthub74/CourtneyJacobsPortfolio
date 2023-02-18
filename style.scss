@@ -70,7 +70,7 @@ $iconblock: #023430;
                     }
                 }
                 .bothome {
-                    background-color: #023430;
+                    // background-color: #023430;
                 }
             }
             // SKILLS SECTION
@@ -128,7 +128,7 @@ $iconblock: #023430;
                         animation-name: moveInLeft;
                         animation-duration: 2s;
                         h2 {
-                            font-size: 1.6vw;
+                            font-size: 1.7vw;
                             margin-left: 3.7vw;
                         }
                         ul {
@@ -136,7 +136,7 @@ $iconblock: #023430;
                                 text-align: left;
                                 list-style: none;
                                 padding: 1vw;
-                                font-size: 1.3vw;
+                                font-size: 1.2vw;
                             }
                         }
                     }
@@ -151,7 +151,7 @@ $iconblock: #023430;
                         .front {
                             p {
                                 // set the right size
-                                font-size: 1.5vw;
+                                font-size: 1.1vw;
                             }
                             // The frontend icons
                             .icons {
@@ -259,7 +259,7 @@ $iconblock: #023430;
                         .back {
                             p {
                                 // set the right size
-                                font-size: 1.5vw;
+                                font-size: 1.1vw;
                             }
                             // The backend icons
                             .icons {
@@ -424,6 +424,29 @@ $iconblock: #023430;
                         animation-name: moveInLeft;
                         animation-duration: 2s;
                         margin-top: 5vh;
+                        .resume {
+                                // background-color: yellow;
+                                display: flex;
+                                justify-content: center;
+                                border: 1px solid white;
+                                border-radius: 5px;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                img {
+                                    width: 2vw;
+                                    height: 2vw;
+                                    margin: 1vh 0 0 0;
+                                    // background-color: pink;
+                                }
+                            }
+                            img {
+                                width: 2vw;
+                                height: 2vw;
+                                margin: .5vh 0 0 0;
+                                // background-color: pink;
+                            }
+                        }
                     }
                 }
                 .coding {
@@ -606,7 +629,7 @@ $iconblock: #023430;
                 .experiencecontainer {
                     display: flex;
                     justify-content: center;
-                    margin: 5vh 70vh 0 0;
+                    margin: 5vh 54vh 0 0;
                     // background-color: yellow;
                     .places {
                         display: flex;
@@ -676,7 +699,7 @@ $iconblock: #023430;
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 73vh;
+                        height: 70vh;
                         margin: 0 2vw 2vh 2vw;
                         animation-name: moveInCenter;
                         animation-duration:  1s;

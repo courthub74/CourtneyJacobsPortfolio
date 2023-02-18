@@ -60,9 +60,6 @@
   border-radius: 5px;
   padding: 0.4vw;
 }
-* body .house .home .bothome {
-  background-color: #023430;
-}
 * body .house .skills {
   background-color: #146166;
   height: 110vh;
@@ -114,21 +111,21 @@
   animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillslist h2 {
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   margin-left: 3.7vw;
 }
 * body .house .skills .pageskills .skillslist ul li {
   text-align: left;
   list-style: none;
   padding: 1vw;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 * body .house .skills .pageskills .vl {
   border: 1px solid white;
   height: 55vh;
 }
 * body .house .skills .pageskills .skillicons .front p {
-  font-size: 1.5vw;
+  font-size: 1.1vw;
 }
 * body .house .skills .pageskills .skillicons .front .icons {
   display: flex;
@@ -227,7 +224,7 @@
   animation-duration: 3.5s;
 }
 * body .house .skills .pageskills .skillicons .back p {
-  font-size: 1.5vw;
+  font-size: 1.1vw;
 }
 * body .house .skills .pageskills .skillicons .back .icons {
   display: flex;
@@ -383,6 +380,26 @@
   animation-name: moveInLeft;
   animation-duration: 2s;
   margin-top: 5vh;
+}
+* body .house .about .infoblock .info .resume {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+* body .house .about .infoblock .info .resume a {
+  text-decoration: none;
+  color: white;
+}
+* body .house .about .infoblock .info .resume a img {
+  width: 2vw;
+  height: 2vw;
+  margin: 1vh 0 0 0;
+}
+* body .house .about .infoblock .info .resume img {
+  width: 2vw;
+  height: 2vw;
+  margin: 0.5vh 0 0 0;
 }
 * body .house .about .coding {
   width: 30vw;
@@ -554,7 +571,7 @@
 * body .house .experience .experiencecontainer {
   display: flex;
   justify-content: center;
-  margin: 5vh 70vh 0 0;
+  margin: 5vh 54vh 0 0;
 }
 * body .house .experience .experiencecontainer .places {
   display: flex;
@@ -620,7 +637,7 @@
 }
 * body .house .experience .experiencecontainer .vl2 {
   border-left: 2px solid #FFFFFF;
-  height: 73vh;
+  height: 70vh;
   margin: 0 2vw 2vh 2vw;
   animation-name: moveInCenter;
   animation-duration: 1s;
