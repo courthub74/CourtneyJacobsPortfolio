@@ -717,6 +717,10 @@
 * body .house .contact .contactcontainer .nameemaildiv {
   margin: 0 0 0 5vw;
 }
+* body .house .contact .contactcontainer .nameemaildiv .name {
+  animation-name: moveInCenter;
+  animation-duration: 1s;
+}
 * body .house .contact .contactcontainer .nameemaildiv .name p {
   font-size: 1.5vw;
 }
@@ -728,6 +732,10 @@
   background-color: #080E2F;
   border: 1px solid white;
   color: white;
+}
+* body .house .contact .contactcontainer .nameemaildiv .email {
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .contact .contactcontainer .nameemaildiv .email p {
   font-size: 1.5vw;
@@ -748,6 +756,8 @@
   margin: 5vh 0 0 2vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
   margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github img {
@@ -755,6 +765,8 @@
   height: 2.8vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin {
+  animation-name: moveInLeft;
+  animation-duration: 2.5s;
   margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin img {
@@ -762,6 +774,8 @@
   height: 3.7vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
   margin: 0 0.5vw 0 -0.4vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter img {
@@ -769,11 +783,17 @@
   height: 3.5vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram {
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
   margin: 0 0.9vw 0 -0.01vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 4vw;
   height: 4vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #facebook {
+  animation-name: moveInLeft;
+  animation-duration: 1s;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #facebook img {
   width: 2.9vw;
@@ -781,6 +801,10 @@
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv {
   margin: 0 0 0 5vw;
+}
+* body .house .contact .contactcontainer .messageandsubmitdiv .message {
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv .message p {
   font-size: 1.5vw;
@@ -797,6 +821,8 @@
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv .submit {
   margin: 6vh 0 0 0;
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .contact .contactcontainer .messageandsubmitdiv .submit button {
   width: 100%;
