@@ -617,18 +617,19 @@ $iconblock: #023430;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin-bottom: 5vh;
+                            margin: -.5vh 0 3vh 0;
+                            // background-color: yellow;
                             img {
                                 width: 5.5vw;
                                 height: 5.5vw;
                                 // background-color: yellow;
                             }
                             h3 {
-                                font-size: 1.7vh; 
+                                font-size: 2vh; 
                               }
                               p {
-                                  margin-top: -.9vw;
-                                  font-size: 1.5vh;
+                                  margin-top: -.8vw;
+                                  font-size: 1.7vh;
                               }
                         }
                         .r1rcm {
@@ -642,12 +643,12 @@ $iconblock: #023430;
                                 height: 3vw;
                             }
                             h3 {
-                                font-size: 1.7vh; 
+                                font-size: 2vh; 
 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1.5vh;
+                                font-size: 1.7vh;
                             }
                         }
                         .slea {
@@ -661,11 +662,11 @@ $iconblock: #023430;
                                 height: 5vw;
                             }
                             h3 {
-                                font-size: 1.7vh; 
+                                font-size: 2vh; 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1.5vh;
+                                font-size: 1.7vh;
                             }
                         }
                     }
