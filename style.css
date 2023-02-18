@@ -708,6 +708,91 @@
   font-size: 5vw;
   margin: 4vh 4vw 0 0;
 }
+* body .house .contact .contactcontainer {
+  display: flex;
+  margin: 10vh 0 0 30vh;
+}
+* body .house .contact .contactcontainer .nameemaildiv .name p {
+  font-size: 1.5vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .name input {
+  width: 24vw;
+  height: 6vh;
+  border: none;
+  border-radius: 5px;
+}
+* body .house .contact .contactcontainer .nameemaildiv .email p {
+  font-size: 1.5vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .email input {
+  width: 24vw;
+  height: 6vh;
+  border: none;
+  border-radius: 5px;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 1vh 0 0 0;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #github {
+  margin: 0 2.1vw 0 0;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #github img {
+  width: 2.8vw;
+  height: 2.8vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #linkedin {
+  margin: 0 2.3vw 0 0;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #linkedin img {
+  width: 3.7vw;
+  height: 3.7vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #twitter {
+  margin: 0 1.6vw 0 -0.4vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #twitter img {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #instagram {
+  margin: 0 1.7vw 0 -0.01vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #instagram img {
+  width: 4vw;
+  height: 4vw;
+}
+* body .house .contact .contactcontainer .nameemaildiv .socials #facebook img {
+  width: 2.9vw;
+  height: 2.9vw;
+}
+* body .house .contact .contactcontainer .messageandsubmitdiv {
+  margin: 0 0 0 15vw;
+}
+* body .house .contact .contactcontainer .messageandsubmitdiv .message p {
+  font-size: 1.5vw;
+}
+* body .house .contact .contactcontainer .messageandsubmitdiv .message input {
+  width: 24vw;
+  height: 23vh;
+  border: none;
+  border-radius: 5px;
+}
+* body .house .contact .contactcontainer .messageandsubmitdiv .submit {
+  margin: 1vh 0 0 0;
+}
+* body .house .contact .contactcontainer .messageandsubmitdiv .submit button {
+  width: 100%;
+  cursor: pointer;
+  height: 5vh;
+  background-color: #080E2F;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1.2vw;
+}
 
 @keyframes moveInTop {
   0% {
