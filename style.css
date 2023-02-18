@@ -390,10 +390,11 @@
 * body .house .about .infoblock .info .resume a {
   text-decoration: none;
   color: white;
+  font-size: 2vh;
 }
 * body .house .about .infoblock .info .resume a img {
-  width: 2vw;
-  height: 2vw;
+  width: 1vw;
+  height: 1vw;
   margin: 1vh 0 0 0;
 }
 * body .house .about .infoblock .info .resume img {
