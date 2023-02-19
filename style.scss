@@ -23,7 +23,7 @@ $iconblock: #023430;
                     // background-color: palevioletred;
                     display: flex;
                     justify-content: space-between;
-                    flex-direction: row-reverse;
+                    // flex-direction: row-reverse;
                     // padding: 2%;
                     img {
                         width: 12vw;
@@ -76,6 +76,7 @@ $iconblock: #023430;
                             .header {
                                 text-align: center;
                                 grid-column: 1;
+                                margin: 10vh 5vw 0 0;
                             }
                             .socials {
                                 grid-column: 1;

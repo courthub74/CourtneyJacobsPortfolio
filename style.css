@@ -17,7 +17,6 @@
 * body .house .home .tophome {
   display: flex;
   justify-content: space-between;
-  flex-direction: row-reverse;
 }
 * body .house .home .tophome img {
   width: 12vw;
@@ -66,6 +65,7 @@
 * body .house .home .bothome .grid-container .header {
   text-align: center;
   grid-column: 1;
+  margin: 10vh 5vw 0 0;
 }
 * body .house .home .bothome .grid-container .socials {
   grid-column: 1;
