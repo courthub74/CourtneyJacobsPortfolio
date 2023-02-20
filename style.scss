@@ -6,6 +6,9 @@ $skillswhite: #FFFFFF;
 $aboutgreen: #0E4946;
 $skillsteal: #146166;
 $iconblock: #023430;
+$languagecream: rgb(170, 165, 157);
+$languagegreen: #03a7a4;
+$languagewhite: #d9e2e2;
 
 * {
     font-family: 'Inter', sans-serif;
@@ -245,50 +248,87 @@ $iconblock: #023430;
                                 .iconblock {
                                     // set the size and radius
                                     background-color: $mainblue;
-                                    width: 4.5vw;
-                                    height: 4.5vw;
+                                    width: 5.5vw;
+                                    height: 5.5vw;
                                     border-radius: 50%;
                                     animation-name: moveInRight;
                                     animation-duration: 2s;
                                     // The actual settings for the icons
                                     #html {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 7vh;
+                                            width: 2.8vw;
+                                            height: 6vh;
+                                            margin: 3.5vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.3vh;
+                                            font-weight: 500;
+                                            color: #F1662A;
+                                            opacity: .7;
+                                            margin: 0 0 3vh 0;
                                         }
                                     }
                                     #css {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 7vh; 
+                                            width: 2.8vw;
+                                            height: 6vh;
+                                            margin: 3.5vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.3vh;
+                                            font-weight: 500;
+                                            color: #1572B6;
+                                            // opacity: .8;
+                                            margin: 0 0 3vh 0;
                                         }
                                     }
                                     #js {
                                         display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 2.5vw;
+                                            height: 4.5vh;
+                                            border-radius: 5px;
+                                            margin: 4vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.3vh;
+                                            font-weight: 500;
+                                            color: #FAD81C;
+                                            // opacity: .8;
+                                            margin: 1vh 0 3.5vh 0;
+                                        }
+                                    }
+                                    #react {
+                                        display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 3vw;
-                                            height: 7.2vh;
+                                            height: 7.1vh;
+                                            margin: 4vh 0 0 0;
                                         }
-                                    }
-                                    #react {
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        height: 100%;
-                                        img {
-                                            width: 3.5vw;
-                                            height: 6.5vh;
+                                        p {
+                                            font-size: 1.3vh;
+                                            font-weight: 500;
+                                            color: #03B7D8;
+                                            // opacity: .8;
+                                            margin: 0 0 4.7vh 0;
                                         }
                                     }
                                     #sass {
