@@ -22,15 +22,17 @@
   width: 12vw;
   height: 12vw;
   padding: 1vw;
-  margin: 0 7vw 0 0;
+  margin: 1vh 0 0 3vw;
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .home .tophome .navbar {
-  animation-name: moveInLeft;
+  animation-name: moveInRight;
   animation-duration: 1s;
 }
 * body .house .home .tophome .navbar ul {
   text-align: center;
-  margin: 8vh 0 0 2vw;
+  margin: 8vh 9vw 0 0;
 }
 * body .house .home .tophome .navbar ul a {
   cursor: pointer;
@@ -61,27 +63,75 @@
 }
 * body .house .home .bothome .grid-container {
   display: grid;
+  margin: 0 10vw 0 0;
 }
 * body .house .home .bothome .grid-container .header {
   text-align: center;
   grid-column: 1;
-  margin: 10vh 5vw 0 0;
+  margin: 8vh 0 0 12vw;
+  animation-name: moveInCenter;
+  animation-duration: 1s;
+}
+* body .house .home .bothome .grid-container .header #header {
+  font-size: 2vw;
+  font-weight: bold;
+}
+* body .house .home .bothome .grid-container .header #para {
+  font-size: 1.2vw;
 }
 * body .house .home .bothome .grid-container .socials {
   grid-column: 1;
   grid-row: 3;
   display: flex;
   align-items: center;
-  margin: 0 0 0 10vw;
+  margin: -25vh 0 0 17vw;
+}
+* body .house .home .bothome .grid-container .socials a #github {
+  width: 3vw;
+  height: 3vw;
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+* body .house .home .bothome .grid-container .socials a #linkedin {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 1.5vw;
+  animation-name: moveInLeft;
+  animation-duration: 2.5s;
+}
+* body .house .home .bothome .grid-container .socials a #twitter {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 1vw;
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+* body .house .home .bothome .grid-container .socials a #instagram {
+  width: 4.6vw;
+  height: 4.6vw;
+  margin: 0 0 0 0.5vw;
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+}
+* body .house .home .bothome .grid-container .socials a #facebook {
+  width: 3vw;
+  height: 3vw;
+  margin: 0 0 0 1vw;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
 }
 * body .house .home .bothome .grid-container .photo {
   grid-column: 2;
   grid-row: 1/span 3;
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .home .bothome .grid-container .photo img {
   border-radius: 50%;
-  width: 30vw;
-  height: 30vw;
+  width: 25vw;
+  height: 25vw;
+  margin-top: -1vh;
+  margin-left: 15vw;
 }
 * body .house .skills {
   background-color: #146166;
@@ -146,6 +196,10 @@
 * body .house .skills .pageskills .vl {
   border: 1px solid white;
   height: 55vh;
+}
+* body .house .skills .pageskills .skillicons .front {
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .skills .pageskills .skillicons .front p {
   font-size: 1.1vw;
@@ -245,6 +299,10 @@
 * body .house .skills .pageskills .skillicons .front .icons #tailwindcircle {
   animation-name: moveInRight;
   animation-duration: 3.5s;
+}
+* body .house .skills .pageskills .skillicons .back {
+  animation-name: moveInCenter;
+  animation-duration: 1s;
 }
 * body .house .skills .pageskills .skillicons .back p {
   font-size: 1.1vw;
