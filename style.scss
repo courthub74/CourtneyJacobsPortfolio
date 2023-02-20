@@ -9,6 +9,8 @@ $iconblock: #023430;
 
 * {
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     body {
         margin: 0;
         .house {
