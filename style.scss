@@ -7,7 +7,7 @@ $aboutgreen: #0E4946;
 $skillsteal: #146166;
 $iconblock: #023430;
 $languagecream: rgb(170, 165, 157);
-$languagegreen: #03a7a4;
+$languagegreen: #28c1cc;
 $languagewhite: #d9e2e2;
 
 * {
@@ -205,23 +205,30 @@ $languagewhite: #d9e2e2;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    padding: 5vw 15vw;
+                    margin: 8vh 0 0 0;
+                    // padding: 3vw 0 0 12vw;
+                    // background-color: red;
                     // The Experience list
                     .skillslist {
                         // pad and position
-                        // background-color: red;
                         animation-name: moveInLeft;
                         animation-duration: 2s;
-                        h2 {
-                            font-size: 1.7vw;
-                            margin-left: 3.7vw;
-                        }
-                        ul {
-                            li {
-                                text-align: left;
-                                list-style: none;
-                                padding: 1vw;
-                                font-size: 1.2vw;
+                        // background-color: red;
+                        .skillscontent {
+                            margin: 0 0 0 10vw;
+                            // background-color: red;
+                            .list {
+                                    background-color: $mainblue;
+                                    color: $languagegreen;
+                                    font-weight: bold;
+                                    border-radius: 50%;
+                                    width: 22vw;
+                                    height: 22vw;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-align: center;
                             }
                         }
                     }
@@ -234,22 +241,33 @@ $languagewhite: #d9e2e2;
                     .skillicons {
                         // the frontend
                         .front {
+                            // background-color: yellow;
                             animation-name: moveInCenter;
                             animation-duration: 1s;
-                            p {
-                                // set the right size
-                                font-size: 1.1vw;
+                            margin: 0 0 4vh 0;
+                            position: relative;
+                            left: -5vw;
+                            .skilltype {
+                                // background-color: yellow;
+                                margin: 0 0 0 10.8vw;
+                                p {
+                                    // set the right size
+                                    font-size: 1.4vw;
+                                }
                             }
                             // The frontend icons
                             .icons {
+                                // Whole row of icons
                                 display: flex;
-                                gap: 8px;
+                                gap: 15px;
+                                margin: 0 5vw 0 10vw;
+                                // background-color: yellow;
                                 // The frontend icon circles
                                 .iconblock {
                                     // set the size and radius
                                     background-color: $mainblue;
-                                    width: 5.5vw;
-                                    height: 5.5vw;
+                                    width: 7vw;
+                                    height: 7vw;
                                     border-radius: 50%;
                                     animation-name: moveInRight;
                                     animation-duration: 2s;
@@ -261,16 +279,16 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 2.8vw;
-                                            height: 6vh;
+                                            width: 3.8vw;
+                                            height: 7.6vh;
                                             margin: 3.5vh 0 0 0;
                                         }
                                         P {
-                                            font-size: 1.3vh;
+                                            font-size: 1.8vh;
                                             font-weight: 500;
-                                            color: #F1662A;
-                                            opacity: .7;
-                                            margin: 0 0 3vh 0;
+                                            color: #28c1cc;
+                                            // opacity: .7;
+                                            margin: .5vh 0 3vh 0;
                                         }
                                     }
                                     #css {
@@ -280,16 +298,16 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 2.8vw;
-                                            height: 6vh;
+                                            width: 3.8vw;
+                                            height: 7.6vh;
                                             margin: 3.5vh 0 0 0;
                                         }
                                         P {
-                                            font-size: 1.3vh;
+                                            font-size: 1.8vh;
                                             font-weight: 500;
-                                            color: #1572B6;
-                                            // opacity: .8;
-                                            margin: 0 0 3vh 0;
+                                            color: #28c1cc;
+                                            // opacity: .7;
+                                            margin: .5vh 0 3vh 0;
                                         }
                                     }
                                     #js {
@@ -391,12 +409,13 @@ $languagewhite: #d9e2e2;
                             .icons {
                                 display: flex;
                                 gap: 8px;
+                                margin: 0 5vw 0 10vw;
                                 // The backend icon circles
                                 .iconblock {
                                     // set the size and radius
                                     background-color: $mainblue;
-                                    width: 4.5vw;
-                                    height: 4.5vw;
+                                    width: 7vw;
+                                    height: 7vw;
                                     border-radius: 50%;
                                     // The actual settings for the icons
                                     #python {
