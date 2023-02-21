@@ -11,11 +11,12 @@ $languagegreen: #28c1cc;
 $languagewhite: #d9e2e2;
 
 * {
-    font-family: 'Inter', sans-serif;
+    // font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     body {
         margin: 0;
+        font-family: 'Inter', sans-serif;
         .house {
             // maybe column flexbox
             display: flex;
@@ -211,6 +212,7 @@ $languagewhite: #d9e2e2;
                     // The Experience list
                     .skillslist {
                         // pad and position
+                        margin-right: 5vw;
                         animation-name: moveInLeft;
                         animation-duration: 2s;
                         // background-color: red;
@@ -220,6 +222,7 @@ $languagewhite: #d9e2e2;
                             .list {
                                     background-color: $mainblue;
                                     color: $languagegreen;
+                                    font-family: 'Julius Sans One', sans-serif;
                                     font-weight: bold;
                                     border-radius: 50%;
                                     width: 22vw;
@@ -401,6 +404,8 @@ $languagewhite: #d9e2e2;
                         .back {
                             animation-name: moveInCenter;
                             animation-duration: 1s;
+                            position: relative;
+                            left: -5vw;
                             p {
                                 // set the right size
                                 font-size: 1.1vw;
@@ -408,7 +413,7 @@ $languagewhite: #d9e2e2;
                             // The backend icons
                             .icons {
                                 display: flex;
-                                gap: 8px;
+                                gap: 15px;
                                 margin: 0 5vw 0 10vw;
                                 // The backend icon circles
                                 .iconblock {
