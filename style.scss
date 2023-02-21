@@ -6,8 +6,10 @@ $skillswhite: #FFFFFF;
 $aboutgreen: #0E4946;
 $skillsteal: #146166;
 $iconblock: #023430;
+$languagecreamtwo: rgb(240, 228, 206);
 $languagecream: rgb(170, 165, 157);
 $languagegreen: #28c1cc;
+$languagegreentwo: #4F9F89;
 $languagewhite: #d9e2e2;
 
 * {
@@ -221,7 +223,8 @@ $languagewhite: #d9e2e2;
                             // background-color: red;
                             .list {
                                     background-color: $mainblue;
-                                    color: $languagegreen;
+                                    // color: #4F9F89;
+                                    color: white;
                                     font-family: 'Julius Sans One', sans-serif;
                                     font-weight: bold;
                                     border-radius: 50%;
@@ -287,10 +290,9 @@ $languagewhite: #d9e2e2;
                                             margin: 3.5vh 0 0 0;
                                         }
                                         P {
-                                            font-size: 1.8vh;
-                                            font-weight: 500;
-                                            color: #28c1cc;
-                                            // opacity: .7;
+                                            font-size: 1.5vh;
+                                            // font-weight: bold;
+                                            color: $languagegreentwo;
                                             margin: .5vh 0 3vh 0;
                                         }
                                     }
@@ -306,10 +308,9 @@ $languagewhite: #d9e2e2;
                                             margin: 3.5vh 0 0 0;
                                         }
                                         P {
-                                            font-size: 1.8vh;
-                                            font-weight: 500;
-                                            color: #28c1cc;
-                                            // opacity: .7;
+                                            font-size: 1.5vh;
+                                            // font-weight: 500;
+                                            color: $languagegreentwo;
                                             margin: .5vh 0 3vh 0;
                                         }
                                     }
@@ -320,17 +321,16 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 2.5vw;
-                                            height: 4.5vh;
+                                            width: 2.8vw;
+                                            height: 5.5vh;
                                             border-radius: 5px;
                                             margin: 4vh 0 0 0;
                                         }
                                         P {
-                                            font-size: 1.3vh;
-                                            font-weight: 500;
-                                            color: #FAD81C;
-                                            // opacity: .8;
-                                            margin: 1vh 0 3.5vh 0;
+                                            font-size: 1.5vh;
+                                            // font-weight: bold;
+                                            color: $languagegreentwo;
+                                            margin: 1.3vh 0 3vh 0;
                                         }
                                     }
                                     #react {
@@ -341,19 +341,19 @@ $languagewhite: #d9e2e2;
                                         height: 100%;
                                         img {
                                             width: 3vw;
-                                            height: 7.1vh;
-                                            margin: 4vh 0 0 0;
+                                            height: 5.5vh;
+                                            margin: 1vh 0 0 0;
                                         }
                                         p {
-                                            font-size: 1.3vh;
+                                            font-size: 1.5vh;
                                             font-weight: 500;
-                                            color: #03B7D8;
-                                            // opacity: .8;
-                                            margin: 0 0 4.7vh 0;
+                                            color: $languagegreentwo;
+                                            margin: 1.2vh 0 0 0;
                                         }
                                     }
                                     #sass {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
@@ -361,15 +361,23 @@ $languagewhite: #d9e2e2;
                                             width: 3vw;
                                             height: 4vh;
                                         }
+                                        p {
+                                            font-size: 1.3vh;
+                                        }
                                     }
                                     #tailwind {
                                         display: flex;
+                                        flex-direction: column;
+
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 4vh;
+                                        }
+                                        p {
+                                            font-size: 1.3vh;
                                         }
                                     }
                                 }
