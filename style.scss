@@ -515,7 +515,17 @@ $languagewhite: #d9e2e2;
                                         img {
                                             width: 2.8vw;
                                             height: 6vh;
-                                            margin: 1vh 0 0 0;
+                                            margin: 1vh 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 0 0 1vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #postgre {
@@ -525,9 +535,19 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 6vh;
+                                            width: 3.5vw;
+                                            height: 6.3vh;
                                             margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1vh 0 1vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #firebase {
@@ -537,11 +557,21 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3.3vw;
-                                            height: 7.3vh;
+                                            width: 3.5vw;
+                                            height: 7.5vh;
                                             margin: 1vh 0 1.8vh .2vw;
                                             margin-bottom: 1vh;
                                             margin-left: .2vw;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 0 0 2vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #mongodb {
@@ -551,8 +581,19 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3.3vw;
-                                            height: 7vh;
+                                            width: 1.5vw;
+                                            height: 7.3vh;
+                                            margin: .5vw 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 0 0 2vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                 }

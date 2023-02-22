@@ -460,7 +460,17 @@
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs img {
   width: 2.8vw;
   height: 6vh;
-  margin: 1vh 0 0 0;
+  margin: 1vh 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs p {
+  font-size: 1.6vh;
+  font-weight: 500;
+  color: #4F9F89;
+  color: rgb(28, 177, 90);
+  opacity: 0.6;
+  margin: 0 0 1vh 0;
+  animation-name: moveInCenter2;
+  animation-duration: 5s;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre {
   display: flex;
@@ -470,9 +480,19 @@
   height: 100%;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre img {
-  width: 3vw;
-  height: 6vh;
+  width: 3.5vw;
+  height: 6.3vh;
   margin: 1vh 0 0 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre p {
+  font-size: 1.6vh;
+  font-weight: 500;
+  color: #4F9F89;
+  color: rgb(28, 177, 90);
+  opacity: 0.6;
+  margin: 1vh 0 1vh 0;
+  animation-name: moveInCenter2;
+  animation-duration: 5s;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase {
   display: flex;
@@ -482,11 +502,21 @@
   height: 100%;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase img {
-  width: 3.3vw;
-  height: 7.3vh;
+  width: 3.5vw;
+  height: 7.5vh;
   margin: 1vh 0 1.8vh 0.2vw;
   margin-bottom: 1vh;
   margin-left: 0.2vw;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase p {
+  font-size: 1.6vh;
+  font-weight: 500;
+  color: #4F9F89;
+  color: rgb(28, 177, 90);
+  opacity: 0.6;
+  margin: 0 0 2vh 0;
+  animation-name: moveInCenter2;
+  animation-duration: 5s;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb {
   display: flex;
@@ -496,8 +526,19 @@
   height: 100%;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb img {
-  width: 3.3vw;
-  height: 7vh;
+  width: 1.5vw;
+  height: 7.3vh;
+  margin: 0.5vw 0 1vh 0;
+}
+* body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb p {
+  font-size: 1.6vh;
+  font-weight: 500;
+  color: #4F9F89;
+  color: rgb(28, 177, 90);
+  opacity: 0.6;
+  margin: 0 0 2vh 0;
+  animation-name: moveInCenter2;
+  animation-duration: 5s;
 }
 * body .house .skills .pageskills .skillicons .back .icons #pythoncircle {
   animation-name: moveInRight;
