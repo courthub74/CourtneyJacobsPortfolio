@@ -6,11 +6,20 @@ $skillswhite: #FFFFFF;
 $aboutgreen: #0E4946;
 $skillsteal: #146166;
 $iconblock: #023430;
+$languagecreamtwo: rgb(240, 228, 206);
+$languagecream: rgb(170, 165, 157);
+$languagegreen: #28c1cc;
+$languagegreentwo: #4F9F89;
+$languagegreenthree: rgb(28, 177, 90);
+$languagewhite: #d9e2e2;
 
 * {
-    font-family: 'Inter', sans-serif;
+    // font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     body {
         margin: 0;
+        font-family: 'Inter', sans-serif;
         .house {
             // maybe column flexbox
             display: flex;
@@ -23,17 +32,23 @@ $iconblock: #023430;
                     // background-color: palevioletred;
                     display: flex;
                     justify-content: space-between;
-                    padding: 2%;
+                    // flex-direction: row-reverse;
+                    // padding: 2%;
                     img {
                         width: 12vw;
                         height: 12vw;
                         padding: 1vw;
+                        margin: 1vh 0 0 3vw;
+                        animation-name: moveInCenter;
+                        animation-duration: 1s;
+                        // background-color: yellowgreen;
                     }
                     .navbar {
-                        animation-name: moveInTop;
+                        animation-name: moveInRight;
                         animation-duration: 1s;
                         ul {    
                             text-align: center;
+                            margin: 8vh 9vw 0 0;
                             // background-color: green;
                             a {
                                 cursor: pointer;
@@ -46,9 +61,9 @@ $iconblock: #023430;
                             }
                             li {
                                 display: inline;
-                                padding: 0 1.5vw 0 0;
+                                padding: 0 1vw 0 0;
                                 list-style: none;
-                                font-size: 1.4vw;
+                                font-size: 1.2vw;
                                 font-weight: bold;
                             }
                             a {
@@ -66,7 +81,85 @@ $iconblock: #023430;
                     }
                 }
                 .bothome {
-                    background-color: #023430;
+                    // background-color: #023430;
+                    .grid-container {
+                            display: grid;
+                            margin: 0 10vw 0 0;
+                            .header {
+                                text-align: center;
+                                grid-column: 1;
+                                margin: 8vh 0 0 12vw;
+                                animation-name: moveInCenter;
+                                animation-duration: 1s;
+                                #header {
+                                    font-size: 2vw;
+                                    font-weight: bold;
+                                }
+                                #para {
+                                    font-size: 1.2vw;
+                                    
+                                }
+                            }
+                            .socials {
+                                grid-column: 1;
+                                grid-row: 3;
+                                display: flex;
+                                align-items: center;
+                                margin: -25vh 0 0 17vw;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1.5s;
+                                a {
+                                    #github {
+                                        width: 3vw;
+                                        height: 3vw;
+                                        animation-name: moveInLeft;
+                                        animation-duration: 3s;
+                                    }
+                                    #linkedin {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        margin: 0 0 0 1.5vw;
+                                        animation-name: moveInLeft;
+                                        animation-duration: 2.5s;
+                                    }
+                                    #twitter {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        margin: 0 0 0 1vw;
+                                        animation-name: moveInLeft;
+                                        animation-duration: 2s;
+                                    }
+                                    #instagram {
+                                        width: 4.6vw;
+                                        height: 4.6vw;
+                                        margin: 0 0 0 .5vw;
+                                        animation-name: moveInLeft;
+                                        animation-duration: 1.5s;
+                                    }
+                                    #facebook {
+                                        width: 3vw;
+                                        height: 3vw;
+                                        margin: 0 0 0 1vw;
+                                        animation-name: moveInLeft;
+                                        animation-duration: 1s;
+                                    }
+                                }
+                            }
+                            .photo {
+                                grid-column: 2;
+                                grid-row: 1 / span 3;
+                                animation-name: moveInCenter;
+                                animation-duration: 1s;
+                                img {
+                                    border-radius: 50%;
+                                    width: 25vw;
+                                    height: 25vw;
+                                    margin-top: -1vh;
+                                    margin-left: 15vw;
+                                }
+                            }
+                        
+                    }
                 }
             }
             // SKILLS SECTION
@@ -116,23 +209,33 @@ $iconblock: #023430;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    padding: 5vw 15vw;
+                    margin: 8vh 0 0 0;
+                    // padding: 3vw 0 0 12vw;
+                    // background-color: red;
                     // The Experience list
                     .skillslist {
                         // pad and position
-                        // background-color: red;
+                        margin-right: 5vw;
                         animation-name: moveInLeft;
                         animation-duration: 2s;
-                        h2 {
-                            font-size: 1.6vw;
-                            margin-left: 3.7vw;
-                        }
-                        ul {
-                            li {
-                                text-align: left;
-                                list-style: none;
-                                padding: 1vw;
-                                font-size: 1.3vw;
+                        // background-color: red;
+                        .skillscontent {
+                            margin: 0 0 0 10vw;
+                            // background-color: red;
+                            .list {
+                                    background-color: $mainblue;
+                                    // color: #4F9F89;
+                                    color: white;
+                                    font-family: 'Julius Sans One', sans-serif;
+                                    font-weight: bold;
+                                    border-radius: 50%;
+                                    width: 22vw;
+                                    height: 22vw;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-align: center;
                             }
                         }
                     }
@@ -145,82 +248,167 @@ $iconblock: #023430;
                     .skillicons {
                         // the frontend
                         .front {
-                            p {
-                                // set the right size
-                                font-size: 1.5vw;
+                            // background-color: yellow;
+                            animation-name: moveInCenter;
+                            animation-duration: 1s;
+                            margin: 0 0 4vh 0;
+                            position: relative;
+                            left: -5vw;
+                            .skilltype {
+                                // background-color: yellow;
+                                margin: 0 0 0 10.8vw;
+                                p {
+                                    // set the right size
+                                    font-size: 1.4vw;
+                                }
                             }
                             // The frontend icons
                             .icons {
+                                // Whole row of icons
                                 display: flex;
-                                gap: 8px;
+                                gap: 15px;
+                                margin: 0 5vw 0 10vw;
+                                // background-color: yellow;
                                 // The frontend icon circles
                                 .iconblock {
                                     // set the size and radius
                                     background-color: $mainblue;
-                                    width: 4.5vw;
-                                    height: 4.5vw;
+                                    width: 7vw;
+                                    height: 7vw;
                                     border-radius: 50%;
                                     animation-name: moveInRight;
                                     animation-duration: 2s;
                                     // The actual settings for the icons
                                     #html {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 7vh;
+                                            width: 3.8vw;
+                                            height: 7.6vh;
+                                            margin: 3.5vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.5vh;
+                                            // font-weight: bold;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: .5vh 0 3vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #css {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 7vh; 
+                                            width: 3.8vw;
+                                            height: 7.6vh;
+                                            margin: 3.5vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.5vh;
+                                            // font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: .5vh 0 3vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #js {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 7.2vh;
+                                            width: 2.8vw;
+                                            height: 5.5vh;
+                                            border-radius: 5px;
+                                            margin: 4vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.5vh;
+                                            // font-weight: bold;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1.3vh 0 3vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #react {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3.5vw;
-                                            height: 6.5vh;
+                                            width: 3vw;
+                                            height: 5.5vh;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.5vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1.2vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #sass {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 4vh;
+                                            width: 3.7vw;
+                                            height: 4.6vh;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.5vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1.7vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #tailwind {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 4vh;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.5vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1.7vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                 }
@@ -253,83 +441,159 @@ $iconblock: #023430;
                         }
                         // the backend
                         .back {
+                            animation-name: moveInCenter;
+                            animation-duration: 1s;
+                            position: relative;
+                            left: -5vw;
                             p {
                                 // set the right size
-                                font-size: 1.5vw;
+                                font-size: 1.1vw;
                             }
                             // The backend icons
                             .icons {
                                 display: flex;
-                                gap: 8px;
+                                gap: 15px;
+                                margin: 0 5vw 0 10vw;
                                 // The backend icon circles
                                 .iconblock {
                                     // set the size and radius
                                     background-color: $mainblue;
-                                    width: 4.5vw;
-                                    height: 4.5vw;
+                                    width: 7vw;
+                                    height: 7vw;
                                     border-radius: 50%;
                                     // The actual settings for the icons
                                     #python {
                                         display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        height: 100%;
-                                        img {
-                                            width: 3.5vw;
-                                            height: 7vh;
-                                        } 
-                                    }
-                                    #django {
-                                        display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 4vw;
-                                            height: 6.5vh;
-                                            margin-right: .3vw;
+                                            height: 8vh;
+                                            margin: -.5vh 0 1vh 0;
                                         }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: -.7vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
+                                        } 
+                                    }
+                                    #django {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 4vw;
+                                            height: 7.5vh;
+                                            margin: -.1vh .3vw 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: -.1vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
+                                        } 
                                     }
                                     #nodejs {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 2.8vw;
-                                            height: 6vh; 
+                                            height: 6vh;
+                                            margin: 1vh 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 0 0 1vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #postgre {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 6vh;
+                                            width: 3.5vw;
+                                            height: 6.3vh;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1vh 0 1vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #firebase {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3.3vw;
-                                            height: 7.3vh;
-                                            margin-bottom: 1.8vh;
+                                            width: 3.5vw;
+                                            height: 7.5vh;
+                                            margin: 1vh 0 1.8vh .2vw;
+                                            margin-bottom: 1vh;
                                             margin-left: .2vw;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 0 0 2vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #mongodb {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3.3vw;
-                                            height: 7vh;
+                                            width: 1.5vw;
+                                            height: 7.3vh;
+                                            margin: .5vw 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 0 0 2vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                 }
@@ -420,6 +684,30 @@ $iconblock: #023430;
                         animation-name: moveInLeft;
                         animation-duration: 2s;
                         margin-top: 5vh;
+                        .resume {
+                                // background-color: yellow;
+                                display: flex;
+                                justify-content: center;
+                                border: 1px solid white;
+                                border-radius: 5px;
+                            a {
+                                text-decoration: none;
+                                color: white;
+                                font-size: 2vh;
+                                img {
+                                    width: 1vw;
+                                    height: 1vw;
+                                    margin: 1vh 0 0 0;
+                                    // background-color: pink;
+                                }
+                            }
+                            img {
+                                width: 2vw;
+                                height: 2vw;
+                                margin: .5vh 0 0 0;
+                                // background-color: pink;
+                            }
+                        }
                     }
                 }
                 .coding {
@@ -596,13 +884,13 @@ $iconblock: #023430;
                         // background-color: antiquewhite;
                         text-align: right;
                         font-size: 5vw;
-                        margin: 6vh 4vw 0 0;
+                        margin: 4.1vh 4vw 0 0;
                     }
                 }
                 .experiencecontainer {
                     display: flex;
                     justify-content: center;
-                    margin: 5vh 70vh 0 0;
+                    margin: 5vh 54vh 0 0;
                     // background-color: yellow;
                     .places {
                         display: flex;
@@ -672,7 +960,7 @@ $iconblock: #023430;
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 73vh;
+                        height: 70vh;
                         margin: 0 2vw 2vh 2vw;
                         animation-name: moveInCenter;
                         animation-duration:  1s;
@@ -786,6 +1074,8 @@ $iconblock: #023430;
                     .nameemaildiv {
                         margin: 0 0 0 5vw;
                         .name {
+                            animation-name: moveInCenter;
+                            animation-duration: 1s;
                             p {
                                 font-size: 1.5vw;
                             }
@@ -800,6 +1090,8 @@ $iconblock: #023430;
                             }
                         }
                         .email {
+                            animation-name: moveInCenter;
+                            animation-duration: 1s;
                             p {
                                 font-size: 1.5vw;
                             }
@@ -819,6 +1111,8 @@ $iconblock: #023430;
                             justify-content: left;
                             margin: 5vh 0 0 2vw;
                             #github {
+                                animation-name: moveInLeft;
+                                animation-duration: 3s;
                                 margin: 0 1vw 0 0;
                                 img {
                                     width: 2.8vw;
@@ -826,6 +1120,8 @@ $iconblock: #023430;
                                 }
                             }
                             #linkedin {
+                                animation-name: moveInLeft;
+                                animation-duration: 2.5s;
                                 margin: 0 1vw 0 0;
                                 img {
                                     width: 3.7vw;
@@ -833,6 +1129,8 @@ $iconblock: #023430;
                                 }
                             }
                             #twitter {
+                                animation-name: moveInLeft;
+                                animation-duration: 2s;
                                 margin: 0 .5vw 0 -.4vw;
                                 img {
                                     width: 3.5vw;
@@ -840,6 +1138,8 @@ $iconblock: #023430;
                                 }
                             }
                             #instagram {
+                                animation-name: moveInLeft;
+                                animation-duration: 1.5s;
                                 margin: 0 .9vw 0 -.01vw;
                                 img {
                                     width: 4vw;
@@ -847,6 +1147,8 @@ $iconblock: #023430;
                                 }
                             }
                             #facebook {
+                                animation-name: moveInLeft;
+                                animation-duration: 1s;
                                 img {
                                     width: 2.9vw;
                                     height: 2.9vw;
@@ -857,6 +1159,8 @@ $iconblock: #023430;
                     .messageandsubmitdiv {
                         margin: 0 0 0 5vw;
                         .message {
+                            animation-name: moveInCenter;
+                            animation-duration: 1s;
                             p {
                                 font-size: 1.5vw;
                             }
@@ -874,6 +1178,8 @@ $iconblock: #023430;
                         .submit {
                             // background-color: yellowgreen;
                             margin: 6vh 0 0 0;
+                            animation-name: moveInCenter;
+                            animation-duration: 1s;
                             button {
                                 width: 100%;
                                 cursor: pointer;
@@ -985,6 +1291,26 @@ $iconblock: #023430;
 
     100% {
         opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+
+// FROM CENTER 2
+@keyframes moveInCenter2 {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(0px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: .6;
         transform: translate(0);
     } 
 }
