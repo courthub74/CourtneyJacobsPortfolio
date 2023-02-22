@@ -7,7 +7,7 @@ $aboutgreen: #0E4946;
 $skillsteal: #146166;
 $iconblock: #023430;
 $languagecreamtwo: rgb(240, 228, 206);
-$languagecream: rgb(170, 165, 157);
+$languagecream: rgb(146, 144, 144);
 $languagegreen: #28c1cc;
 $languagegreentwo: #4F9F89;
 $languagegreenthree: rgb(28, 177, 90);
@@ -292,12 +292,14 @@ $languagewhite: #d9e2e2;
                                         }
                                         P {
                                             font-size: 1.5vh;
-                                            // font-weight: bold;
+                                            font-weight: 700;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .8;
                                             margin: .5vh 0 3vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #css {
@@ -313,13 +315,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         P {
                                             font-size: 1.5vh;
-                                            // font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .8;
                                             margin: .5vh 0 3vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #js {
@@ -336,13 +340,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         P {
                                             font-size: 1.5vh;
-                                            // font-weight: bold;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 1.3vh 0 3vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #react {
@@ -358,13 +364,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.5vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            opacity: .9;
                                             margin: 1.2vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #sass {
@@ -380,13 +388,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.5vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 1.7vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #tailwind {
@@ -402,13 +412,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.5vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            opacity: .9;
                                             margin: 1.7vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                 }
@@ -475,13 +487,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.6vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: -.7vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         } 
                                     }
                                     #django {
@@ -497,13 +511,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.6vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: -.1vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         } 
                                     }
                                     #nodejs {
@@ -519,13 +535,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.6vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 0 0 1vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #postgre {
@@ -541,13 +559,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.6vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 1vh 0 1vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #firebase {
@@ -565,13 +585,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.6vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 0 0 2vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                     #mongodb {
@@ -587,13 +609,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         p {
                                             font-size: 1.6vh;
-                                            font-weight: 500;
+                                            font-weight: 700;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: rgb(146, 144, 144);
+                                            // opacity: .9;
                                             margin: 0 0 2vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            font-family: 'Julius Sans One', sans-serif;
                                         }
                                     }
                                 }
@@ -1310,7 +1334,7 @@ $languagewhite: #d9e2e2;
     }
 
     100% {
-        opacity: .6;
+        // opacity: .6;
         transform: translate(0);
     } 
 }
