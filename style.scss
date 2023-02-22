@@ -10,6 +10,7 @@ $languagecreamtwo: rgb(240, 228, 206);
 $languagecream: rgb(170, 165, 157);
 $languagegreen: #28c1cc;
 $languagegreentwo: #4F9F89;
+$languagegreenthree: rgb(28, 177, 90);
 $languagewhite: #d9e2e2;
 
 * {
@@ -292,8 +293,11 @@ $languagewhite: #d9e2e2;
                                         P {
                                             font-size: 1.5vh;
                                             // font-weight: bold;
-                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
                                             margin: .5vh 0 3vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #css {
@@ -311,7 +315,11 @@ $languagewhite: #d9e2e2;
                                             font-size: 1.5vh;
                                             // font-weight: 500;
                                             color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
                                             margin: .5vh 0 3vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #js {
@@ -330,7 +338,11 @@ $languagewhite: #d9e2e2;
                                             font-size: 1.5vh;
                                             // font-weight: bold;
                                             color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
                                             margin: 1.3vh 0 3vh 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #react {
@@ -348,7 +360,11 @@ $languagewhite: #d9e2e2;
                                             font-size: 1.5vh;
                                             font-weight: 500;
                                             color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
                                             margin: 1.2vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #sass {
@@ -358,26 +374,41 @@ $languagewhite: #d9e2e2;
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            width: 3vw;
-                                            height: 4vh;
+                                            width: 3.7vw;
+                                            height: 4.6vh;
+                                            margin: 1vh 0 0 0;
                                         }
                                         p {
-                                            font-size: 1.3vh;
+                                            font-size: 1.5vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1.7vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                     #tailwind {
                                         display: flex;
                                         flex-direction: column;
-
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 4vh;
+                                            margin: 1vh 0 0 0;
                                         }
                                         p {
-                                            font-size: 1.3vh;
+                                            font-size: 1.5vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: 1.7vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
                                         }
                                     }
                                 }
@@ -433,59 +464,89 @@ $languagewhite: #d9e2e2;
                                     // The actual settings for the icons
                                     #python {
                                         display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        height: 100%;
-                                        img {
-                                            width: 3.5vw;
-                                            height: 7vh;
-                                        } 
-                                    }
-                                    #django {
-                                        display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 4vw;
-                                            height: 6.5vh;
-                                            margin-right: .3vw;
+                                            height: 8vh;
+                                            margin: -.5vh 0 1vh 0;
                                         }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: -.7vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
+                                        } 
+                                    }
+                                    #django {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 4vw;
+                                            height: 7.5vh;
+                                            margin: -.1vh .3vw 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            font-weight: 500;
+                                            color: $languagegreentwo;
+                                            color: $languagegreenthree;
+                                            opacity: .6;
+                                            margin: -.1vh 0 0 0;
+                                            animation-name: moveInCenter2;
+                                            animation-duration: 5s;
+                                        } 
                                     }
                                     #nodejs {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 2.8vw;
-                                            height: 6vh; 
+                                            height: 6vh;
+                                            margin: 1vh 0 0 0;
                                         }
                                     }
                                     #postgre {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 3vw;
                                             height: 6vh;
+                                            margin: 1vh 0 0 0;
                                         }
                                     }
                                     #firebase {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
                                         img {
                                             width: 3.3vw;
                                             height: 7.3vh;
-                                            margin-bottom: 1.8vh;
+                                            margin: 1vh 0 1.8vh .2vw;
+                                            margin-bottom: 1vh;
                                             margin-left: .2vw;
                                         }
                                     }
                                     #mongodb {
                                         display: flex;
+                                        flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
                                         height: 100%;
@@ -1189,6 +1250,26 @@ $languagewhite: #d9e2e2;
 
     100% {
         opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+
+// FROM CENTER 2
+@keyframes moveInCenter2 {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(0px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: .6;
         transform: translate(0);
     } 
 }
