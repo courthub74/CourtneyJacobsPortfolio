@@ -247,13 +247,13 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html P {
   font-size: 1.5vh;
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 0.5vh 0 3vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #css {
   display: flex;
@@ -269,14 +269,14 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #css P {
   font-size: 1.5vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 0.5vh 0 3vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #js {
   display: flex;
@@ -293,14 +293,14 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #js P {
   font-size: 1.5vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 1.3vh 0 3vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #react {
   display: flex;
@@ -316,7 +316,7 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #react p {
   font-size: 1.5vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
@@ -324,7 +324,7 @@
   margin: 1.2vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #sass {
   display: flex;
@@ -340,14 +340,14 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #sass p {
   font-size: 1.5vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 1.7vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind {
   display: flex;
@@ -363,7 +363,7 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind p {
   font-size: 1.5vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
@@ -371,7 +371,7 @@
   margin: 1.7vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons #htmlcircle {
   animation-name: moveInRight;
@@ -431,14 +431,14 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #python p {
   font-size: 1.6vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: -0.7vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #django {
   display: flex;
@@ -454,14 +454,14 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #django p {
   font-size: 1.6vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: -0.1vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs {
   display: flex;
@@ -477,14 +477,14 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs p {
   font-size: 1.6vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 0 0 1vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre {
   display: flex;
@@ -500,14 +500,14 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre p {
   font-size: 1.6vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 1vh 0 1vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase {
   display: flex;
@@ -525,14 +525,14 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase p {
   font-size: 1.6vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 0 0 2vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb {
   display: flex;
@@ -548,14 +548,14 @@
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb p {
   font-size: 1.6vh;
-  font-weight: 700;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
   color: rgb(146, 144, 144);
   margin: 0 0 2vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons #pythoncircle {
   animation-name: moveInRight;
