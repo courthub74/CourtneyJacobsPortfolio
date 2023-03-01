@@ -51,7 +51,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 // animation-duration: 1s;
                                 ul {    
                                     text-align: center;
-                                    margin: 8vh 9vw 0 0;
+                                    margin: 8vh 4.5vw 0 0;
                                     // background-color: green;
                                     a {
                                         cursor: pointer;
@@ -64,9 +64,9 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                     }
                                     li {
                                         display: inline;
-                                        padding: 0 1vw 0 0;
+                                        padding: 0 2vw 0 0;
                                         list-style: none;
-                                        font-size: 1.2vw;
+                                        font-size: 1.3vw;
                                         font-weight: bold;
                                     }
                                     a {
@@ -95,11 +95,11 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         // animation-name: moveInCenter;
                                         // animation-duration: 1s;
                                         #header {
-                                            font-size: 2vw;
+                                            font-size: 2.5vw;
                                             font-weight: bold;
                                         }
                                         #para {
-                                            font-size: 1.2vw;
+                                            font-size: 1.4vw;
                                             
                                         }
                                     }
@@ -108,7 +108,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         grid-row: 3;
                                         display: flex;
                                         align-items: center;
-                                        margin: -25vh 0 0 17vw;
+                                        margin: -30vh 0 0 16vw;
                                         // animation-name: moveInLeft;
                                         // animation-duration: 1.5s;
                                         a {
@@ -160,9 +160,9 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         // animation-duration: 1s;
                                         img {
                                             border-radius: 50%;
-                                            width: 25vw;
-                                            height: 25vw;
-                                            margin-top: -1vh;
+                                            width: 30vw;
+                                            height: 30vw;
+                                            margin-top: -5vh;
                                             margin-left: 15vw;
                                         }
                                     }
@@ -194,7 +194,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         // animation-duration: 1s;
                         ul {
                             text-align: center;
-                            margin: 8vh 0 0 3vw;
+                            margin: 8vh 0 0 4vw;
                             li {
                                 list-style: none;
                                 display: inline;

@@ -28,7 +28,7 @@
 }
 * body .house .section #homeselect .home .tophome .navbar ul {
   text-align: center;
-  margin: 8vh 9vw 0 0;
+  margin: 8vh 4.5vw 0 0;
 }
 * body .house .section #homeselect .home .tophome .navbar ul a {
   cursor: pointer;
@@ -41,9 +41,9 @@
 }
 * body .house .section #homeselect .home .tophome .navbar ul li {
   display: inline;
-  padding: 0 1vw 0 0;
+  padding: 0 2vw 0 0;
   list-style: none;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   font-weight: bold;
 }
 * body .house .section #homeselect .home .tophome .navbar ul a {
@@ -67,18 +67,18 @@
   margin: 8vh 0 0 12vw;
 }
 * body .house .section #homeselect .home .bothome .grid-container .header #header {
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: bold;
 }
 * body .house .section #homeselect .home .bothome .grid-container .header #para {
-  font-size: 1.2vw;
+  font-size: 1.4vw;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials {
   grid-column: 1;
   grid-row: 3;
   display: flex;
   align-items: center;
-  margin: -25vh 0 0 17vw;
+  margin: -30vh 0 0 16vw;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials a #github {
   width: 3vw;
@@ -120,9 +120,9 @@
 }
 * body .house .section #homeselect .home .bothome .grid-container .photo img {
   border-radius: 50%;
-  width: 25vw;
-  height: 25vw;
-  margin-top: -1vh;
+  width: 30vw;
+  height: 30vw;
+  margin-top: -5vh;
   margin-left: 15vw;
 }
 * body .house .skills {
@@ -142,7 +142,7 @@
 }
 * body .house .skills .topskills .navbar ul {
   text-align: center;
-  margin: 8vh 0 0 3vw;
+  margin: 8vh 0 0 4vw;
 }
 * body .house .skills .topskills .navbar ul li {
   list-style: none;

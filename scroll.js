@@ -120,3 +120,10 @@ const observerrights = new IntersectionObserver(function(entries, observerrights
 rights.forEach(right => {
     observerrights.observe(right);
 });
+
+
+
+// SOCIALS AND SKILLS
+const observerleftone = new IntersectionObserver(function(entries, observerleftone){
+    // The stuff
+});
