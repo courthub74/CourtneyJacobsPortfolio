@@ -42,13 +42,13 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 height: 12vw;
                                 padding: 1vw;
                                 margin: 1vh 0 0 3vw;
-                                animation-name: moveInCenter;
-                                animation-duration: 1s;
+                                // animation-name: moveInCenter;
+                                // animation-duration: 1s;
                                 // background-color: yellowgreen;
                             }
                             .navbar {
-                                animation-name: moveInRight;
-                                animation-duration: 1s;
+                                // animation-name: moveInRight;
+                                // animation-duration: 1s;
                                 ul {    
                                     text-align: center;
                                     margin: 8vh 9vw 0 0;
@@ -92,8 +92,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         text-align: center;
                                         grid-column: 1;
                                         margin: 8vh 0 0 12vw;
-                                        animation-name: moveInCenter;
-                                        animation-duration: 1s;
+                                        // animation-name: moveInCenter;
+                                        // animation-duration: 1s;
                                         #header {
                                             font-size: 2vw;
                                             font-weight: bold;
@@ -156,8 +156,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                     .photo {
                                         grid-column: 2;
                                         grid-row: 1 / span 3;
-                                        animation-name: moveInCenter;
-                                        animation-duration: 1s;
+                                        // animation-name: moveInCenter;
+                                        // animation-duration: 1s;
                                         img {
                                             border-radius: 50%;
                                             width: 25vw;
@@ -189,8 +189,9 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         // background-color: yellow;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // opacity: 0;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                         ul {
                             text-align: center;
                             margin: 8vh 0 0 3vw;
@@ -690,8 +691,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                     margin: 3.8vh 4vw 0 0;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                             ul {
                                 text-align: center;
                                 margin: 8vh 0 0 3vw;
@@ -728,9 +729,6 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         width: 30%;
                         font-size: 1.1vw;
                         line-height: 2.5;
-                        animation-name: moveInLeft;
-                        animation-duration: 2s;
-                        margin-top: 5vh;
                         .resume {
                                 // background-color: yellow;
                                 display: flex;
@@ -762,8 +760,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                     width: 30vw;
                     height: 40vh;
                     margin-bottom: 10vh;
-                    animation-name: moveInCenter;
-                    animation-duration: 2s;
+                    // animation-name: moveInCenter;
+                    // animation-duration: 1s;
                     img {
                         width: 20vw;
                         height: 38vh;
@@ -787,8 +785,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         margin: 4vh 4vw 0 0;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                             ul {
                                 text-align: center;
                                 margin: 8vh 0 0 3vw;
@@ -835,8 +833,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                animation-name: moveInLeft;
-                                animation-duration: 1s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -860,8 +858,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                animation-name: moveInCenter;
-                                animation-duration: 1.3s;
+                                // animation-name: moveInCenter;
+                                // animation-duration: 1.3s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -878,8 +876,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                animation-name: moveInRight;
-                                animation-duration: 1s;
+                                // animation-name: moveInRight;
+                                // animation-duration: 1s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -903,8 +901,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                     justify-content: space-between;
                     flex-direction: row-reverse;
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                         ul {
                             text-align: center;
                             margin: 8vh 0 0 3vw;
@@ -944,8 +942,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         flex-direction: column;
                         align-items: center;
                         margin: 3vh 0 0 0;
-                        animation-name: moveInCenter;
-                        animation-duration: 1s;
+                        // animation-name: moveInCenter;
+                        // animation-duration: 1s;
                         // background-color: yellow;
                         .courdevs {
                             width: 15vw;
@@ -1085,8 +1083,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         margin: 4vh 4vw 0 0;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 2s;
                         // animation-timing-function: ease-out;
                         ul {
                             text-align: center;
@@ -1104,7 +1102,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 }
                                 #selected {
                                     background-color: white;
-                                    color: $aboutgreen;
+                                    color: $mainblue;
                                     border-radius: 5px;
                                     padding: .4vw;
                                 }
@@ -1245,6 +1243,28 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
     }
 }
 
+.center {
+    animation-name: moveInCenter;
+    animation-duration: 2s;
+    // transition: all 2s ease-in;
+    // opacity: 1;
+}
+
+.top {
+    animation-name: moveInTop;
+    animation-duration: 2s;
+}
+
+.left {
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+}
+
+.right {
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
 // KEY FRAMES TIME
 
 // FROM TOP
@@ -1255,9 +1275,13 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
         transform: translateY(-100px);
     }
 
+    1% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
     80% {
-        /* BELOW makes it go extra and bounce back */
-        /* transform: translateX(20px); */
+        // opacity: 0;
     }
 
     100% {
@@ -1294,8 +1318,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
     }
 
     80% {
-        /* BELOW makes it go extra and bounce back */
-        /* transform: translateX(20px); */
+        // opacity: 0;
     }
 
     100% {
