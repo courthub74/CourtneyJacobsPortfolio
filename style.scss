@@ -108,47 +108,47 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         grid-row: 3;
                                         display: flex;
                                         align-items: center;
-                                        margin: -30vh 0 0 16vw;
+                                        margin: -30vh 0 0 15.5vw;
                                         // animation-name: moveInLeft;
                                         // animation-duration: 1.5s;
                                         a {
                                             #github {
                                                 width: 3vw;
                                                 height: 3vw;
-                                                animation-name: moveInLeft;
-                                                animation-duration: 100ms;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 100ms;
                                                 // animation-duration: 3s;
                                             }
                                             #linkedin {
                                                 width: 4vw;
                                                 height: 4vw;
                                                 margin: 0 0 0 1.5vw;
-                                                animation-name: moveInLeft;
-                                                animation-duration: 200ms;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 200ms;
                                                 // animation-duration: 2.5s;
                                             }
                                             #twitter {
                                                 width: 4vw;
                                                 height: 4vw;
                                                 margin: 0 0 0 1vw;
-                                                animation-name: moveInLeft;
-                                                animation-duration: 300ms;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 300ms;
                                                 // animation-duration: 2s;
                                             }
                                             #instagram {
                                                 width: 4.6vw;
                                                 height: 4.6vw;
                                                 margin: 0 0 0 .5vw;
-                                                animation-name: moveInLeft;
-                                                animation-duration: 400ms;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 400ms;
                                                 // animation-duration: 1.5s;
                                             }
                                             #facebook {
                                                 width: 3vw;
                                                 height: 3vw;
                                                 margin: 0 0 0 1vw;
-                                                animation-name: moveInLeft;
-                                                animation-duration: 500ms;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 500ms;
                                                 // animation-duration: 1s;
                                             }
                                         }
@@ -227,8 +227,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                     .skillslist {
                         // pad and position
                         margin-right: 5vw;
-                        animation-name: moveInLeft;
-                        animation-duration: 2s;
+                        // animation-name: moveInLeft;
+                        // animation-duration: 2s;
                         // background-color: red;
                         .skillscontent {
                             margin: 0 0 0 10vw;
@@ -288,8 +288,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                     width: 7vw;
                                     height: 7vw;
                                     border-radius: 50%;
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    // animation-name: moveInRight;
+                                    // animation-duration: 2s;
                                     // The actual settings for the icons
                                     #html {
                                         display: flex;
@@ -442,31 +442,31 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         }
                                     }
                                 }
-                                #htmlcircle {
-                                    // background-color: rebeccapurple;
-                                    animation-name: moveInRight;
-                                    animation-duration: 1s;
-                                }
-                                #csscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 1.5s; 
-                                }
-                                #jscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
-                                }
-                                #reactcircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2.5s;
-                                }
-                                #sasscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3s;
-                                }
-                                #tailwindcircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3.5s;
-                                }
+                                // #htmlcircle {
+                                //     // background-color: rebeccapurple;
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1s;
+                                // }
+                                // #csscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1.5s; 
+                                // }
+                                // #jscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2s;
+                                // }
+                                // #reactcircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2.5s;
+                                // }
+                                // #sasscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3s;
+                                // }
+                                // #tailwindcircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3.5s;
+                                // }
                             }
                         }
                         // the backend
@@ -645,31 +645,31 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         }
                                     }
                                 }
-                                #pythoncircle {
-                                    // background-color: rebeccapurple;
-                                    animation-name: moveInRight;
-                                    animation-duration: 1s;
-                                }
-                                #djangocircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 1.5s; 
-                                }
-                                #nodejscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
-                                }
-                                #postgrecircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2.5s;
-                                }
-                                #mongodbcircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3s;
-                                }
-                                #firebasecircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3.5s;
-                                }
+                                // #pythoncircle {
+                                //     // background-color: rebeccapurple;
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1s;
+                                // }
+                                // #djangocircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1.5s; 
+                                // }
+                                // #nodejscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2s;
+                                // }
+                                // #postgrecircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2.5s;
+                                // }
+                                // #mongodbcircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3s;
+                                // }
+                                // #firebasecircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3.5s;
+                                // }
                             }
                         }
                     }
@@ -750,6 +750,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 width: 2vw;
                                 height: 2vw;
                                 margin: .5vh 0 0 0;
+                                // transform:scale(1.1);
                                 // background-color: pink;
                             }
                         }
@@ -1156,8 +1157,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             justify-content: left;
                             margin: 5vh 0 0 2vw;
                             #github {
-                                animation-name: moveInLeft;
-                                animation-duration: 3s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 3s;
                                 margin: 0 1vw 0 0;
                                 img {
                                     width: 2.8vw;
@@ -1165,8 +1166,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 }
                             }
                             #linkedin {
-                                animation-name: moveInLeft;
-                                animation-duration: 2.5s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 2.5s;
                                 margin: 0 1vw 0 0;
                                 img {
                                     width: 3.7vw;
@@ -1174,8 +1175,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 }
                             }
                             #twitter {
-                                animation-name: moveInLeft;
-                                animation-duration: 2s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 2s;
                                 margin: 0 .5vw 0 -.4vw;
                                 img {
                                     width: 3.5vw;
@@ -1183,8 +1184,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 }
                             }
                             #instagram {
-                                animation-name: moveInLeft;
-                                animation-duration: 1.5s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1.5s;
                                 margin: 0 .9vw 0 -.01vw;
                                 img {
                                     width: 4vw;
@@ -1192,8 +1193,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 }
                             }
                             #facebook {
-                                animation-name: moveInLeft;
-                                animation-duration: 1s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1s;
                                 img {
                                     width: 2.9vw;
                                     height: 2.9vw;
@@ -1263,6 +1264,38 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
 .right {
     animation-name: moveInRight;
     animation-duration: 2s;
+}
+
+// For the SKILLS
+
+.rightone {
+    animation-name: moveInRight;
+    animation-duration: 500ms;
+}
+
+.righttwo {
+    animation-name: moveInRight;
+    animation-duration: 800ms;
+}
+
+.rightthree {
+    animation-name: moveInRight;
+    animation-duration: 1000ms;
+}
+
+.rightfour {
+    animation-name: moveInRight;
+    animation-duration: 1300ms;
+}
+
+.rightfive {
+    animation-name: moveInRight;
+    animation-duration: 1500ms;
+}
+
+.rightsix {
+    animation-name: moveInRight;
+    animation-duration: 2000ms;
 }
 
 // KEY FRAMES TIME

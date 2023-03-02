@@ -124,6 +124,174 @@ rights.forEach(right => {
 
 
 // SOCIALS AND SKILLS
-const observerleftone = new IntersectionObserver(function(entries, observerleftone){
+
+// Time to iterate through the 'righone' class for leftone class
+// query all 'rightone'
+const rightones = document.querySelectorAll('.rightones');
+console.log('Rightones === ', rightones);
+
+// options for leftones
+const optionsrightones = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px"
+};
+
+// from right one
+const observerrightones = new IntersectionObserver(function(entries, observerrightones){
     // The stuff
+    entries.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        }
+        console.log('RIGHTONES ===', entry.target);
+        // lets toggle the class on or off
+        entry.target.classList.toggle("rightone")
+        // so it doesn't repeat
+        observerrightones.unobserve(entry.target);
+    });
+}, optionsrightones);
+
+// iterate through the leftones and pass it through the observer for leftones
+rightones.forEach(rightone => {
+    observerrightones.observe(rightone);
 });
+
+// RIGHT TWOS
+const righttwos = document.querySelectorAll('.righttwos');
+console.log('Righttwos === ', righttwos);
+
+
+const optionsrighttwos = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px"
+};
+
+
+const observerrighttwos = new IntersectionObserver(function(entries, observerrighttwos){
+    // The stuff
+    entries.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        }
+        console.log('RIGHTTWO ===', entry.target);
+        // lets toggle the class on or off
+        entry.target.classList.toggle("righttwo")
+        // so it doesn't repeat
+        observerrighttwos.unobserve(entry.target);
+    });
+}, optionsrighttwos);
+
+
+righttwos.forEach(righttwo => {
+    observerrighttwos.observe(righttwo);
+});
+
+
+// RIGHT THREE
+const rightthrees = document.querySelectorAll('.rightthrees');
+console.log('Rightthrees === ', rightthrees);
+
+
+const optionsrightthrees = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px"
+};
+
+
+const observerrightthrees = new IntersectionObserver(function(entries, observerrightthrees){
+    // The stuff
+    entries.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        }
+        console.log('RIGHTTHREE ===', entry.target);
+        // lets toggle the class on or off
+        entry.target.classList.toggle("rightthree");
+        // so it doesn't repeat
+        observerrightthrees.unobserve(entry.target);
+    });
+}, optionsrightthrees);
+
+
+rightthrees.forEach(rightthree => {
+    observerrightthrees.observe(rightthree);
+});
+
+// RIGHT FOUR
+const rightfours = document.querySelectorAll('.rightfours');
+console.log('Rightfours === ', rightfours);
+
+const optionsrightfours = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px"
+};
+
+const observerrightfours = new IntersectionObserver(function(entries, observerrightfours){
+    entries.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        }
+        console.log('RIGHTFOUR ===', entry.target);
+        entry.target.classList.toggle("rightfour");
+        observerrightfours.unobserve(entry.target);
+    });
+}, optionsrightfours);
+
+rightfours.forEach(rightfour => {
+    observerrightfours.observe(rightfour);
+});
+
+// RIGHT FIVE
+const rightfives = document.querySelectorAll('.rightfives');
+console.log('Rightfives === ', rightfives);
+
+const optionsrightfives = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px"
+};
+
+const observerrightfives = new IntersectionObserver(function(entries, observerrightfives){
+    entries.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        }
+        console.log('RIGHTFIVE ===', entry.target);
+        entry.target.classList.toggle("rightfive");
+        observerrightfives.unobserve(entry.target);
+    });
+}, optionsrightfives);
+
+rightfives.forEach(rightfive => {
+    observerrightfives.observe(rightfive);
+});
+
+// RIGHT SIX
+const rightsixes = document.querySelectorAll('.rightsixes');
+console.log('Rightsixes === ', rightsixes);
+
+const optionsrightsixes = {
+    root: null,
+    threshold: 0,
+    rootMargin: "-150px"
+};
+
+const observerrightsixes = new IntersectionObserver(function(entries, observerrightsixes){
+    entries.forEach(entry => {
+        if (!entry.isIntersecting){
+            return;
+        }
+        console.log('RIGHTSIX ===', entry.target);
+        entry.target.classList.toggle("rightsix");
+        observerrightsixes.unobserve(entry.target);
+    });
+}, optionsrightsixes);
+
+rightsixes.forEach(rightsix => {
+    observerrightsixes.observe(rightsix);
+});
+

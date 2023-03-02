@@ -78,41 +78,31 @@
   grid-row: 3;
   display: flex;
   align-items: center;
-  margin: -30vh 0 0 16vw;
+  margin: -30vh 0 0 15.5vw;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials a #github {
   width: 3vw;
   height: 3vw;
-  animation-name: moveInLeft;
-  animation-duration: 100ms;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials a #linkedin {
   width: 4vw;
   height: 4vw;
   margin: 0 0 0 1.5vw;
-  animation-name: moveInLeft;
-  animation-duration: 200ms;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials a #twitter {
   width: 4vw;
   height: 4vw;
   margin: 0 0 0 1vw;
-  animation-name: moveInLeft;
-  animation-duration: 300ms;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials a #instagram {
   width: 4.6vw;
   height: 4.6vw;
   margin: 0 0 0 0.5vw;
-  animation-name: moveInLeft;
-  animation-duration: 400ms;
 }
 * body .house .section #homeselect .home .bothome .grid-container .socials a #facebook {
   width: 3vw;
   height: 3vw;
   margin: 0 0 0 1vw;
-  animation-name: moveInLeft;
-  animation-duration: 500ms;
 }
 * body .house .section #homeselect .home .bothome .grid-container .photo {
   grid-column: 2;
@@ -169,8 +159,6 @@
 }
 * body .house .skills .pageskills .skillslist {
   margin-right: 5vw;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillslist .skillscontent {
   margin: 0 0 0 10vw;
@@ -216,8 +204,6 @@
   width: 7vw;
   height: 7vw;
   border-radius: 50%;
-  animation-name: moveInRight;
-  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html {
   display: flex;
@@ -358,30 +344,6 @@
   animation-name: moveInCenter2;
   animation-duration: 5s;
   font-family: "Inter", sans-serif;
-}
-* body .house .skills .pageskills .skillicons .front .icons #htmlcircle {
-  animation-name: moveInRight;
-  animation-duration: 1s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #csscircle {
-  animation-name: moveInRight;
-  animation-duration: 1.5s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #jscircle {
-  animation-name: moveInRight;
-  animation-duration: 2s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #reactcircle {
-  animation-name: moveInRight;
-  animation-duration: 2.5s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #sasscircle {
-  animation-name: moveInRight;
-  animation-duration: 3s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #tailwindcircle {
-  animation-name: moveInRight;
-  animation-duration: 3.5s;
 }
 * body .house .skills .pageskills .skillicons .back {
   animation-name: moveInCenter;
@@ -542,30 +504,6 @@
   animation-name: moveInCenter2;
   animation-duration: 5s;
   font-family: "Inter", sans-serif;
-}
-* body .house .skills .pageskills .skillicons .back .icons #pythoncircle {
-  animation-name: moveInRight;
-  animation-duration: 1s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #djangocircle {
-  animation-name: moveInRight;
-  animation-duration: 1.5s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #nodejscircle {
-  animation-name: moveInRight;
-  animation-duration: 2s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #postgrecircle {
-  animation-name: moveInRight;
-  animation-duration: 2.5s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #mongodbcircle {
-  animation-name: moveInRight;
-  animation-duration: 3s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #firebasecircle {
-  animation-name: moveInRight;
-  animation-duration: 3.5s;
 }
 * body .house .about {
   background-color: #0E4946;
@@ -989,8 +927,6 @@
   margin: 5vh 0 0 2vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github {
-  animation-name: moveInLeft;
-  animation-duration: 3s;
   margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github img {
@@ -998,8 +934,6 @@
   height: 2.8vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin {
-  animation-name: moveInLeft;
-  animation-duration: 2.5s;
   margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin img {
@@ -1007,8 +941,6 @@
   height: 3.7vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter {
-  animation-name: moveInLeft;
-  animation-duration: 2s;
   margin: 0 0.5vw 0 -0.4vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter img {
@@ -1016,17 +948,11 @@
   height: 3.5vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram {
-  animation-name: moveInLeft;
-  animation-duration: 1.5s;
   margin: 0 0.9vw 0 -0.01vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 4vw;
   height: 4vw;
-}
-* body .house .contact .contactcontainer .nameemaildiv .socials #facebook {
-  animation-name: moveInLeft;
-  animation-duration: 1s;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #facebook img {
   width: 2.9vw;
@@ -1086,6 +1012,36 @@
 .right {
   animation-name: moveInRight;
   animation-duration: 2s;
+}
+
+.rightone {
+  animation-name: moveInRight;
+  animation-duration: 500ms;
+}
+
+.righttwo {
+  animation-name: moveInRight;
+  animation-duration: 800ms;
+}
+
+.rightthree {
+  animation-name: moveInRight;
+  animation-duration: 1000ms;
+}
+
+.rightfour {
+  animation-name: moveInRight;
+  animation-duration: 1300ms;
+}
+
+.rightfive {
+  animation-name: moveInRight;
+  animation-duration: 1500ms;
+}
+
+.rightsix {
+  animation-name: moveInRight;
+  animation-duration: 2000ms;
 }
 
 @keyframes moveInTop {
