@@ -1008,17 +1008,17 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         border-left: 2px solid $skillswhite;
                         height: 70vh;
                         margin: 0 2vw 2vh 2vw;
-                        animation-name: moveInCenter;
-                        animation-duration:  1s;
+                        // animation-name: moveInCenter;
+                        // animation-duration:  1s;
                     }
                     .descriptions {
-                        animation-name: moveInLeft;
-                        animation-duration: 2s;
+                        // animation-name: moveInLeft;
+                        // animation-duration: 2s;
                         .courdevelops {
                             h3 {
-                                margin-left: 2.7vw;
+                                margin-left: 2.3vw;
                                 margin-bottom: -.9vh;
-                                font-size: 2vh;
+                                font-size: 3vh;
                             }
                             .descriptionlist {
                                 // background-color: yellowgreen;
@@ -1026,7 +1026,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                     list-style: none;
                                     margin-bottom: 5vh;
                                     li {
-                                        font-size: 1.6vh;
+                                        font-size: 2vh;
                                         padding: .5vh;
                                     }
                                 }
@@ -1034,9 +1034,9 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         }
                         .r1description {
                             h3 {
-                                margin-left: 2.7vw;
+                                margin-left: 2.2vw;
                                 margin-bottom: -.9vh;
-                                font-size: 2vh;
+                                font-size: 3vh;
                             }
                             .descriptionlist {
                                 // background-color: yellowgreen;
@@ -1044,7 +1044,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                     list-style: none;
                                     margin-bottom: 5vh;
                                     li {
-                                        font-size: 1.6vh;
+                                        font-size: 2vh;
                                         padding: .5vh;
                                     }
                                 }
@@ -1052,16 +1052,16 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                         }
                         .sleadescription {
                             h3 {
-                                margin-left: 2.7vw;
+                                margin-left: 2.35vw;
                                 margin-bottom: -.9vh;
-                                font-size: 2vh;
+                                font-size: 3vh;
                             }
                             .descriptionlist {
                                 // background-color: yellowgreen;
                                 ul {
                                     list-style: none;
                                     li {
-                                        font-size: 1.6vh;
+                                        font-size: 2vh;
                                         padding: .5vh;
                                     }
                                 }

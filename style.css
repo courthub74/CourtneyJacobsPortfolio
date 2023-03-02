@@ -797,49 +797,43 @@
   border-left: 2px solid #FFFFFF;
   height: 70vh;
   margin: 0 2vw 2vh 2vw;
-  animation-name: moveInCenter;
-  animation-duration: 1s;
-}
-* body .house .experience .experiencecontainer .descriptions {
-  animation-name: moveInLeft;
-  animation-duration: 2s;
 }
 * body .house .experience .experiencecontainer .descriptions .courdevelops h3 {
-  margin-left: 2.7vw;
+  margin-left: 2.3vw;
   margin-bottom: -0.9vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 * body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul {
   list-style: none;
   margin-bottom: 5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul li {
-  font-size: 1.6vh;
+  font-size: 2vh;
   padding: 0.5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description h3 {
-  margin-left: 2.7vw;
+  margin-left: 2.2vw;
   margin-bottom: -0.9vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul {
   list-style: none;
   margin-bottom: 5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul li {
-  font-size: 1.6vh;
+  font-size: 2vh;
   padding: 0.5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription h3 {
-  margin-left: 2.7vw;
+  margin-left: 2.35vw;
   margin-bottom: -0.9vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul {
   list-style: none;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul li {
-  font-size: 1.6vh;
+  font-size: 2vh;
   padding: 0.5vh;
 }
 * body .house .contact {
