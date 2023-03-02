@@ -7,11 +7,12 @@ $aboutgreen: #0E4946;
 $skillsteal: #146166;
 $iconblock: #023430;
 $languagecreamtwo: rgb(240, 228, 206);
-$languagecream: rgb(170, 165, 157);
+$languagecream: rgb(146, 144, 144);
 $languagegreen: #28c1cc;
 $languagegreentwo: #4F9F89;
 $languagegreenthree: rgb(28, 177, 90);
 $languagewhite: #d9e2e2;
+$hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
 
 * {
     // font-family: 'Inter', sans-serif;
@@ -24,141 +25,150 @@ $languagewhite: #d9e2e2;
             // maybe column flexbox
             display: flex;
             flex-direction: column;
-            .home {
-                background-color: $mainblue;
-                height: 100vh;
-                color: white;
-                .tophome {
-                    // background-color: palevioletred;
-                    display: flex;
-                    justify-content: space-between;
-                    // flex-direction: row-reverse;
-                    // padding: 2%;
-                    img {
-                        width: 12vw;
-                        height: 12vw;
-                        padding: 1vw;
-                        margin: 1vh 0 0 3vw;
-                        animation-name: moveInCenter;
-                        animation-duration: 1s;
-                        // background-color: yellowgreen;
-                    }
-                    .navbar {
-                        animation-name: moveInRight;
-                        animation-duration: 1s;
-                        ul {    
-                            text-align: center;
-                            margin: 8vh 9vw 0 0;
-                            // background-color: green;
-                            a {
-                                cursor: pointer;
-                                color: white;
-                                text-decoration: none;
-                                #selected {
-                                    background-color: white;
-                                    color: $mainblue;
+            .section {
+                #homeselect {
+                    .home {
+                        background-color: $mainblue;
+                        height: 100vh;
+                        color: white;
+                        .tophome {
+                            // background-color: palevioletred;
+                            display: flex;
+                            justify-content: space-between;
+                            // flex-direction: row-reverse;
+                            // padding: 2%;
+                            img {
+                                width: 12vw;
+                                height: 12vw;
+                                padding: 1vw;
+                                margin: 1vh 0 0 3vw;
+                                // animation-name: moveInCenter;
+                                // animation-duration: 1s;
+                                // background-color: yellowgreen;
+                            }
+                            .navbar {
+                                // animation-name: moveInRight;
+                                // animation-duration: 1s;
+                                ul {    
+                                    text-align: center;
+                                    margin: 8vh 4.5vw 0 0;
+                                    // background-color: green;
+                                    a {
+                                        cursor: pointer;
+                                        color: white;
+                                        text-decoration: none;
+                                        #selected {
+                                            background-color: white;
+                                            color: $mainblue;
+                                        }
+                                    }
+                                    li {
+                                        display: inline;
+                                        padding: 0 2vw 0 0;
+                                        list-style: none;
+                                        font-size: 1.3vw;
+                                        font-weight: bold;
+                                    }
+                                    a {
+                                        cursor: pointer;
+                                        color: white;
+                                        text-decoration: none;
+                                    }
+                                    #selected {
+                                        background-color: white;
+                                        color: $mainblue;
+                                        border-radius: 5px;
+                                        padding: .4vw;
+                                    }
                                 }
-                            }
-                            li {
-                                display: inline;
-                                padding: 0 1vw 0 0;
-                                list-style: none;
-                                font-size: 1.2vw;
-                                font-weight: bold;
-                            }
-                            a {
-                                cursor: pointer;
-                                color: white;
-                                text-decoration: none;
-                            }
-                            #selected {
-                                background-color: white;
-                                color: $mainblue;
-                                border-radius: 5px;
-                                padding: .4vw;
                             }
                         }
-                    }
-                }
-                .bothome {
-                    // background-color: #023430;
-                    .grid-container {
-                            display: grid;
-                            margin: 0 10vw 0 0;
-                            .header {
-                                text-align: center;
-                                grid-column: 1;
-                                margin: 8vh 0 0 12vw;
-                                animation-name: moveInCenter;
-                                animation-duration: 1s;
-                                #header {
-                                    font-size: 2vw;
-                                    font-weight: bold;
-                                }
-                                #para {
-                                    font-size: 1.2vw;
-                                    
-                                }
+                        .bothome {
+                            // background-color: #023430;
+                            .grid-container {
+                                    display: grid;
+                                    margin: 0 10vw 0 0;
+                                    .header {
+                                        text-align: center;
+                                        grid-column: 1;
+                                        margin: 8vh 0 0 12vw;
+                                        // animation-name: moveInCenter;
+                                        // animation-duration: 1s;
+                                        #header {
+                                            font-size: 2.5vw;
+                                            font-weight: bold;
+                                        }
+                                        #para {
+                                            font-size: 1.4vw;
+                                            
+                                        }
+                                    }
+                                    .socials {
+                                        grid-column: 1;
+                                        grid-row: 3;
+                                        display: flex;
+                                        align-items: center;
+                                        margin: -30vh 0 0 15.5vw;
+                                        // animation-name: moveInLeft;
+                                        // animation-duration: 1.5s;
+                                        a {
+                                            #github {
+                                                width: 3vw;
+                                                height: 3vw;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 100ms;
+                                                // animation-duration: 3s;
+                                            }
+                                            #linkedin {
+                                                width: 4vw;
+                                                height: 4vw;
+                                                margin: 0 0 0 1.5vw;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 200ms;
+                                                // animation-duration: 2.5s;
+                                            }
+                                            #twitter {
+                                                width: 4vw;
+                                                height: 4vw;
+                                                margin: 0 0 0 1vw;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 300ms;
+                                                // animation-duration: 2s;
+                                            }
+                                            #instagram {
+                                                width: 4.6vw;
+                                                height: 4.6vw;
+                                                margin: 0 0 0 .5vw;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 400ms;
+                                                // animation-duration: 1.5s;
+                                            }
+                                            #facebook {
+                                                width: 3vw;
+                                                height: 3vw;
+                                                margin: 0 0 0 1vw;
+                                                // animation-name: moveInLeft;
+                                                // animation-duration: 500ms;
+                                                // animation-duration: 1s;
+                                            }
+                                        }
+                                    }
+                                    .photo {
+                                        grid-column: 2;
+                                        grid-row: 1 / span 3;
+                                        // animation-name: moveInCenter;
+                                        // animation-duration: 1s;
+                                        img {
+                                            border-radius: 50%;
+                                            width: 30vw;
+                                            height: 30vw;
+                                            margin-top: -5vh;
+                                            margin-left: 15vw;
+                                        }
+                                    }
+                                
                             }
-                            .socials {
-                                grid-column: 1;
-                                grid-row: 3;
-                                display: flex;
-                                align-items: center;
-                                margin: -25vh 0 0 17vw;
-                                // animation-name: moveInLeft;
-                                // animation-duration: 1.5s;
-                                a {
-                                    #github {
-                                        width: 3vw;
-                                        height: 3vw;
-                                        animation-name: moveInLeft;
-                                        animation-duration: 3s;
-                                    }
-                                    #linkedin {
-                                        width: 4vw;
-                                        height: 4vw;
-                                        margin: 0 0 0 1.5vw;
-                                        animation-name: moveInLeft;
-                                        animation-duration: 2.5s;
-                                    }
-                                    #twitter {
-                                        width: 4vw;
-                                        height: 4vw;
-                                        margin: 0 0 0 1vw;
-                                        animation-name: moveInLeft;
-                                        animation-duration: 2s;
-                                    }
-                                    #instagram {
-                                        width: 4.6vw;
-                                        height: 4.6vw;
-                                        margin: 0 0 0 .5vw;
-                                        animation-name: moveInLeft;
-                                        animation-duration: 1.5s;
-                                    }
-                                    #facebook {
-                                        width: 3vw;
-                                        height: 3vw;
-                                        margin: 0 0 0 1vw;
-                                        animation-name: moveInLeft;
-                                        animation-duration: 1s;
-                                    }
-                                }
-                            }
-                            .photo {
-                                grid-column: 2;
-                                grid-row: 1 / span 3;
-                                animation-name: moveInCenter;
-                                animation-duration: 1s;
-                                img {
-                                    border-radius: 50%;
-                                    width: 25vw;
-                                    height: 25vw;
-                                    margin-top: -1vh;
-                                    margin-left: 15vw;
-                                }
-                            }
-                        
+                        }
                     }
                 }
             }
@@ -179,11 +189,12 @@ $languagewhite: #d9e2e2;
                         // background-color: yellow;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // opacity: 0;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                         ul {
                             text-align: center;
-                            margin: 8vh 0 0 3vw;
+                            margin: 8vh 0 0 4vw;
                             li {
                                 list-style: none;
                                 display: inline;
@@ -216,8 +227,8 @@ $languagewhite: #d9e2e2;
                     .skillslist {
                         // pad and position
                         margin-right: 5vw;
-                        animation-name: moveInLeft;
-                        animation-duration: 2s;
+                        // animation-name: moveInLeft;
+                        // animation-duration: 2s;
                         // background-color: red;
                         .skillscontent {
                             margin: 0 0 0 10vw;
@@ -227,6 +238,7 @@ $languagewhite: #d9e2e2;
                                     // color: #4F9F89;
                                     color: white;
                                     font-family: 'Julius Sans One', sans-serif;
+                                    // font-family: 'Courier New', Courier, monospace;
                                     font-weight: bold;
                                     border-radius: 50%;
                                     width: 22vw;
@@ -276,8 +288,8 @@ $languagewhite: #d9e2e2;
                                     width: 7vw;
                                     height: 7vw;
                                     border-radius: 50%;
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
+                                    // animation-name: moveInRight;
+                                    // animation-duration: 2s;
                                     // The actual settings for the icons
                                     #html {
                                         display: flex;
@@ -292,12 +304,15 @@ $languagewhite: #d9e2e2;
                                         }
                                         P {
                                             font-size: 1.5vh;
-                                            // font-weight: bold;
+                                            font-weight: 500;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .8;
                                             margin: .5vh 0 3vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #css {
@@ -313,13 +328,16 @@ $languagewhite: #d9e2e2;
                                         }
                                         P {
                                             font-size: 1.5vh;
-                                            // font-weight: 500;
+                                            font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .8;
                                             margin: .5vh 0 3vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #js {
@@ -336,13 +354,16 @@ $languagewhite: #d9e2e2;
                                         }
                                         P {
                                             font-size: 1.5vh;
-                                            // font-weight: bold;
+                                            font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 1.3vh 0 3vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #react {
@@ -361,10 +382,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            opacity: .9;
                                             margin: 1.2vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #sass {
@@ -383,10 +407,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 1.7vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #tailwind {
@@ -405,38 +432,41 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            opacity: .9;
                                             margin: 1.7vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                 }
-                                #htmlcircle {
-                                    // background-color: rebeccapurple;
-                                    animation-name: moveInRight;
-                                    animation-duration: 1s;
-                                }
-                                #csscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 1.5s; 
-                                }
-                                #jscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
-                                }
-                                #reactcircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2.5s;
-                                }
-                                #sasscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3s;
-                                }
-                                #tailwindcircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3.5s;
-                                }
+                                // #htmlcircle {
+                                //     // background-color: rebeccapurple;
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1s;
+                                // }
+                                // #csscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1.5s; 
+                                // }
+                                // #jscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2s;
+                                // }
+                                // #reactcircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2.5s;
+                                // }
+                                // #sasscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3s;
+                                // }
+                                // #tailwindcircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3.5s;
+                                // }
                             }
                         }
                         // the backend
@@ -478,10 +508,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: -.7vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         } 
                                     }
                                     #django {
@@ -500,10 +533,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: -.1vh 0 0 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         } 
                                     }
                                     #nodejs {
@@ -522,10 +558,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 0 0 1vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #postgre {
@@ -544,10 +583,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 1vh 0 1vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #firebase {
@@ -568,10 +610,13 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: $languagecream;
+                                            // opacity: .9;
                                             margin: 0 0 2vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                     #mongodb {
@@ -590,38 +635,41 @@ $languagewhite: #d9e2e2;
                                             font-weight: 500;
                                             color: $languagegreentwo;
                                             color: $languagegreenthree;
-                                            opacity: .6;
+                                            color: rgb(146, 144, 144);
+                                            // opacity: .9;
                                             margin: 0 0 2vh 0;
                                             animation-name: moveInCenter2;
                                             animation-duration: 5s;
+                                            // font-family: 'Julius Sans One', sans-serif;
+                                            font-family: 'Inter', sans-serif;
                                         }
                                     }
                                 }
-                                #pythoncircle {
-                                    // background-color: rebeccapurple;
-                                    animation-name: moveInRight;
-                                    animation-duration: 1s;
-                                }
-                                #djangocircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 1.5s; 
-                                }
-                                #nodejscircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2s;
-                                }
-                                #postgrecircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 2.5s;
-                                }
-                                #mongodbcircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3s;
-                                }
-                                #firebasecircle {
-                                    animation-name: moveInRight;
-                                    animation-duration: 3.5s;
-                                }
+                                // #pythoncircle {
+                                //     // background-color: rebeccapurple;
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1s;
+                                // }
+                                // #djangocircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 1.5s; 
+                                // }
+                                // #nodejscircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2s;
+                                // }
+                                // #postgrecircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 2.5s;
+                                // }
+                                // #mongodbcircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3s;
+                                // }
+                                // #firebasecircle {
+                                //     animation-name: moveInRight;
+                                //     animation-duration: 3.5s;
+                                // }
                             }
                         }
                     }
@@ -643,8 +691,8 @@ $languagewhite: #d9e2e2;
                     margin: 3.8vh 4vw 0 0;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                             ul {
                                 text-align: center;
                                 margin: 8vh 0 0 3vw;
@@ -681,9 +729,6 @@ $languagewhite: #d9e2e2;
                         width: 30%;
                         font-size: 1.1vw;
                         line-height: 2.5;
-                        animation-name: moveInLeft;
-                        animation-duration: 2s;
-                        margin-top: 5vh;
                         .resume {
                                 // background-color: yellow;
                                 display: flex;
@@ -705,6 +750,7 @@ $languagewhite: #d9e2e2;
                                 width: 2vw;
                                 height: 2vw;
                                 margin: .5vh 0 0 0;
+                                // transform:scale(1.1);
                                 // background-color: pink;
                             }
                         }
@@ -715,8 +761,8 @@ $languagewhite: #d9e2e2;
                     width: 30vw;
                     height: 40vh;
                     margin-bottom: 10vh;
-                    animation-name: moveInCenter;
-                    animation-duration: 2s;
+                    // animation-name: moveInCenter;
+                    // animation-duration: 1s;
                     img {
                         width: 20vw;
                         height: 38vh;
@@ -740,8 +786,8 @@ $languagewhite: #d9e2e2;
                         margin: 4vh 4vw 0 0;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                             ul {
                                 text-align: center;
                                 margin: 8vh 0 0 3vw;
@@ -788,8 +834,8 @@ $languagewhite: #d9e2e2;
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                animation-name: moveInLeft;
-                                animation-duration: 1s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -813,8 +859,8 @@ $languagewhite: #d9e2e2;
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                animation-name: moveInCenter;
-                                animation-duration: 1.3s;
+                                // animation-name: moveInCenter;
+                                // animation-duration: 1.3s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -831,8 +877,8 @@ $languagewhite: #d9e2e2;
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                animation-name: moveInRight;
-                                animation-duration: 1s;
+                                // animation-name: moveInRight;
+                                // animation-duration: 1s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -856,8 +902,8 @@ $languagewhite: #d9e2e2;
                     justify-content: space-between;
                     flex-direction: row-reverse;
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 1s;
                         ul {
                             text-align: center;
                             margin: 8vh 0 0 3vw;
@@ -890,16 +936,13 @@ $languagewhite: #d9e2e2;
                 .experiencecontainer {
                     display: flex;
                     justify-content: center;
-                    margin: 5vh 54vh 0 0;
+                    margin: 5vh 43vh 0 0;
                     // background-color: yellow;
                     .places {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        margin: 3vh 0 0 0;
-                        animation-name: moveInCenter;
-                        animation-duration: 1s;
-                        // background-color: yellow;
+                        margin: 2vh 0 0 0;
                         .courdevs {
                             width: 15vw;
                             display: flex;
@@ -908,16 +951,16 @@ $languagewhite: #d9e2e2;
                             margin: -.5vh 0 3vh 0;
                             // background-color: yellow;
                             img {
-                                width: 5.5vw;
-                                height: 5.5vw;
+                                width: 7vw;
+                                height: 7vw;
                                 // background-color: yellow;
                             }
                             h3 {
-                                font-size: 2vh; 
+                                font-size: 2.5vh; 
                               }
                               p {
                                   margin-top: -.8vw;
-                                  font-size: 1.7vh;
+                                  font-size: 2vh;
                               }
                         }
                         .r1rcm {
@@ -925,18 +968,18 @@ $languagewhite: #d9e2e2;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin: 1.2vh 0 0 0;
+                            // margin: 0 0 0 0;
                             img {
-                                width: 4vw;
-                                height: 3vw;
+                                width: 5vw;
+                                height: 4vw;
                             }
                             h3 {
-                                font-size: 2vh; 
+                                font-size: 2.5vh; 
 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1.7vh;
+                                font-size: 2vh;
                             }
                         }
                         .slea {
@@ -944,35 +987,35 @@ $languagewhite: #d9e2e2;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin: 6.5vh 0 0 0;
+                            margin: 4vh 0 0 0;
                             img {
                                 width: 5vw;
                                 height: 5vw;
                             }
                             h3 {
-                                font-size: 2vh; 
+                                font-size: 2.5vh; 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1.7vh;
+                                font-size: 2vh;
                             }
                         }
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 70vh;
+                        height: 75vh;
                         margin: 0 2vw 2vh 2vw;
-                        animation-name: moveInCenter;
-                        animation-duration:  1s;
+                        // animation-name: moveInCenter;
+                        // animation-duration:  1s;
                     }
                     .descriptions {
-                        animation-name: moveInLeft;
-                        animation-duration: 2s;
+                        // animation-name: moveInLeft;
+                        // animation-duration: 2s;
                         .courdevelops {
                             h3 {
-                                margin-left: 2.7vw;
+                                margin-left: 2.3vw;
                                 margin-bottom: -.9vh;
-                                font-size: 2vh;
+                                font-size: 3vh;
                             }
                             .descriptionlist {
                                 // background-color: yellowgreen;
@@ -980,17 +1023,18 @@ $languagewhite: #d9e2e2;
                                     list-style: none;
                                     margin-bottom: 5vh;
                                     li {
-                                        font-size: 1.6vh;
+                                        font-size: 2vh;
                                         padding: .5vh;
                                     }
                                 }
                             }
                         }
                         .r1description {
+                            margin: 5vh 0 0 0;
                             h3 {
-                                margin-left: 2.7vw;
+                                margin-left: 2.2vw;
                                 margin-bottom: -.9vh;
-                                font-size: 2vh;
+                                font-size: 3vh;
                             }
                             .descriptionlist {
                                 // background-color: yellowgreen;
@@ -998,24 +1042,26 @@ $languagewhite: #d9e2e2;
                                     list-style: none;
                                     margin-bottom: 5vh;
                                     li {
-                                        font-size: 1.6vh;
+                                        font-size: 2vh;
                                         padding: .5vh;
                                     }
                                 }
                             }
                         }
                         .sleadescription {
+                            // background-color: yellowgreen;
+                            margin-top: 8vh;
                             h3 {
-                                margin-left: 2.7vw;
+                                margin-left: 2.35vw;
                                 margin-bottom: -.9vh;
-                                font-size: 2vh;
+                                font-size: 3vh;
                             }
                             .descriptionlist {
                                 // background-color: yellowgreen;
                                 ul {
                                     list-style: none;
                                     li {
-                                        font-size: 1.6vh;
+                                        font-size: 2vh;
                                         padding: .5vh;
                                     }
                                 }
@@ -1038,8 +1084,8 @@ $languagewhite: #d9e2e2;
                         margin: 4vh 4vw 0 0;
                     }
                     .navbar {
-                        animation-name: moveInTop;
-                        animation-duration: 1s;
+                        // animation-name: moveInTop;
+                        // animation-duration: 2s;
                         // animation-timing-function: ease-out;
                         ul {
                             text-align: center;
@@ -1057,7 +1103,7 @@ $languagewhite: #d9e2e2;
                                 }
                                 #selected {
                                     background-color: white;
-                                    color: $aboutgreen;
+                                    color: $mainblue;
                                     border-radius: 5px;
                                     padding: .4vw;
                                 }
@@ -1111,8 +1157,8 @@ $languagewhite: #d9e2e2;
                             justify-content: left;
                             margin: 5vh 0 0 2vw;
                             #github {
-                                animation-name: moveInLeft;
-                                animation-duration: 3s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 3s;
                                 margin: 0 1vw 0 0;
                                 img {
                                     width: 2.8vw;
@@ -1120,8 +1166,8 @@ $languagewhite: #d9e2e2;
                                 }
                             }
                             #linkedin {
-                                animation-name: moveInLeft;
-                                animation-duration: 2.5s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 2.5s;
                                 margin: 0 1vw 0 0;
                                 img {
                                     width: 3.7vw;
@@ -1129,8 +1175,8 @@ $languagewhite: #d9e2e2;
                                 }
                             }
                             #twitter {
-                                animation-name: moveInLeft;
-                                animation-duration: 2s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 2s;
                                 margin: 0 .5vw 0 -.4vw;
                                 img {
                                     width: 3.5vw;
@@ -1138,8 +1184,8 @@ $languagewhite: #d9e2e2;
                                 }
                             }
                             #instagram {
-                                animation-name: moveInLeft;
-                                animation-duration: 1.5s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1.5s;
                                 margin: 0 .9vw 0 -.01vw;
                                 img {
                                     width: 4vw;
@@ -1147,8 +1193,8 @@ $languagewhite: #d9e2e2;
                                 }
                             }
                             #facebook {
-                                animation-name: moveInLeft;
-                                animation-duration: 1s;
+                                // animation-name: moveInLeft;
+                                // animation-duration: 1s;
                                 img {
                                     width: 2.9vw;
                                     height: 2.9vw;
@@ -1198,6 +1244,60 @@ $languagewhite: #d9e2e2;
     }
 }
 
+.center {
+    animation-name: moveInCenter;
+    animation-duration: 2s;
+    // transition: all 2s ease-in;
+    // opacity: 1;
+}
+
+.top {
+    animation-name: moveInTop;
+    animation-duration: 2s;
+}
+
+.left {
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+}
+
+.right {
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
+// For the SKILLS
+
+.rightone {
+    animation-name: moveInRight;
+    animation-duration: 500ms;
+}
+
+.righttwo {
+    animation-name: moveInRight;
+    animation-duration: 800ms;
+}
+
+.rightthree {
+    animation-name: moveInRight;
+    animation-duration: 1000ms;
+}
+
+.rightfour {
+    animation-name: moveInRight;
+    animation-duration: 1300ms;
+}
+
+.rightfive {
+    animation-name: moveInRight;
+    animation-duration: 1500ms;
+}
+
+.rightsix {
+    animation-name: moveInRight;
+    animation-duration: 2000ms;
+}
+
 // KEY FRAMES TIME
 
 // FROM TOP
@@ -1208,9 +1308,13 @@ $languagewhite: #d9e2e2;
         transform: translateY(-100px);
     }
 
+    1% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
     80% {
-        /* BELOW makes it go extra and bounce back */
-        /* transform: translateX(20px); */
+        // opacity: 0;
     }
 
     100% {
@@ -1247,8 +1351,7 @@ $languagewhite: #d9e2e2;
     }
 
     80% {
-        /* BELOW makes it go extra and bounce back */
-        /* transform: translateX(20px); */
+        // opacity: 0;
     }
 
     100% {
@@ -1310,7 +1413,7 @@ $languagewhite: #d9e2e2;
     }
 
     100% {
-        opacity: .6;
+        // opacity: .6;
         transform: translate(0);
     } 
 }

@@ -11,128 +11,108 @@
   display: flex;
   flex-direction: column;
 }
-* body .house .home {
+* body .house .section #homeselect .home {
   background-color: #080E2F;
   height: 100vh;
   color: white;
 }
-* body .house .home .tophome {
+* body .house .section #homeselect .home .tophome {
   display: flex;
   justify-content: space-between;
 }
-* body .house .home .tophome img {
+* body .house .section #homeselect .home .tophome img {
   width: 12vw;
   height: 12vw;
   padding: 1vw;
   margin: 1vh 0 0 3vw;
-  animation-name: moveInCenter;
-  animation-duration: 1s;
 }
-* body .house .home .tophome .navbar {
-  animation-name: moveInRight;
-  animation-duration: 1s;
-}
-* body .house .home .tophome .navbar ul {
+* body .house .section #homeselect .home .tophome .navbar ul {
   text-align: center;
-  margin: 8vh 9vw 0 0;
+  margin: 8vh 4.5vw 0 0;
 }
-* body .house .home .tophome .navbar ul a {
+* body .house .section #homeselect .home .tophome .navbar ul a {
   cursor: pointer;
   color: white;
   text-decoration: none;
 }
-* body .house .home .tophome .navbar ul a #selected {
+* body .house .section #homeselect .home .tophome .navbar ul a #selected {
   background-color: white;
   color: #080E2F;
 }
-* body .house .home .tophome .navbar ul li {
+* body .house .section #homeselect .home .tophome .navbar ul li {
   display: inline;
-  padding: 0 1vw 0 0;
+  padding: 0 2vw 0 0;
   list-style: none;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   font-weight: bold;
 }
-* body .house .home .tophome .navbar ul a {
+* body .house .section #homeselect .home .tophome .navbar ul a {
   cursor: pointer;
   color: white;
   text-decoration: none;
 }
-* body .house .home .tophome .navbar ul #selected {
+* body .house .section #homeselect .home .tophome .navbar ul #selected {
   background-color: white;
   color: #080E2F;
   border-radius: 5px;
   padding: 0.4vw;
 }
-* body .house .home .bothome .grid-container {
+* body .house .section #homeselect .home .bothome .grid-container {
   display: grid;
   margin: 0 10vw 0 0;
 }
-* body .house .home .bothome .grid-container .header {
+* body .house .section #homeselect .home .bothome .grid-container .header {
   text-align: center;
   grid-column: 1;
   margin: 8vh 0 0 12vw;
-  animation-name: moveInCenter;
-  animation-duration: 1s;
 }
-* body .house .home .bothome .grid-container .header #header {
-  font-size: 2vw;
+* body .house .section #homeselect .home .bothome .grid-container .header #header {
+  font-size: 2.5vw;
   font-weight: bold;
 }
-* body .house .home .bothome .grid-container .header #para {
-  font-size: 1.2vw;
+* body .house .section #homeselect .home .bothome .grid-container .header #para {
+  font-size: 1.4vw;
 }
-* body .house .home .bothome .grid-container .socials {
+* body .house .section #homeselect .home .bothome .grid-container .socials {
   grid-column: 1;
   grid-row: 3;
   display: flex;
   align-items: center;
-  margin: -25vh 0 0 17vw;
+  margin: -30vh 0 0 15.5vw;
 }
-* body .house .home .bothome .grid-container .socials a #github {
+* body .house .section #homeselect .home .bothome .grid-container .socials a #github {
   width: 3vw;
   height: 3vw;
-  animation-name: moveInLeft;
-  animation-duration: 3s;
 }
-* body .house .home .bothome .grid-container .socials a #linkedin {
+* body .house .section #homeselect .home .bothome .grid-container .socials a #linkedin {
   width: 4vw;
   height: 4vw;
   margin: 0 0 0 1.5vw;
-  animation-name: moveInLeft;
-  animation-duration: 2.5s;
 }
-* body .house .home .bothome .grid-container .socials a #twitter {
+* body .house .section #homeselect .home .bothome .grid-container .socials a #twitter {
   width: 4vw;
   height: 4vw;
   margin: 0 0 0 1vw;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
 }
-* body .house .home .bothome .grid-container .socials a #instagram {
+* body .house .section #homeselect .home .bothome .grid-container .socials a #instagram {
   width: 4.6vw;
   height: 4.6vw;
   margin: 0 0 0 0.5vw;
-  animation-name: moveInLeft;
-  animation-duration: 1.5s;
 }
-* body .house .home .bothome .grid-container .socials a #facebook {
+* body .house .section #homeselect .home .bothome .grid-container .socials a #facebook {
   width: 3vw;
   height: 3vw;
   margin: 0 0 0 1vw;
-  animation-name: moveInLeft;
-  animation-duration: 1s;
 }
-* body .house .home .bothome .grid-container .photo {
+* body .house .section #homeselect .home .bothome .grid-container .photo {
   grid-column: 2;
   grid-row: 1/span 3;
-  animation-name: moveInCenter;
-  animation-duration: 1s;
 }
-* body .house .home .bothome .grid-container .photo img {
+* body .house .section #homeselect .home .bothome .grid-container .photo img {
   border-radius: 50%;
-  width: 25vw;
-  height: 25vw;
-  margin-top: -1vh;
+  width: 30vw;
+  height: 30vw;
+  margin-top: -5vh;
   margin-left: 15vw;
 }
 * body .house .skills {
@@ -150,13 +130,9 @@
   font-size: 5vw;
   margin: 4vh 4vw 0 0;
 }
-* body .house .skills .topskills .navbar {
-  animation-name: moveInTop;
-  animation-duration: 1s;
-}
 * body .house .skills .topskills .navbar ul {
   text-align: center;
-  margin: 8vh 0 0 3vw;
+  margin: 8vh 0 0 4vw;
 }
 * body .house .skills .topskills .navbar ul li {
   list-style: none;
@@ -183,8 +159,6 @@
 }
 * body .house .skills .pageskills .skillslist {
   margin-right: 5vw;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillslist .skillscontent {
   margin: 0 0 0 10vw;
@@ -230,8 +204,6 @@
   width: 7vw;
   height: 7vw;
   border-radius: 50%;
-  animation-name: moveInRight;
-  animation-duration: 2s;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html {
   display: flex;
@@ -247,11 +219,13 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #html P {
   font-size: 1.5vh;
+  font-weight: 500;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 0.5vh 0 3vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #css {
   display: flex;
@@ -267,12 +241,14 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #css P {
   font-size: 1.5vh;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 0.5vh 0 3vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #js {
   display: flex;
@@ -289,12 +265,14 @@
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #js P {
   font-size: 1.5vh;
+  font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 1.3vh 0 3vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #react {
   display: flex;
@@ -313,10 +291,12 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
+  opacity: 0.9;
   margin: 1.2vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #sass {
   display: flex;
@@ -335,10 +315,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 1.7vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .front .icons .iconblock #tailwind {
   display: flex;
@@ -357,34 +338,12 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
+  opacity: 0.9;
   margin: 1.7vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #htmlcircle {
-  animation-name: moveInRight;
-  animation-duration: 1s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #csscircle {
-  animation-name: moveInRight;
-  animation-duration: 1.5s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #jscircle {
-  animation-name: moveInRight;
-  animation-duration: 2s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #reactcircle {
-  animation-name: moveInRight;
-  animation-duration: 2.5s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #sasscircle {
-  animation-name: moveInRight;
-  animation-duration: 3s;
-}
-* body .house .skills .pageskills .skillicons .front .icons #tailwindcircle {
-  animation-name: moveInRight;
-  animation-duration: 3.5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back {
   animation-name: moveInCenter;
@@ -423,10 +382,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: -0.7vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #django {
   display: flex;
@@ -445,10 +405,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: -0.1vh 0 0 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #nodejs {
   display: flex;
@@ -467,10 +428,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 0 0 1vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #postgre {
   display: flex;
@@ -489,10 +451,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 1vh 0 1vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #firebase {
   display: flex;
@@ -513,10 +476,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 0 0 2vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .skills .pageskills .skillicons .back .icons .iconblock #mongodb {
   display: flex;
@@ -535,34 +499,11 @@
   font-weight: 500;
   color: #4F9F89;
   color: rgb(28, 177, 90);
-  opacity: 0.6;
+  color: rgb(146, 144, 144);
   margin: 0 0 2vh 0;
   animation-name: moveInCenter2;
   animation-duration: 5s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #pythoncircle {
-  animation-name: moveInRight;
-  animation-duration: 1s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #djangocircle {
-  animation-name: moveInRight;
-  animation-duration: 1.5s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #nodejscircle {
-  animation-name: moveInRight;
-  animation-duration: 2s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #postgrecircle {
-  animation-name: moveInRight;
-  animation-duration: 2.5s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #mongodbcircle {
-  animation-name: moveInRight;
-  animation-duration: 3s;
-}
-* body .house .skills .pageskills .skillicons .back .icons #firebasecircle {
-  animation-name: moveInRight;
-  animation-duration: 3.5s;
+  font-family: "Inter", sans-serif;
 }
 * body .house .about {
   background-color: #0E4946;
@@ -578,10 +519,6 @@
   text-align: left;
   font-size: 5vw;
   margin: 3.8vh 4vw 0 0;
-}
-* body .house .about .abouttop .navbar {
-  animation-name: moveInTop;
-  animation-duration: 1s;
 }
 * body .house .about .abouttop .navbar ul {
   text-align: center;
@@ -618,9 +555,6 @@
   width: 30%;
   font-size: 1.1vw;
   line-height: 2.5;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
-  margin-top: 5vh;
 }
 * body .house .about .infoblock .info .resume {
   display: flex;
@@ -647,8 +581,6 @@
   width: 30vw;
   height: 40vh;
   margin-bottom: 10vh;
-  animation-name: moveInCenter;
-  animation-duration: 2s;
 }
 * body .house .about .coding img {
   width: 20vw;
@@ -669,10 +601,6 @@
   text-align: right;
   font-size: 5vw;
   margin: 4vh 4vw 0 0;
-}
-* body .house .portfolio .portfoliotop .navbar {
-  animation-name: moveInTop;
-  animation-duration: 1s;
 }
 * body .house .portfolio .portfoliotop .navbar ul {
   text-align: center;
@@ -719,8 +647,6 @@
   border-radius: 5px;
   height: 60vh;
   width: 25vw;
-  animation-name: moveInLeft;
-  animation-duration: 1s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -744,8 +670,6 @@
   border-radius: 5px;
   height: 60vh;
   width: 25vw;
-  animation-name: moveInCenter;
-  animation-duration: 1.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -760,8 +684,6 @@
   border-radius: 5px;
   height: 60vh;
   width: 25vw;
-  animation-name: moveInRight;
-  animation-duration: 1s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -779,10 +701,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-}
-* body .house .experience .experiencetop .navbar {
-  animation-name: moveInTop;
-  animation-duration: 1s;
 }
 * body .house .experience .experiencetop .navbar ul {
   text-align: center;
@@ -813,15 +731,13 @@
 * body .house .experience .experiencecontainer {
   display: flex;
   justify-content: center;
-  margin: 5vh 54vh 0 0;
+  margin: 5vh 43vh 0 0;
 }
 * body .house .experience .experiencecontainer .places {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3vh 0 0 0;
-  animation-name: moveInCenter;
-  animation-duration: 1s;
+  margin: 2vh 0 0 0;
 }
 * body .house .experience .experiencecontainer .places .courdevs {
   width: 15vw;
@@ -831,99 +747,98 @@
   margin: -0.5vh 0 3vh 0;
 }
 * body .house .experience .experiencecontainer .places .courdevs img {
-  width: 5.5vw;
-  height: 5.5vw;
+  width: 7vw;
+  height: 7vw;
 }
 * body .house .experience .experiencecontainer .places .courdevs h3 {
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 * body .house .experience .experiencecontainer .places .courdevs p {
   margin-top: -0.8vw;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 * body .house .experience .experiencecontainer .places .r1rcm {
   width: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1.2vh 0 0 0;
 }
 * body .house .experience .experiencecontainer .places .r1rcm img {
-  width: 4vw;
-  height: 3vw;
+  width: 5vw;
+  height: 4vw;
 }
 * body .house .experience .experiencecontainer .places .r1rcm h3 {
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 * body .house .experience .experiencecontainer .places .r1rcm p {
   margin-top: -0.9vw;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 * body .house .experience .experiencecontainer .places .slea {
   width: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 6.5vh 0 0 0;
+  margin: 4vh 0 0 0;
 }
 * body .house .experience .experiencecontainer .places .slea img {
   width: 5vw;
   height: 5vw;
 }
 * body .house .experience .experiencecontainer .places .slea h3 {
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 * body .house .experience .experiencecontainer .places .slea p {
   margin-top: -0.9vw;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 * body .house .experience .experiencecontainer .vl2 {
   border-left: 2px solid #FFFFFF;
-  height: 70vh;
+  height: 75vh;
   margin: 0 2vw 2vh 2vw;
-  animation-name: moveInCenter;
-  animation-duration: 1s;
-}
-* body .house .experience .experiencecontainer .descriptions {
-  animation-name: moveInLeft;
-  animation-duration: 2s;
 }
 * body .house .experience .experiencecontainer .descriptions .courdevelops h3 {
-  margin-left: 2.7vw;
+  margin-left: 2.3vw;
   margin-bottom: -0.9vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 * body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul {
   list-style: none;
   margin-bottom: 5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .courdevelops .descriptionlist ul li {
-  font-size: 1.6vh;
+  font-size: 2vh;
   padding: 0.5vh;
 }
+* body .house .experience .experiencecontainer .descriptions .r1description {
+  margin: 5vh 0 0 0;
+}
 * body .house .experience .experiencecontainer .descriptions .r1description h3 {
-  margin-left: 2.7vw;
+  margin-left: 2.2vw;
   margin-bottom: -0.9vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul {
   list-style: none;
   margin-bottom: 5vh;
 }
 * body .house .experience .experiencecontainer .descriptions .r1description .descriptionlist ul li {
-  font-size: 1.6vh;
+  font-size: 2vh;
   padding: 0.5vh;
 }
+* body .house .experience .experiencecontainer .descriptions .sleadescription {
+  margin-top: 8vh;
+}
 * body .house .experience .experiencecontainer .descriptions .sleadescription h3 {
-  margin-left: 2.7vw;
+  margin-left: 2.35vw;
   margin-bottom: -0.9vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul {
   list-style: none;
 }
 * body .house .experience .experiencecontainer .descriptions .sleadescription .descriptionlist ul li {
-  font-size: 1.6vh;
+  font-size: 2vh;
   padding: 0.5vh;
 }
 * body .house .contact {
@@ -939,10 +854,6 @@
 * body .house .contact .contacttop h1 {
   font-size: 5vw;
   margin: 4vh 4vw 0 0;
-}
-* body .house .contact .contacttop .navbar {
-  animation-name: moveInTop;
-  animation-duration: 1s;
 }
 * body .house .contact .contacttop .navbar ul {
   text-align: center;
@@ -961,7 +872,7 @@
 }
 * body .house .contact .contacttop .navbar ul #selected {
   background-color: white;
-  color: #0E4946;
+  color: #080E2F;
   border-radius: 5px;
   padding: 0.4vw;
 }
@@ -1015,8 +926,6 @@
   margin: 5vh 0 0 2vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github {
-  animation-name: moveInLeft;
-  animation-duration: 3s;
   margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #github img {
@@ -1024,8 +933,6 @@
   height: 2.8vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin {
-  animation-name: moveInLeft;
-  animation-duration: 2.5s;
   margin: 0 1vw 0 0;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #linkedin img {
@@ -1033,8 +940,6 @@
   height: 3.7vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter {
-  animation-name: moveInLeft;
-  animation-duration: 2s;
   margin: 0 0.5vw 0 -0.4vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #twitter img {
@@ -1042,17 +947,11 @@
   height: 3.5vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram {
-  animation-name: moveInLeft;
-  animation-duration: 1.5s;
   margin: 0 0.9vw 0 -0.01vw;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 4vw;
   height: 4vw;
-}
-* body .house .contact .contactcontainer .nameemaildiv .socials #facebook {
-  animation-name: moveInLeft;
-  animation-duration: 1s;
 }
 * body .house .contact .contactcontainer .nameemaildiv .socials #facebook img {
   width: 2.9vw;
@@ -1094,15 +993,65 @@
   font-size: 1.2vw;
 }
 
+.center {
+  animation-name: moveInCenter;
+  animation-duration: 2s;
+}
+
+.top {
+  animation-name: moveInTop;
+  animation-duration: 2s;
+}
+
+.left {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+
+.right {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+
+.rightone {
+  animation-name: moveInRight;
+  animation-duration: 500ms;
+}
+
+.righttwo {
+  animation-name: moveInRight;
+  animation-duration: 800ms;
+}
+
+.rightthree {
+  animation-name: moveInRight;
+  animation-duration: 1000ms;
+}
+
+.rightfour {
+  animation-name: moveInRight;
+  animation-duration: 1300ms;
+}
+
+.rightfive {
+  animation-name: moveInRight;
+  animation-duration: 1500ms;
+}
+
+.rightsix {
+  animation-name: moveInRight;
+  animation-duration: 2000ms;
+}
+
 @keyframes moveInTop {
   0% {
     opacity: 0;
     /* translate on the x axis */
     transform: translateY(-100px);
   }
-  80% {
-    /* BELOW makes it go extra and bounce back */
-    /* transform: translateX(20px); */
+  1% {
+    opacity: 0;
+    transform: translateY(-50px);
   }
   100% {
     opacity: 1;
@@ -1129,10 +1078,6 @@
     opacity: 0;
     /* translate on the x axis */
     transform: translateX(-100px);
-  }
-  80% {
-    /* BELOW makes it go extra and bounce back */
-    /* transform: translateX(20px); */
   }
   100% {
     opacity: 1;
@@ -1180,7 +1125,6 @@
     /* transform: translateX(20px); */
   }
   100% {
-    opacity: 0.6;
     transform: translate(0);
   }
 }/*# sourceMappingURL=style.css.map */
