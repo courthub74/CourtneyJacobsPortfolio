@@ -936,16 +936,13 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                 .experiencecontainer {
                     display: flex;
                     justify-content: center;
-                    margin: 5vh 54vh 0 0;
+                    margin: 5vh 43vh 0 0;
                     // background-color: yellow;
                     .places {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        margin: 3vh 0 0 0;
-                        // animation-name: moveInCenter;
-                        // animation-duration: 1s;
-                        // background-color: yellow;
+                        margin: 2vh 0 0 0;
                         .courdevs {
                             width: 15vw;
                             display: flex;
@@ -954,16 +951,16 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             margin: -.5vh 0 3vh 0;
                             // background-color: yellow;
                             img {
-                                width: 5.5vw;
-                                height: 5.5vw;
+                                width: 7vw;
+                                height: 7vw;
                                 // background-color: yellow;
                             }
                             h3 {
-                                font-size: 2vh; 
+                                font-size: 2.5vh; 
                               }
                               p {
                                   margin-top: -.8vw;
-                                  font-size: 1.7vh;
+                                  font-size: 2vh;
                               }
                         }
                         .r1rcm {
@@ -971,18 +968,18 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin: 1.2vh 0 0 0;
+                            // margin: 0 0 0 0;
                             img {
-                                width: 4vw;
-                                height: 3vw;
+                                width: 5vw;
+                                height: 4vw;
                             }
                             h3 {
-                                font-size: 2vh; 
+                                font-size: 2.5vh; 
 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1.7vh;
+                                font-size: 2vh;
                             }
                         }
                         .slea {
@@ -990,23 +987,23 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin: 6.5vh 0 0 0;
+                            margin: 4vh 0 0 0;
                             img {
                                 width: 5vw;
                                 height: 5vw;
                             }
                             h3 {
-                                font-size: 2vh; 
+                                font-size: 2.5vh; 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1.7vh;
+                                font-size: 2vh;
                             }
                         }
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 70vh;
+                        height: 75vh;
                         margin: 0 2vw 2vh 2vw;
                         // animation-name: moveInCenter;
                         // animation-duration:  1s;
@@ -1033,6 +1030,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             }
                         }
                         .r1description {
+                            margin: 5vh 0 0 0;
                             h3 {
                                 margin-left: 2.2vw;
                                 margin-bottom: -.9vh;
@@ -1051,6 +1049,8 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             }
                         }
                         .sleadescription {
+                            // background-color: yellowgreen;
+                            margin-top: 8vh;
                             h3 {
                                 margin-left: 2.35vw;
                                 margin-bottom: -.9vh;
