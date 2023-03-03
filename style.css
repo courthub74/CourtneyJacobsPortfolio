@@ -882,19 +882,23 @@
 }
 * body .house .contact .contactcontainer {
   display: flex;
+  flex-direction: column;
+}
+* body .house .contact .contactcontainer .messagename {
+  display: flex;
   margin: 10vh 0 0 30vh;
 }
-* body .house .contact .contactcontainer .nameemaildiv {
+* body .house .contact .contactcontainer .messagename .nameemaildiv {
   margin: 0 0 0 5vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .name {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .name {
   animation-name: moveInCenter;
   animation-duration: 1s;
 }
-* body .house .contact .contactcontainer .nameemaildiv .name p {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .name p {
   font-size: 1.5vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .name input {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .name input {
   width: 24vw;
   height: 6vh;
   border: none;
@@ -903,14 +907,14 @@
   border: 1px solid white;
   color: white;
 }
-* body .house .contact .contactcontainer .nameemaildiv .email {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .email {
   animation-name: moveInCenter;
   animation-duration: 1s;
 }
-* body .house .contact .contactcontainer .nameemaildiv .email p {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .email p {
   font-size: 1.5vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .email input {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .email input {
   width: 24vw;
   height: 6vh;
   border: none;
@@ -919,55 +923,55 @@
   border: 1px solid white;
   color: white;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials {
   display: flex;
   align-items: center;
   justify-content: left;
   margin: 5vh 0 0 2vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #github {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #github {
   margin: 0 1vw 0 0;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #github img {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #github img {
   width: 2.8vw;
   height: 2.8vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #linkedin {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #linkedin {
   margin: 0 1vw 0 0;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #linkedin img {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #linkedin img {
   width: 3.7vw;
   height: 3.7vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #twitter {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #twitter {
   margin: 0 0.5vw 0 -0.4vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #twitter img {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #twitter img {
   width: 3.5vw;
   height: 3.5vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #instagram {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #instagram {
   margin: 0 0.9vw 0 -0.01vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #instagram img {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #instagram img {
   width: 4vw;
   height: 4vw;
 }
-* body .house .contact .contactcontainer .nameemaildiv .socials #facebook img {
+* body .house .contact .contactcontainer .messagename .nameemaildiv .socials #facebook img {
   width: 2.9vw;
   height: 2.9vw;
 }
-* body .house .contact .contactcontainer .messageandsubmitdiv {
+* body .house .contact .contactcontainer .messagename .messageandsubmitdiv {
   margin: 0 0 0 5vw;
 }
-* body .house .contact .contactcontainer .messageandsubmitdiv .message {
+* body .house .contact .contactcontainer .messagename .messageandsubmitdiv .message {
   animation-name: moveInCenter;
   animation-duration: 1s;
 }
-* body .house .contact .contactcontainer .messageandsubmitdiv .message p {
+* body .house .contact .contactcontainer .messagename .messageandsubmitdiv .message p {
   font-size: 1.5vw;
 }
-* body .house .contact .contactcontainer .messageandsubmitdiv .message input {
+* body .house .contact .contactcontainer .messagename .messageandsubmitdiv .message input {
   width: 24vw;
   height: 23vh;
   border: none;
@@ -977,12 +981,12 @@
   color: white;
   text-align: center;
 }
-* body .house .contact .contactcontainer .messageandsubmitdiv .submit {
+* body .house .contact .contactcontainer .messagename .messageandsubmitdiv .submit {
   margin: 6vh 0 0 0;
   animation-name: moveInCenter;
   animation-duration: 1s;
 }
-* body .house .contact .contactcontainer .messageandsubmitdiv .submit button {
+* body .house .contact .contactcontainer .messagename .messageandsubmitdiv .submit button {
   width: 100%;
   cursor: pointer;
   height: 5vh;
@@ -991,6 +995,20 @@
   border: 1px solid white;
   border-radius: 5px;
   font-size: 1.2vw;
+}
+* body .house .contact .contactcontainer footer {
+  opacity: 0.5;
+  text-align: center;
+  margin: 22vh 0 0 0;
+}
+* body .house .contact .contactcontainer footer small {
+  display: flex;
+  justify-content: center;
+  gap: 0.7vw;
+}
+* body .house .contact .contactcontainer footer img {
+  width: 1.8vw;
+  height: 1.8vw;
 }
 
 .center {

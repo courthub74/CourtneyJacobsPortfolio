@@ -1116,126 +1116,271 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                 }
                 .contactcontainer {
                     display: flex;
-                    margin: 10vh 0 0 30vh;
-                    .nameemaildiv {
-                        margin: 0 0 0 5vw;
-                        .name {
-                            animation-name: moveInCenter;
-                            animation-duration: 1s;
-                            p {
-                                font-size: 1.5vw;
+                    flex-direction: column;
+                    // margin: 10vh 0 0 30vh;
+                    .messagename {
+                        display: flex;
+                        margin: 10vh 0 0 30vh;
+                        .nameemaildiv {
+                            margin: 0 0 0 5vw;
+                            .name {
+                                animation-name: moveInCenter;
+                                animation-duration: 1s;
+                                p {
+                                    font-size: 1.5vw;
+                                }
+                                input {
+                                    width: 24vw;
+                                    height: 6vh;
+                                    border: none;
+                                    border-radius: 5px;
+                                    background-color: $mainblue;
+                                    border: 1px solid white;
+                                    color: white;
+                                }
                             }
-                            input {
-                                width: 24vw;
-                                height: 6vh;
-                                border: none;
-                                border-radius: 5px;
-                                background-color: $mainblue;
-                                border: 1px solid white;
-                                color: white;
+                            .email {
+                                animation-name: moveInCenter;
+                                animation-duration: 1s;
+                                p {
+                                    font-size: 1.5vw;
+                                }
+                                input {
+                                    width: 24vw;
+                                    height: 6vh;
+                                    border: none;
+                                    border-radius: 5px;
+                                    background-color: $mainblue;
+                                    border: 1px solid white;
+                                    color: white;
+                                }
+                            }
+                            .socials {
+                                display: flex;
+                                align-items: center;
+                                justify-content: left;
+                                margin: 5vh 0 0 2vw;
+                                #github {
+                                    // animation-name: moveInLeft;
+                                    // animation-duration: 3s;
+                                    margin: 0 1vw 0 0;
+                                    img {
+                                        width: 2.8vw;
+                                        height: 2.8vw;
+                                    }
+                                }
+                                #linkedin {
+                                    // animation-name: moveInLeft;
+                                    // animation-duration: 2.5s;
+                                    margin: 0 1vw 0 0;
+                                    img {
+                                        width: 3.7vw;
+                                        height: 3.7vw;
+                                    }
+                                }
+                                #twitter {
+                                    // animation-name: moveInLeft;
+                                    // animation-duration: 2s;
+                                    margin: 0 .5vw 0 -.4vw;
+                                    img {
+                                        width: 3.5vw;
+                                        height: 3.5vw;
+                                    }
+                                }
+                                #instagram {
+                                    // animation-name: moveInLeft;
+                                    // animation-duration: 1.5s;
+                                    margin: 0 .9vw 0 -.01vw;
+                                    img {
+                                        width: 4vw;
+                                        height: 4vw;
+                                    }
+                                }
+                                #facebook {
+                                    // animation-name: moveInLeft;
+                                    // animation-duration: 1s;
+                                    img {
+                                        width: 2.9vw;
+                                        height: 2.9vw;
+                                    }
+                                }
                             }
                         }
-                        .email {
-                            animation-name: moveInCenter;
-                            animation-duration: 1s;
-                            p {
-                                font-size: 1.5vw;
-                            }
-                            input {
-                                width: 24vw;
-                                height: 6vh;
-                                border: none;
-                                border-radius: 5px;
-                                background-color: $mainblue;
-                                border: 1px solid white;
-                                color: white;
-                            }
-                        }
-                        .socials {
-                            display: flex;
-                            align-items: center;
-                            justify-content: left;
-                            margin: 5vh 0 0 2vw;
-                            #github {
-                                // animation-name: moveInLeft;
-                                // animation-duration: 3s;
-                                margin: 0 1vw 0 0;
-                                img {
-                                    width: 2.8vw;
-                                    height: 2.8vw;
+                        .messageandsubmitdiv {
+                            margin: 0 0 0 5vw;
+                            .message {
+                                animation-name: moveInCenter;
+                                animation-duration: 1s;
+                                p {
+                                    font-size: 1.5vw;
+                                }
+                                input {
+                                    width: 24vw;
+                                    height: 23vh;
+                                    border: none;
+                                    border-radius: 5px;
+                                    background-color: $mainblue;
+                                    border: 1px solid white;
+                                    color: white;
+                                    text-align: center;
                                 }
                             }
-                            #linkedin {
-                                // animation-name: moveInLeft;
-                                // animation-duration: 2.5s;
-                                margin: 0 1vw 0 0;
-                                img {
-                                    width: 3.7vw;
-                                    height: 3.7vw;
-                                }
-                            }
-                            #twitter {
-                                // animation-name: moveInLeft;
-                                // animation-duration: 2s;
-                                margin: 0 .5vw 0 -.4vw;
-                                img {
-                                    width: 3.5vw;
-                                    height: 3.5vw;
-                                }
-                            }
-                            #instagram {
-                                // animation-name: moveInLeft;
-                                // animation-duration: 1.5s;
-                                margin: 0 .9vw 0 -.01vw;
-                                img {
-                                    width: 4vw;
-                                    height: 4vw;
-                                }
-                            }
-                            #facebook {
-                                // animation-name: moveInLeft;
-                                // animation-duration: 1s;
-                                img {
-                                    width: 2.9vw;
-                                    height: 2.9vw;
+                            .submit {
+                                // background-color: yellowgreen;
+                                margin: 6vh 0 0 0;
+                                animation-name: moveInCenter;
+                                animation-duration: 1s;
+                                button {
+                                    width: 100%;
+                                    cursor: pointer;
+                                    height: 5vh;
+                                    background-color: $mainblue;
+                                    color: white;
+                                    border: 1px solid white;
+                                    border-radius: 5px;
+                                    font-size: 1.2vw;
                                 }
                             }
                         }
                     }
-                    .messageandsubmitdiv {
-                        margin: 0 0 0 5vw;
-                        .message {
-                            animation-name: moveInCenter;
-                            animation-duration: 1s;
-                            p {
-                                font-size: 1.5vw;
-                            }
-                            input {
-                                width: 24vw;
-                                height: 23vh;
-                                border: none;
-                                border-radius: 5px;
-                                background-color: $mainblue;
-                                border: 1px solid white;
-                                color: white;
-                                text-align: center;
-                            }
-                        }
-                        .submit {
+                    // .nameemaildiv {
+                    //     margin: 0 0 0 5vw;
+                    //     .name {
+                    //         animation-name: moveInCenter;
+                    //         animation-duration: 1s;
+                    //         p {
+                    //             font-size: 1.5vw;
+                    //         }
+                    //         input {
+                    //             width: 24vw;
+                    //             height: 6vh;
+                    //             border: none;
+                    //             border-radius: 5px;
+                    //             background-color: $mainblue;
+                    //             border: 1px solid white;
+                    //             color: white;
+                    //         }
+                    //     }
+                    //     .email {
+                    //         animation-name: moveInCenter;
+                    //         animation-duration: 1s;
+                    //         p {
+                    //             font-size: 1.5vw;
+                    //         }
+                    //         input {
+                    //             width: 24vw;
+                    //             height: 6vh;
+                    //             border: none;
+                    //             border-radius: 5px;
+                    //             background-color: $mainblue;
+                    //             border: 1px solid white;
+                    //             color: white;
+                    //         }
+                    //     }
+                    //     .socials {
+                    //         display: flex;
+                    //         align-items: center;
+                    //         justify-content: left;
+                    //         margin: 5vh 0 0 2vw;
+                    //         #github {
+                    //             // animation-name: moveInLeft;
+                    //             // animation-duration: 3s;
+                    //             margin: 0 1vw 0 0;
+                    //             img {
+                    //                 width: 2.8vw;
+                    //                 height: 2.8vw;
+                    //             }
+                    //         }
+                    //         #linkedin {
+                    //             // animation-name: moveInLeft;
+                    //             // animation-duration: 2.5s;
+                    //             margin: 0 1vw 0 0;
+                    //             img {
+                    //                 width: 3.7vw;
+                    //                 height: 3.7vw;
+                    //             }
+                    //         }
+                    //         #twitter {
+                    //             // animation-name: moveInLeft;
+                    //             // animation-duration: 2s;
+                    //             margin: 0 .5vw 0 -.4vw;
+                    //             img {
+                    //                 width: 3.5vw;
+                    //                 height: 3.5vw;
+                    //             }
+                    //         }
+                    //         #instagram {
+                    //             // animation-name: moveInLeft;
+                    //             // animation-duration: 1.5s;
+                    //             margin: 0 .9vw 0 -.01vw;
+                    //             img {
+                    //                 width: 4vw;
+                    //                 height: 4vw;
+                    //             }
+                    //         }
+                    //         #facebook {
+                    //             // animation-name: moveInLeft;
+                    //             // animation-duration: 1s;
+                    //             img {
+                    //                 width: 2.9vw;
+                    //                 height: 2.9vw;
+                    //             }
+                    //         }
+                    //     }
+                    // }
+                    // .messageandsubmitdiv {
+                    //     margin: 0 0 0 5vw;
+                    //     .message {
+                    //         animation-name: moveInCenter;
+                    //         animation-duration: 1s;
+                    //         p {
+                    //             font-size: 1.5vw;
+                    //         }
+                    //         input {
+                    //             width: 24vw;
+                    //             height: 23vh;
+                    //             border: none;
+                    //             border-radius: 5px;
+                    //             background-color: $mainblue;
+                    //             border: 1px solid white;
+                    //             color: white;
+                    //             text-align: center;
+                    //         }
+                    //     }
+                    //     .submit {
+                    //         // background-color: yellowgreen;
+                    //         margin: 6vh 0 0 0;
+                    //         animation-name: moveInCenter;
+                    //         animation-duration: 1s;
+                    //         button {
+                    //             width: 100%;
+                    //             cursor: pointer;
+                    //             height: 5vh;
+                    //             background-color: $mainblue;
+                    //             color: white;
+                    //             border: 1px solid white;
+                    //             border-radius: 5px;
+                    //             font-size: 1.2vw;
+                    //         }
+                    //     }
+                    // }
+                    footer {
+                        // background-color: yellowgreen;
+                        opacity: .5;
+                        text-align: center;
+                        margin: 22vh 0 0 0;
+                        small {
+                            display: flex;
+                            justify-content: center;
+                            gap: .7vw;
                             // background-color: yellowgreen;
-                            margin: 6vh 0 0 0;
-                            animation-name: moveInCenter;
-                            animation-duration: 1s;
-                            button {
-                                width: 100%;
-                                cursor: pointer;
-                                height: 5vh;
-                                background-color: $mainblue;
-                                color: white;
-                                border: 1px solid white;
-                                border-radius: 5px;
-                                font-size: 1.2vw;
-                            }
+                        }
+                        img {
+                            width: 1.8vw;
+                            height: 1.8vw;
+                            // background-color: yellowgreen;
+                            // padding: 1vh 0 0 0;
+                            // margin: 1vh 0 0 0;
                         }
                     }
                 }
