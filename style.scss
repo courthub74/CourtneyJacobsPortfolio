@@ -722,7 +722,7 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                     align-items: center;
                     gap: 10vw;
                     .info {
-                        text-align: center;
+                        text-align: left;
                         padding-bottom: 15vw;
                         padding-top: 20vh;
                         padding-left: 7vw;
@@ -734,23 +734,25 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                 display: flex;
                                 justify-content: center;
                                 border: 1px solid white;
-                                border-radius: 5px;
+                                border-radius: 50px;
+                                background-color: $skillswhite;
+                                width: 15vw;
+                                gap: .4vw;
                             a {
+                                display: flex;
+                                align-items: center;
                                 text-decoration: none;
                                 color: white;
-                                font-size: 2vh;
-                                img {
-                                    width: 1vw;
-                                    height: 1vw;
-                                    margin: 1vh 0 0 0;
-                                    // background-color: pink;
-                                }
+                                color: $aboutgreen;
+                                font-size: 1.5vh;
+                                font-weight: bold;
+                                // background-color: yellow;
                             }
                             img {
-                                width: 2vw;
-                                height: 2vw;
-                                margin: .5vh 0 0 0;
-                                // transform:scale(1.1);
+                                width: 1.5vw;
+                                height: 1.5vw;
+                                margin: .3vh 0 0 0;
+                                color: $aboutgreen;
                                 // background-color: pink;
                             }
                         }
@@ -1243,127 +1245,6 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             }
                         }
                     }
-                    // .nameemaildiv {
-                    //     margin: 0 0 0 5vw;
-                    //     .name {
-                    //         animation-name: moveInCenter;
-                    //         animation-duration: 1s;
-                    //         p {
-                    //             font-size: 1.5vw;
-                    //         }
-                    //         input {
-                    //             width: 24vw;
-                    //             height: 6vh;
-                    //             border: none;
-                    //             border-radius: 5px;
-                    //             background-color: $mainblue;
-                    //             border: 1px solid white;
-                    //             color: white;
-                    //         }
-                    //     }
-                    //     .email {
-                    //         animation-name: moveInCenter;
-                    //         animation-duration: 1s;
-                    //         p {
-                    //             font-size: 1.5vw;
-                    //         }
-                    //         input {
-                    //             width: 24vw;
-                    //             height: 6vh;
-                    //             border: none;
-                    //             border-radius: 5px;
-                    //             background-color: $mainblue;
-                    //             border: 1px solid white;
-                    //             color: white;
-                    //         }
-                    //     }
-                    //     .socials {
-                    //         display: flex;
-                    //         align-items: center;
-                    //         justify-content: left;
-                    //         margin: 5vh 0 0 2vw;
-                    //         #github {
-                    //             // animation-name: moveInLeft;
-                    //             // animation-duration: 3s;
-                    //             margin: 0 1vw 0 0;
-                    //             img {
-                    //                 width: 2.8vw;
-                    //                 height: 2.8vw;
-                    //             }
-                    //         }
-                    //         #linkedin {
-                    //             // animation-name: moveInLeft;
-                    //             // animation-duration: 2.5s;
-                    //             margin: 0 1vw 0 0;
-                    //             img {
-                    //                 width: 3.7vw;
-                    //                 height: 3.7vw;
-                    //             }
-                    //         }
-                    //         #twitter {
-                    //             // animation-name: moveInLeft;
-                    //             // animation-duration: 2s;
-                    //             margin: 0 .5vw 0 -.4vw;
-                    //             img {
-                    //                 width: 3.5vw;
-                    //                 height: 3.5vw;
-                    //             }
-                    //         }
-                    //         #instagram {
-                    //             // animation-name: moveInLeft;
-                    //             // animation-duration: 1.5s;
-                    //             margin: 0 .9vw 0 -.01vw;
-                    //             img {
-                    //                 width: 4vw;
-                    //                 height: 4vw;
-                    //             }
-                    //         }
-                    //         #facebook {
-                    //             // animation-name: moveInLeft;
-                    //             // animation-duration: 1s;
-                    //             img {
-                    //                 width: 2.9vw;
-                    //                 height: 2.9vw;
-                    //             }
-                    //         }
-                    //     }
-                    // }
-                    // .messageandsubmitdiv {
-                    //     margin: 0 0 0 5vw;
-                    //     .message {
-                    //         animation-name: moveInCenter;
-                    //         animation-duration: 1s;
-                    //         p {
-                    //             font-size: 1.5vw;
-                    //         }
-                    //         input {
-                    //             width: 24vw;
-                    //             height: 23vh;
-                    //             border: none;
-                    //             border-radius: 5px;
-                    //             background-color: $mainblue;
-                    //             border: 1px solid white;
-                    //             color: white;
-                    //             text-align: center;
-                    //         }
-                    //     }
-                    //     .submit {
-                    //         // background-color: yellowgreen;
-                    //         margin: 6vh 0 0 0;
-                    //         animation-name: moveInCenter;
-                    //         animation-duration: 1s;
-                    //         button {
-                    //             width: 100%;
-                    //             cursor: pointer;
-                    //             height: 5vh;
-                    //             background-color: $mainblue;
-                    //             color: white;
-                    //             border: 1px solid white;
-                    //             border-radius: 5px;
-                    //             font-size: 1.2vw;
-                    //         }
-                    //     }
-                    // }
                     footer {
                         // background-color: yellowgreen;
                         opacity: .5;

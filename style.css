@@ -548,7 +548,7 @@
   gap: 10vw;
 }
 * body .house .about .infoblock .info {
-  text-align: center;
+  text-align: left;
   padding-bottom: 15vw;
   padding-top: 20vh;
   padding-left: 7vw;
@@ -560,22 +560,25 @@
   display: flex;
   justify-content: center;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  width: 15vw;
+  gap: 0.4vw;
 }
 * body .house .about .infoblock .info .resume a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
-  font-size: 2vh;
-}
-* body .house .about .infoblock .info .resume a img {
-  width: 1vw;
-  height: 1vw;
-  margin: 1vh 0 0 0;
+  color: #0E4946;
+  font-size: 1.5vh;
+  font-weight: bold;
 }
 * body .house .about .infoblock .info .resume img {
-  width: 2vw;
-  height: 2vw;
-  margin: 0.5vh 0 0 0;
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 0.3vh 0 0 0;
+  color: #0E4946;
 }
 * body .house .about .coding {
   width: 30vw;
