@@ -646,7 +646,7 @@
   gap: 5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 {
-  border: 1px solid white;
+  border: 3px solid white;
   border-radius: 5px;
   height: 60vh;
   width: 25vw;
@@ -655,18 +655,72 @@
   align-items: center;
   flex-direction: column;
 }
-* body .house .portfolio .portcontainer .appcontainer .app1 a {
-  text-decoration: none;
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
 }
-* body .house .portfolio .portcontainer .appcontainer .app1 a img {
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover img {
   width: 14vw;
   height: 14vw;
 }
-* body .house .portfolio .portcontainer .appcontainer .app1 a p {
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover p {
   color: white;
   font-size: 3.5vh;
   font-family: "Julius Sans One", sans-serif;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  position: relative;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1description {
+  text-align: center;
+  font-weight: bold;
+  margin: 1vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 0 5vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies h3 {
+  margin: 0 0 3vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles {
+  display: flex;
+  gap: 2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react img {
+  margin: 1vh 0 -1vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react p {
+  font-size: 0.7vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 {
   border: 1px solid white;

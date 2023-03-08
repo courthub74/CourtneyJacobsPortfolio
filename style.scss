@@ -13,6 +13,7 @@ $languagegreentwo: #4F9F89;
 $languagegreenthree: rgb(28, 177, 90);
 $languagewhite: #d9e2e2;
 $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
+$techcirclegreen: #05607D;
 
 * {
     // font-family: 'Inter', sans-serif;
@@ -831,20 +832,28 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                             display: flex;
                             margin: 5vh 0 0 0;
                             gap: 5vw;
+                            // The Workflow App
                             .app1 {
-                                border: 1px solid white;
+                                border: 3px solid white;
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                // animation-name: moveInLeft;
-                                // animation-duration: 1s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 flex-direction: column;
-                                a {
-                                    text-decoration: none;
+                                // Workflow App Front
+                                .app1cover {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
                                     text-align: center;
+                                    border-radius: 10px;
+                                    height: 100%;
+                                    width: 100%;
+                                    position: absolute;
+                                    cursor: pointer;
                                     img {
                                         width: 14vw;
                                         height: 14vw;
@@ -853,6 +862,55 @@ $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
                                         color: white;
                                         font-size: 3.5vh;
                                         font-family: 'Julius Sans One', sans-serif;
+                                    }
+                                }
+                                .app1content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 10px;
+                                    height: 100vh;
+                                    position: relative;
+                                    .app1description {
+                                        text-align: center;
+                                        font-weight: bold;
+                                        margin: 1vh 0 0 0;
+                                    }
+                                    .apptechnologies {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin: 5vh 0 5vh 0;
+                                        h3 {
+                                            margin: 0 0 3vh 0;
+                                        }
+                                        // div for the tech circles
+                                        .apptechcircles {
+                                            display: flex;
+                                            gap: 2vw;
+                                            // each tech circle
+                                            .apptechcircle {
+                                                border: 1px solid $techcirclegreen;
+                                                border-radius: 50%;
+                                                background-color: $techcirclegreen;
+                                                width: 5vw;
+                                                height: 5vw;
+                                                #react {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    // background-color: yellow;
+                                                    height: 100%;
+                                                    img {
+                                                        margin: 1vh 0 -1vh 0;
+                                                    }
+                                                    p {
+                                                        font-size: .7vw;
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
