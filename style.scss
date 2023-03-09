@@ -15,6 +15,13 @@ $languagewhite: #d9e2e2;
 $hovergradient: linear-gradient(#2244BE, #1B2F9C, #080C24);
 $techcirclegreen: #05607D;
 
+$hoverfonts: #B7BCD6;
+
+// FOOTER
+$firstblue: #58a6ff;
+$secondblue: #6287cf;
+$thirdblue: rgb(85, 85, 255);
+
 * {
     // font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
@@ -834,6 +841,7 @@ $techcirclegreen: #05607D;
                             gap: 5vw;
                             // The Workflow App
                             .app1 {
+                                // background-color: #2244BE;
                                 border: 3px solid white;
                                 border-radius: 5px;
                                 height: 60vh;
@@ -854,6 +862,7 @@ $techcirclegreen: #05607D;
                                     width: 100%;
                                     position: absolute;
                                     cursor: pointer;
+                                    // background-color: #2244BE;
                                     img {
                                         width: 14vw;
                                         height: 14vw;
@@ -872,29 +881,34 @@ $techcirclegreen: #05607D;
                                     border-radius: 10px;
                                     height: 100vh;
                                     position: relative;
+                                    color: $hoverfonts;
+                                    // background-color: #2244BE;
                                     .app1description {
                                         text-align: center;
                                         font-weight: bold;
+                                        font-size: 1vw;
                                         margin: 1vh 0 0 0;
                                     }
                                     .apptechnologies {
                                         display: flex;
                                         flex-direction: column;
-                                        margin: 5vh 0 5vh 0;
+                                        margin: 1.5vh 5vw 4vh 0;
+                                        // background-color: green;
                                         h3 {
                                             margin: 0 0 3vh 0;
                                         }
                                         // div for the tech circles
                                         .apptechcircles {
+                                            margin: -1.5vh 0 2vh 0;
                                             display: flex;
-                                            gap: 2vw;
+                                            gap: 1vw;
                                             // each tech circle
                                             .apptechcircle {
                                                 border: 1px solid $techcirclegreen;
                                                 border-radius: 50%;
                                                 background-color: $techcirclegreen;
-                                                width: 5vw;
-                                                height: 5vw;
+                                                width: 4vw;
+                                                height: 4vw;
                                                 #react {
                                                     display: flex;
                                                     flex-direction: column;
@@ -904,11 +918,83 @@ $techcirclegreen: #05607D;
                                                     height: 100%;
                                                     img {
                                                         margin: 1vh 0 -1vh 0;
+                                                        width: 2.3vw;
+                                                    }
+                                                    p {
+                                                        font-size: .6vw;
+                                                    }
+                                                }
+                                                #express {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    height: 100%;
+                                                    img {
+                                                        margin: 1vh 0 0 0;
+                                                        width: 1.8vw;
+                                                        height: 1.8vw;
+                                                    }
+                                                    p {
+                                                        font-size: .6vw;
+                                                        margin-top: .8vh;
+                                                    }
+                                                }
+                                                #firebase {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    height: 100%;
+                                                    img {
+                                                        margin: 1vh 0 -1vh 0;
                                                     }
                                                     p {
                                                         font-size: .7vw;
                                                     }
                                                 }
+                                            }
+                                        }
+                                    }
+                                    .accomplishments {
+                                        margin: 0 0 0 0;
+                                        font-size: .9vw;
+                                        // background-color: #146166;
+                                        text-align: left;
+                                        h3 {
+                                            font-size: 1vw;
+                                            margin-bottom: -.4vh;
+                                        }
+                                        p {
+                                            font-size: .9vw;
+                                        }
+                                    }
+                                    .line {
+                                        border: 1px solid $skillswhite;
+                                        width: 25vw;
+                                    }
+                                    .links {
+                                        display: flex;
+                                        gap: 15vw;
+                                        margin: 0 0 0 0;
+                                        .linkto {
+                                            display: flex;
+                                            p {
+                                                margin: 1vh 0 0 0;
+                                            }
+                                            img {
+                                                width: 2vw;
+                                                height: 2vw;
+                                            }
+                                        }
+                                        .github {
+                                            display: flex;
+                                            p {
+                                                margin: 1vh 0 0 0;
+                                            }
+                                            img {
+                                                width: 2vw;
+                                                height: 2vw;
                                             }
                                         }
                                     }
@@ -1305,7 +1391,6 @@ $techcirclegreen: #05607D;
                     }
                     footer {
                         // background-color: yellowgreen;
-                        opacity: .5;
                         text-align: center;
                         margin: 22vh 0 0 0;
                         small {
@@ -1314,12 +1399,22 @@ $techcirclegreen: #05607D;
                             gap: .7vw;
                             // background-color: yellowgreen;
                         }
+                        p {
+                            opacity: .5;
+                        }
                         img {
+                            opacity: .5;
                             width: 1.8vw;
                             height: 1.8vw;
                             // background-color: yellowgreen;
                             // padding: 1vh 0 0 0;
                             // margin: 1vh 0 0 0;
+                        }
+                        a {
+                            margin-top: 1.3vh;
+                            color: #58a6ff;
+                            // color: rgb(85, 85, 255);
+                            color: #6287cf;
                         }
                     }
                 }

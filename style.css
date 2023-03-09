@@ -684,30 +684,33 @@
   border-radius: 10px;
   height: 100vh;
   position: relative;
+  color: #B7BCD6;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1description {
   text-align: center;
   font-weight: bold;
+  font-size: 1vw;
   margin: 1vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
   display: flex;
   flex-direction: column;
-  margin: 5vh 0 5vh 0;
+  margin: 1.5vh 5vw 4vh 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies h3 {
   margin: 0 0 3vh 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles {
+  margin: -1.5vh 0 2vh 0;
   display: flex;
-  gap: 2vw;
+  gap: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle {
   border: 1px solid #05607D;
   border-radius: 50%;
   background-color: #05607D;
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react {
   display: flex;
@@ -718,9 +721,80 @@
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react img {
   margin: 1vh 0 -1vh 0;
+  width: 2.3vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react p {
+  font-size: 0.6vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express img {
+  margin: 1vh 0 0 0;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase img {
+  margin: 1vh 0 -1vh 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase p {
   font-size: 0.7vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments {
+  margin: 0 0 0 0;
+  font-size: 0.9vw;
+  text-align: left;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments h3 {
+  font-size: 1vw;
+  margin-bottom: -0.4vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments p {
+  font-size: 0.9vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .line {
+  border: 1px solid #FFFFFF;
+  width: 25vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links {
+  display: flex;
+  gap: 15vw;
+  margin: 0 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto p {
+  margin: 1vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto img {
+  width: 2vw;
+  height: 2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github p {
+  margin: 1vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
+  width: 2vw;
+  height: 2vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 {
   border: 1px solid white;
@@ -1054,7 +1128,6 @@
   font-size: 1.2vw;
 }
 * body .house .contact .contactcontainer footer {
-  opacity: 0.5;
   text-align: center;
   margin: 22vh 0 0 0;
 }
@@ -1063,9 +1136,18 @@
   justify-content: center;
   gap: 0.7vw;
 }
+* body .house .contact .contactcontainer footer p {
+  opacity: 0.5;
+}
 * body .house .contact .contactcontainer footer img {
+  opacity: 0.5;
   width: 1.8vw;
   height: 1.8vw;
+}
+* body .house .contact .contactcontainer footer a {
+  margin-top: 1.3vh;
+  color: #58a6ff;
+  color: #6287cf;
 }
 
 .center {
