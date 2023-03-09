@@ -833,6 +833,9 @@
   width: 17vw;
   height: 5.5vh;
 }
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2content {
+  color: #B7BCD6;
+}
 * body .house .portfolio .portcontainer .appcontainer .app3 {
   border: 1px solid white;
   border-radius: 5px;
