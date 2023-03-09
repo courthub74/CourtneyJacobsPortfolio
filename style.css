@@ -808,7 +808,7 @@
   transition: 1s;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 {
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 5px;
   height: 60vh;
   width: 25vw;
@@ -816,8 +816,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
-* body .house .portfolio .portcontainer .appcontainer .app2 a img {
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2cover {
+  position: absolute;
+  background-color: #080E2F;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2cover img {
   width: 17vw;
   height: 5.5vh;
 }
