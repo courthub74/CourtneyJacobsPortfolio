@@ -842,6 +842,7 @@ $thirdblue: rgb(85, 85, 255);
                             // The Workflow App
                             .app1 {
                                 // background-color: #2244BE;
+                                
                                 border: 3px solid white;
                                 border-radius: 5px;
                                 height: 60vh;
@@ -882,17 +883,18 @@ $thirdblue: rgb(85, 85, 255);
                                     height: 100vh;
                                     position: relative;
                                     color: $hoverfonts;
+                                    
                                     // background-color: #2244BE;
                                     .app1description {
                                         text-align: center;
                                         font-weight: bold;
                                         font-size: 1vw;
-                                        margin: 1vh 0 0 0;
+                                        margin: 5vh 0 0 0;
                                     }
                                     .apptechnologies {
                                         display: flex;
                                         flex-direction: column;
-                                        margin: 1.5vh 5vw 4vh 0;
+                                        margin: 2vh 5vw 4vh 0;
                                         // background-color: green;
                                         h3 {
                                             margin: 0 0 3vh 0;
@@ -948,6 +950,8 @@ $thirdblue: rgb(85, 85, 255);
                                                     height: 100%;
                                                     img {
                                                         margin: 1vh 0 -1vh 0;
+                                                        width: 2.2vw;
+                                                        height: 2.2vw;
                                                     }
                                                     p {
                                                         font-size: .7vw;
@@ -957,13 +961,14 @@ $thirdblue: rgb(85, 85, 255);
                                         }
                                     }
                                     .accomplishments {
-                                        margin: 0 0 0 0;
+                                        margin: 2vh 0 0 0;
                                         font-size: .9vw;
+                                        line-height: 80%;
                                         // background-color: #146166;
                                         text-align: left;
                                         h3 {
                                             font-size: 1vw;
-                                            margin-bottom: -.4vh;
+                                            margin-bottom: -.1vh;
                                         }
                                         p {
                                             font-size: .9vw;
@@ -975,12 +980,15 @@ $thirdblue: rgb(85, 85, 255);
                                     }
                                     .links {
                                         display: flex;
-                                        gap: 15vw;
-                                        margin: 0 0 0 0;
+                                        height: 12vh;
+                                        gap: 10vw;
+                                        margin: 2vh 0 0 0;
                                         .linkto {
                                             display: flex;
+                                            // margin-left: 2vw;
                                             p {
                                                 margin: 1vh 0 0 0;
+                                                font-size: 1vw;
                                             }
                                             img {
                                                 width: 2vw;
@@ -989,8 +997,10 @@ $thirdblue: rgb(85, 85, 255);
                                         }
                                         .github {
                                             display: flex;
+                                            // margin-right: 2vw;
                                             p {
                                                 margin: 1vh 0 0 0;
+                                                font-size: 1vw;
                                             }
                                             img {
                                                 width: 2vw;

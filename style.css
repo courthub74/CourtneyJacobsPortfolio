@@ -690,12 +690,12 @@
   text-align: center;
   font-weight: bold;
   font-size: 1vw;
-  margin: 1vh 0 0 0;
+  margin: 5vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
   display: flex;
   flex-direction: column;
-  margin: 1.5vh 5vw 4vh 0;
+  margin: 2vh 5vw 4vh 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies h3 {
   margin: 0 0 3vh 0;
@@ -751,18 +751,21 @@
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase img {
   margin: 1vh 0 -1vh 0;
+  width: 2.2vw;
+  height: 2.2vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase p {
   font-size: 0.7vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments {
-  margin: 0 0 0 0;
+  margin: 2vh 0 0 0;
   font-size: 0.9vw;
+  line-height: 80%;
   text-align: left;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments h3 {
   font-size: 1vw;
-  margin-bottom: -0.4vh;
+  margin-bottom: -0.1vh;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments p {
   font-size: 0.9vw;
@@ -773,14 +776,16 @@
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links {
   display: flex;
-  gap: 15vw;
-  margin: 0 0 0 0;
+  height: 12vh;
+  gap: 10vw;
+  margin: 2vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto {
   display: flex;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto p {
   margin: 1vh 0 0 0;
+  font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto img {
   width: 2vw;
@@ -791,6 +796,7 @@
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github p {
   margin: 1vh 0 0 0;
+  font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
   width: 2vw;
