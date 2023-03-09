@@ -646,7 +646,8 @@
   gap: 5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 {
-  border: 3px solid white;
+  position: relative;
+  border: 2px solid white;
   border-radius: 5px;
   height: 60vh;
   width: 25vw;
@@ -666,6 +667,7 @@
   width: 100%;
   position: absolute;
   cursor: pointer;
+  background-color: #080E2F;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1cover img {
   width: 14vw;
@@ -683,14 +685,13 @@
   justify-content: center;
   border-radius: 10px;
   height: 100vh;
-  position: relative;
   color: #B7BCD6;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1description {
   text-align: center;
   font-weight: bold;
   font-size: 1vw;
-  margin: 5vh 0 0 0;
+  margin: 6vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
   display: flex;
@@ -799,8 +800,12 @@
   font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
-  width: 2vw;
-  height: 2vw;
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app1 .app1cover:hover {
+  opacity: 0;
+  transition: 1s;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 {
   border: 1px solid white;

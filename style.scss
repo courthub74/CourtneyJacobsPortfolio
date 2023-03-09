@@ -842,8 +842,8 @@ $thirdblue: rgb(85, 85, 255);
                             // The Workflow App
                             .app1 {
                                 // background-color: #2244BE;
-                                
-                                border: 3px solid white;
+                                position: relative;
+                                border: 2px solid white;
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
@@ -863,7 +863,7 @@ $thirdblue: rgb(85, 85, 255);
                                     width: 100%;
                                     position: absolute;
                                     cursor: pointer;
-                                    // background-color: #2244BE;
+                                    background-color: $mainblue;
                                     img {
                                         width: 14vw;
                                         height: 14vw;
@@ -881,7 +881,7 @@ $thirdblue: rgb(85, 85, 255);
                                     justify-content: center;
                                     border-radius: 10px;
                                     height: 100vh;
-                                    position: relative;
+                                    // position: relative;
                                     color: $hoverfonts;
                                     
                                     // background-color: #2244BE;
@@ -889,7 +889,7 @@ $thirdblue: rgb(85, 85, 255);
                                         text-align: center;
                                         font-weight: bold;
                                         font-size: 1vw;
-                                        margin: 5vh 0 0 0;
+                                        margin: 6vh 0 0 0;
                                     }
                                     .apptechnologies {
                                         display: flex;
@@ -1003,11 +1003,15 @@ $thirdblue: rgb(85, 85, 255);
                                                 font-size: 1vw;
                                             }
                                             img {
-                                                width: 2vw;
-                                                height: 2vw;
+                                                width: 2.3vw;
+                                                height: 2.3vw;
                                             }
                                         }
                                     }
+                                }
+                                .app1cover:hover {
+                                    opacity: 0;
+                                    transition: 1s;
                                 }
                             }
                             .app2 {
