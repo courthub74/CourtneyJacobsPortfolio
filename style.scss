@@ -881,7 +881,7 @@ $thirdblue: rgb(85, 85, 255);
                                     justify-content: center;
                                     border-radius: 10px;
                                     height: 100vh;
-                                    // position: relative;
+                                    margin-top: 1vh;
                                     color: $hoverfonts;
                                     
                                     // background-color: #2244BE;
@@ -890,6 +890,10 @@ $thirdblue: rgb(85, 85, 255);
                                         font-weight: bold;
                                         font-size: 1vw;
                                         margin: 6vh 0 0 0;
+                                    }
+                                    .app1solution {
+                                        text-align: center;
+                                        // background-color: green;
                                     }
                                     .apptechnologies {
                                         display: flex;
@@ -1041,6 +1045,81 @@ $thirdblue: rgb(85, 85, 255);
                                 }
                                 .app2content {
                                     color: $hoverfonts;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 10px;
+                                    height: 100vh;
+                                }
+                                .apptechnologies {
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin: 2vh 5vw 4vh 0;
+                                    // background-color: green;
+                                    h3 {
+                                        margin: 0 0 3vh 0;
+                                    }
+                                    // div for the tech circles
+                                    .apptechcircles {
+                                        margin: -1.5vh 0 2vh 0;
+                                        display: flex;
+                                        gap: 1vw;
+                                        // each tech circle
+                                        .apptechcircle {
+                                            border: 1px solid $techcirclegreen;
+                                            border-radius: 50%;
+                                            background-color: $techcirclegreen;
+                                            width: 4vw;
+                                            height: 4vw;
+                                            #react {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                // background-color: yellow;
+                                                height: 100%;
+                                                img {
+                                                    margin: 1vh 0 -1vh 0;
+                                                    width: 2.3vw;
+                                                }
+                                                p {
+                                                    font-size: .6vw;
+                                                }
+                                            }
+                                            #express {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                                img {
+                                                    margin: 1vh 0 0 0;
+                                                    width: 1.8vw;
+                                                    height: 1.8vw;
+                                                }
+                                                p {
+                                                    font-size: .6vw;
+                                                    margin-top: .8vh;
+                                                }
+                                            }
+                                            #firebase {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 100%;
+                                                img {
+                                                    margin: 1vh 0 -1vh 0;
+                                                    width: 2.2vw;
+                                                    height: 2.2vw;
+                                                }
+                                                p {
+                                                    font-size: .7vw;
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             }
                             .app3 {
