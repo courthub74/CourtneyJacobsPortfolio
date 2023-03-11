@@ -774,9 +774,8 @@
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links {
   display: flex;
-  height: 10vh;
-  gap: 1vw;
-  margin: 0 0 0 0;
+  gap: 6vw;
+  margin: 0 0 5vh 5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto {
   display: flex;
