@@ -685,7 +685,7 @@
   justify-content: center;
   border-radius: 10px;
   height: 100vh;
-  margin-top: 12vh;
+  margin-top: 5vh;
   color: #B7BCD6;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1description {
@@ -776,7 +776,7 @@
   display: flex;
   height: 10vh;
   gap: 1vw;
-  margin: 0 0 5vh 0;
+  margin: -1vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto {
   display: flex;
@@ -793,12 +793,12 @@
   display: flex;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github p {
-  margin: 0 0 0 0;
   font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
   width: 2.8vw;
   height: 2.8vw;
+  margin: -0.3vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1cover:hover {
   opacity: 0;
