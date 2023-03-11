@@ -839,9 +839,10 @@ $thirdblue: rgb(85, 85, 255);
                             display: flex;
                             margin: 5vh 0 0 0;
                             gap: 5vw;
-                            // The Workflow App
+
+
+                            // THE WORKFLOW APP (APP1)
                             .app1 {
-                                // background-color: #2244BE;
                                 position: relative;
                                 border: 2px solid white;
                                 border-radius: 5px;
@@ -883,18 +884,16 @@ $thirdblue: rgb(85, 85, 255);
                                     height: 100vh;
                                     margin-top: 1vh;
                                     color: $hoverfonts;
-                                    
-                                    // background-color: #2244BE;
                                     .app1description {
                                         text-align: center;
                                         font-weight: bold;
                                         font-size: 1vw;
                                         margin: 6vh 0 0 0;
                                     }
-                                    .app1solution {
-                                        text-align: center;
-                                        // background-color: green;
-                                    }
+                                    // .app1solution {
+                                    //     text-align: center;
+                                    //     // background-color: green;
+                                    // }
                                     .apptechnologies {
                                         display: flex;
                                         flex-direction: column;
@@ -1018,6 +1017,9 @@ $thirdblue: rgb(85, 85, 255);
                                     transition: 1s;
                                 }
                             }
+
+
+                            // CREATE COLLAB APP (APP2)
                             .app2 {
                                 border: 2px solid white;
                                 border-radius: 5px;
@@ -1044,13 +1046,20 @@ $thirdblue: rgb(85, 85, 255);
                                     }
                                 }
                                 .app2content {
-                                    color: $hoverfonts;
                                     display: flex;
                                     flex-direction: column;
                                     align-items: center;
                                     justify-content: center;
                                     border-radius: 10px;
                                     height: 100vh;
+                                    margin-top: 1vh;
+                                    color: $hoverfonts;
+                                    .app2description {
+                                        text-align: center;
+                                        font-weight: bold;
+                                        margin: 6vh 0 0 0;
+                                        font-size: 1vw;
+                                    }
                                 }
                                 .apptechnologies {
                                     display: flex;
@@ -1120,6 +1129,56 @@ $thirdblue: rgb(85, 85, 255);
                                             }
                                         }
                                     }
+                                }
+                                .accomplishments {
+                                    margin: 2vh 0 0 0;
+                                    font-size: .9vw;
+                                    line-height: 80%;
+                                    text-align: left;
+                                    h3 {
+                                        font-size: 1vw;
+                                        margin-bottom: -.1vh;
+                                    }
+                                    p {
+                                        font-size: .9vw;
+                                    }
+                                }
+                                .line {
+                                    border: 1px solid white;
+                                    width: 25vw;
+                                }
+                                .links {
+                                    display: flex;
+                                    gap: 10vw;
+                                    height: 12vh;
+                                    gap: 10vw;
+                                    margin: 2vh 0 0 0;
+                                    .linkto {
+                                        display: flex;
+                                        p {
+                                            margin: 1vh 0 0 0;
+                                            font-size: 1vw;
+                                        }
+                                        img {
+                                            width: 2vw;
+                                            height: 2vw;
+                                        }
+                                    }
+                                    .github {
+                                        display: flex;
+                                        p {
+                                            margin: 1vh 0 0 0;
+                                            font-size: 1vw;
+                                        }
+                                        img {
+                                            width: 2.3vw;
+                                            height: 2.3vw;
+                                        }
+                                    }
+                                }
+                                .app2cover:hover {
+                                    opacity: 0;
+                                    transition: 1s;
                                 }
                             }
                             .app3 {

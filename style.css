@@ -694,9 +694,6 @@
   font-size: 1vw;
   margin: 6vh 0 0 0;
 }
-* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1solution {
-  text-align: center;
-}
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
   display: flex;
   flex-direction: column;
@@ -838,13 +835,20 @@
   height: 5.5vh;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .app2content {
-  color: #B7BCD6;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
   height: 100vh;
+  margin-top: 1vh;
+  color: #B7BCD6;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2content .app2description {
+  text-align: center;
+  font-weight: bold;
+  margin: 6vh 0 0 0;
+  font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies {
   display: flex;
@@ -910,6 +914,56 @@
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase p {
   font-size: 0.7vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments {
+  margin: 2vh 0 0 0;
+  font-size: 0.9vw;
+  line-height: 80%;
+  text-align: left;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments h3 {
+  font-size: 1vw;
+  margin-bottom: -0.1vh;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments p {
+  font-size: 0.9vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .line {
+  border: 1px solid white;
+  width: 25vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links {
+  display: flex;
+  gap: 10vw;
+  height: 12vh;
+  gap: 10vw;
+  margin: 2vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto p {
+  margin: 1vh 0 0 0;
+  font-size: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto img {
+  width: 2vw;
+  height: 2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .github {
+  display: flex;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .github p {
+  margin: 1vh 0 0 0;
+  font-size: 1vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .links .github img {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app2 .app2cover:hover {
+  opacity: 0;
+  transition: 1s;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 {
   border: 1px solid white;
