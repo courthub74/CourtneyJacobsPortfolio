@@ -882,13 +882,13 @@ $thirdblue: rgb(85, 85, 255);
                                     justify-content: center;
                                     border-radius: 10px;
                                     height: 100vh;
-                                    margin-top: 1vh;
+                                    margin-top: 12vh;
                                     color: $hoverfonts;
                                     .app1description {
                                         text-align: center;
                                         font-weight: bold;
                                         font-size: 1vw;
-                                        margin: 6vh 0 0 0;
+                                        // margin: 8vh 0 0 0;
                                     }
                                     // .app1solution {
                                     //     text-align: center;
@@ -897,7 +897,8 @@ $thirdblue: rgb(85, 85, 255);
                                     .apptechnologies {
                                         display: flex;
                                         flex-direction: column;
-                                        margin: 2vh 5vw 4vh 0;
+                                        margin: 2vh 4.5vw 3vh 0;
+                                        gap: 2vh;
                                         // background-color: green;
                                         h3 {
                                             margin: 0 0 3vh 0;
@@ -912,8 +913,8 @@ $thirdblue: rgb(85, 85, 255);
                                                 border: 1px solid $techcirclegreen;
                                                 border-radius: 50%;
                                                 background-color: $techcirclegreen;
-                                                width: 4vw;
-                                                height: 4vw;
+                                                width: 5vw;
+                                                height: 5vw;
                                                 #react {
                                                     display: flex;
                                                     flex-direction: column;
@@ -964,7 +965,7 @@ $thirdblue: rgb(85, 85, 255);
                                         }
                                     }
                                     .accomplishments {
-                                        margin: 2vh 0 0 0;
+                                        margin: 0 0 0 0;
                                         font-size: .9vw;
                                         line-height: 80%;
                                         // background-color: #146166;
@@ -977,40 +978,41 @@ $thirdblue: rgb(85, 85, 255);
                                             font-size: .9vw;
                                         }
                                     }
-                                    .line {
-                                        border: 1px solid $skillswhite;
-                                        width: 25vw;
-                                    }
                                     .links {
                                         display: flex;
-                                        height: 12vh;
-                                        gap: 10vw;
-                                        margin: 2vh 0 0 0;
+                                        height: 10vh;
+                                        gap: 1vw;
+                                        // background-color: #1B2F9C;
+                                        margin: 0 0 5vh 0;
                                         .linkto {
                                             display: flex;
-                                            // margin-left: 2vw;
+                                            
                                             p {
-                                                margin: 1vh 0 0 0;
+                                                margin: 0 0 0 0;
                                                 font-size: 1vw;
                                             }
                                             img {
-                                                width: 2vw;
-                                                height: 2vw;
+                                                width: 2.5vw;
+                                                height: 2.5vw;
                                             }
                                         }
                                         .github {
                                             display: flex;
                                             // margin-right: 2vw;
                                             p {
-                                                margin: 1vh 0 0 0;
+                                                margin: 0 0 0 0;
                                                 font-size: 1vw;
                                             }
                                             img {
-                                                width: 2.3vw;
-                                                height: 2.3vw;
+                                                width: 2.8vw;
+                                                height: 2.8vw;
                                             }
                                         }
                                     }
+                                    // .line {
+                                    //     border: 1px solid $skillswhite;
+                                    //     width: 25vw;
+                                    // }
                                 }
                                 .app1cover:hover {
                                     opacity: 0;
@@ -1079,8 +1081,8 @@ $thirdblue: rgb(85, 85, 255);
                                             border: 1px solid $techcirclegreen;
                                             border-radius: 50%;
                                             background-color: $techcirclegreen;
-                                            width: 4vw;
-                                            height: 4vw;
+                                            width: 5vw;
+                                            height: 5vw;
                                             #react {
                                                 display: flex;
                                                 flex-direction: column;

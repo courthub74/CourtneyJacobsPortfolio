@@ -685,19 +685,19 @@
   justify-content: center;
   border-radius: 10px;
   height: 100vh;
-  margin-top: 1vh;
+  margin-top: 12vh;
   color: #B7BCD6;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .app1description {
   text-align: center;
   font-weight: bold;
   font-size: 1vw;
-  margin: 6vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies {
   display: flex;
   flex-direction: column;
-  margin: 2vh 5vw 4vh 0;
+  margin: 2vh 4.5vw 3vh 0;
+  gap: 2vh;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies h3 {
   margin: 0 0 3vh 0;
@@ -711,8 +711,8 @@
   border: 1px solid #05607D;
   border-radius: 50%;
   background-color: #05607D;
-  width: 4vw;
-  height: 4vw;
+  width: 5vw;
+  height: 5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react {
   display: flex;
@@ -760,7 +760,7 @@
   font-size: 0.7vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments {
-  margin: 2vh 0 0 0;
+  margin: 0 0 0 0;
   font-size: 0.9vw;
   line-height: 80%;
   text-align: left;
@@ -772,37 +772,33 @@
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .accomplishments p {
   font-size: 0.9vw;
 }
-* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .line {
-  border: 1px solid #FFFFFF;
-  width: 25vw;
-}
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links {
   display: flex;
-  height: 12vh;
-  gap: 10vw;
-  margin: 2vh 0 0 0;
+  height: 10vh;
+  gap: 1vw;
+  margin: 0 0 5vh 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto {
   display: flex;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto p {
-  margin: 1vh 0 0 0;
+  margin: 0 0 0 0;
   font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .linkto img {
-  width: 2vw;
-  height: 2vw;
+  width: 2.5vw;
+  height: 2.5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github {
   display: flex;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github p {
-  margin: 1vh 0 0 0;
+  margin: 0 0 0 0;
   font-size: 1vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
-  width: 2.3vw;
-  height: 2.3vw;
+  width: 2.8vw;
+  height: 2.8vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1cover:hover {
   opacity: 0;
@@ -867,8 +863,8 @@
   border: 1px solid #05607D;
   border-radius: 50%;
   background-color: #05607D;
-  width: 4vw;
-  height: 4vw;
+  width: 5vw;
+  height: 5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react {
   display: flex;
