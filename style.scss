@@ -882,7 +882,7 @@ $thirdblue: rgb(85, 85, 255);
                                     justify-content: center;
                                     border-radius: 10px;
                                     height: 100vh;
-                                    margin-top: 6vh;
+                                    margin-top: 8vh;
                                     color: $hoverfonts;
                                     .app1description {
                                         text-align: center;
@@ -1187,20 +1187,51 @@ $thirdblue: rgb(85, 85, 255);
                                     transition: 1s;
                                 }
                             }
+
+                            // MSY (APP3)
                             .app3 {
-                                border: 1px solid white;
+                                border: 2px solid white;
                                 border-radius: 5px;
                                 height: 60vh;
                                 width: 25vw;
-                                // animation-name: moveInRight;
-                                // animation-duration: 1s;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 flex-direction: column;
-                                a {
+                                position: relative;
+                                .app3cover {
+                                    background-color: $mainblue;
+                                    border-radius: 5px;
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
                                     img {
                                         width: 17vw;
+                                    }
+                                }
+                                .app3cover:hover {
+                                    opacity: 0;
+                                    transition: 1s;
+                                }
+                                .app3content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    border-radius: 10px;
+                                    height: 100vh;
+                                    margin-top: 1vh;
+                                    color: $hoverfonts;
+                                    .app3description {
+                                        text-align: center;
+                                        font-weight: bold;
+                                        margin: 0 0 0 0;
+                                        font-size: 1vw;
                                     }
                                 }
                             }
