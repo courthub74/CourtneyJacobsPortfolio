@@ -890,10 +890,6 @@ $thirdblue: rgb(85, 85, 255);
                                         font-size: 1vw;
                                         // margin: 8vh 0 0 0;
                                     }
-                                    // .app1solution {
-                                    //     text-align: center;
-                                    //     // background-color: green;
-                                    // }
                                     .apptechnologies {
                                         display: flex;
                                         flex-direction: column;
@@ -988,7 +984,6 @@ $thirdblue: rgb(85, 85, 255);
                                         // z-index: 1;
                                         .linkto {
                                             display: flex;
-                                            
                                             p {
                                                 margin: 0 0 0 0;
                                                 font-size: 1vw;
@@ -1225,13 +1220,83 @@ $thirdblue: rgb(85, 85, 255);
                                     justify-content: center;
                                     border-radius: 10px;
                                     height: 100vh;
-                                    margin-top: 1vh;
+                                    margin: 0 0 0 0;
                                     color: $hoverfonts;
                                     .app3description {
                                         text-align: center;
                                         font-weight: bold;
                                         margin: 0 0 0 0;
                                         font-size: 1vw;
+                                    }
+                                    .apptechnologies {
+                                        display: flex;
+                                        flex-direction: column;
+                                        margin: 0 0 0 0;
+                                        margin: 2vh 1.35vw 0 0;
+                                        h3 {
+                                            margin: 0 0 2vh 0;
+                                        }
+                                        // div for the tech circles
+                                        .apptechcircles {
+                                            margin: 0 0 5vh 0;
+                                            .apptechcircle {
+                                                display: flex;
+                                                gap: 1vw;
+                                                #figma {
+                                                    border: 1px solid $techcirclegreen;
+                                                    border-radius: 50%;
+                                                    background-color: $techcirclegreen;
+                                                    width: 5vw;
+                                                    height: 5vw;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    img {
+                                                        width: 1.5vw;
+                                                        height: 1.5vw;
+                                                    }
+                                                }
+                                                #wix {
+                                                    border: 1px solid $techcirclegreen;
+                                                    border-radius: 50%;
+                                                    background-color: $techcirclegreen;
+                                                    width: 5vw;
+                                                    height: 5vw;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    img {
+                                                        width: 2vw;
+                                                        height: 1vw;
+                                                    }
+                                                }
+                                                #design {
+                                                    border: 1px solid $techcirclegreen;
+                                                    border-radius: 50%;
+                                                    background-color: $techcirclegreen;
+                                                    width: 5vw;
+                                                    height: 5vw;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    img {
+                                                        width: 1.5vw;
+                                                        height: 1.5vw;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .accomplishments {
+                                        line-height: 80%;
+                                    }
+                                    .links {
+                                        display: flex;
+                                        gap: 6vw;
+                                        margin: 0 0 0 3vw;
                                     }
                                 }
                             }
