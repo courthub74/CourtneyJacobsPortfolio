@@ -1010,70 +1010,87 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 0 0;
-  margin: 2vh 1.35vw 0 0;
+  margin: 3vh 1.35vw 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies h3 {
   margin: 0 0 2vh 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles {
-  margin: 0 0 5vh 0;
-}
-* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle {
   display: flex;
   gap: 1vw;
 }
-* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma {
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle {
   border: 1px solid #05607D;
   border-radius: 50%;
   background-color: #05607D;
   width: 5vw;
   height: 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma img {
   width: 1.5vw;
   height: 1.5vw;
+  margin: 1vh 0 0 0;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma p {
+  font-size: 0.6vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix {
-  border: 1px solid #05607D;
-  border-radius: 50%;
-  background-color: #05607D;
-  width: 5vw;
-  height: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix img {
+  margin: 1vh 0 0 0;
   width: 2vw;
-  height: 1vw;
+  height: 2vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design {
-  border: 1px solid #05607D;
-  border-radius: 50%;
-  background-color: #05607D;
-  width: 5vw;
-  height: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design img {
-  width: 1.5vw;
-  height: 1.5vw;
+  margin: 1.5vh 0 0 0;
+  width: 1.7vw;
+  height: 1.7vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design p {
+  font-size: 0.7vw;
+  margin-bottom: 1.5vh;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .accomplishments {
-  line-height: 80%;
+  line-height: 95%;
+  margin: 5vh 0 0 0;
+  font-size: 0.9vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app3 .app3content .links {
   display: flex;
   gap: 6vw;
-  margin: 0 0 0 3vw;
+  margin: 3vh 0 0 5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* body .house .portfolio .portcontainer .appcontainer .app3 .app3content .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
 }
 * body .house .experience {
   background-color: #0E4946;
