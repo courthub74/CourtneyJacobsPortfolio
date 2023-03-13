@@ -791,9 +791,6 @@
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github {
   display: flex;
 }
-* body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github p {
-  font-size: 1vw;
-}
 * body .house .portfolio .portcontainer .appcontainer .app1 .app1content .links .github img {
   width: 2.7vw;
   height: 2.7vw;
@@ -923,38 +920,25 @@
 * body .house .portfolio .portcontainer .appcontainer .app2 .accomplishments p {
   font-size: 0.9vw;
 }
-* body .house .portfolio .portcontainer .appcontainer .app2 .line {
-  border: 1px solid white;
-  width: 25vw;
-}
 * body .house .portfolio .portcontainer .appcontainer .app2 .links {
   display: flex;
-  gap: 10vw;
-  height: 12vh;
-  gap: 10vw;
-  margin: 2vh 0 0 0;
+  gap: 6vw;
+  margin: 0 0 7vh 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto {
   display: flex;
 }
-* body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto p {
-  margin: 1vh 0 0 0;
-  font-size: 1vw;
-}
 * body .house .portfolio .portcontainer .appcontainer .app2 .links .linkto img {
-  width: 2vw;
-  height: 2vw;
+  width: 2.5vw;
+  height: 2.5vw;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .links .github {
   display: flex;
 }
-* body .house .portfolio .portcontainer .appcontainer .app2 .links .github p {
-  margin: 1vh 0 0 0;
-  font-size: 1vw;
-}
 * body .house .portfolio .portcontainer .appcontainer .app2 .links .github img {
-  width: 2.3vw;
-  height: 2.3vw;
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
 }
 * body .house .portfolio .portcontainer .appcontainer .app2 .app2cover:hover {
   opacity: 0;
@@ -1432,11 +1416,13 @@
 .left {
   animation-name: moveInLeft;
   animation-duration: 2s;
+  animation-timing-function: 5;
 }
 
 .right {
   animation-name: moveInRight;
   animation-duration: 2s;
+  animation-timing-function: 5;
 }
 
 .rightone {

@@ -1001,10 +1001,9 @@ $thirdblue: rgb(85, 85, 255);
                                         .github {
                                             display: flex;
                                             // margin-right: 2vw;
-                                            p {
-                                                
-                                                font-size: 1vw;
-                                            }
+                                            // p {
+                                            //     font-size: 1vw;
+                                            // }
                                             img {
                                                 width: 2.7vw;
                                                 height: 2.7vw;
@@ -1149,36 +1148,36 @@ $thirdblue: rgb(85, 85, 255);
                                         font-size: .9vw;
                                     }
                                 }
-                                .line {
-                                    border: 1px solid white;
-                                    width: 25vw;
-                                }
+                                // .line {
+                                //     border: 1px solid white;
+                                //     width: 25vw;
+                                // }
                                 .links {
                                     display: flex;
-                                    gap: 10vw;
-                                    height: 12vh;
-                                    gap: 10vw;
-                                    margin: 2vh 0 0 0;
+                                    gap: 6vw;
+                                    // height: 12vh;
+                                    margin: 0 0 7vh 0;
                                     .linkto {
                                         display: flex;
-                                        p {
-                                            margin: 1vh 0 0 0;
-                                            font-size: 1vw;
-                                        }
+                                        // p {
+                                        //     margin: 1vh 0 0 0;
+                                        //     font-size: 1vw;
+                                        // }
                                         img {
-                                            width: 2vw;
-                                            height: 2vw;
+                                            width: 2.5vw;
+                                            height: 2.5vw;
                                         }
                                     }
                                     .github {
                                         display: flex;
-                                        p {
-                                            margin: 1vh 0 0 0;
-                                            font-size: 1vw;
-                                        }
+                                        // p {
+                                        //     margin: 1vh 0 0 0;
+                                        //     font-size: 1vw;
+                                        // }
                                         img {
-                                            width: 2.3vw;
-                                            height: 2.3vw;
+                                            width: 2.7vw;
+                                            height: 2.7vw;
+                                            margin: -.3vh  0 0 0;
                                         }
                                     }
                                 }
@@ -1732,16 +1731,19 @@ $thirdblue: rgb(85, 85, 255);
 .top {
     animation-name: moveInTop;
     animation-duration: 2s;
+    // animation-timing-function: 5;
 }
 
 .left {
     animation-name: moveInLeft;
     animation-duration: 2s;
+    animation-timing-function: 5;
 }
 
 .right {
     animation-name: moveInRight;
     animation-duration: 2s;
+    animation-timing-function: 5;
 }
 
 // For the SKILLS
